@@ -95,6 +95,7 @@ bool IsSporkActive(int nSporkID)
     }
     if (r == -1) r = 4070908800; //return 2099-1-1 by default
 
+//    LogPrintf("IsSporkActive: nSporkID:%u ,    r: %u,   GetTime(): %u........\n",nSporkID, r, GetTime());
     return r < GetTime();
 }
 

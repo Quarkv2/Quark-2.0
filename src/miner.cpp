@@ -357,11 +357,13 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
         LogPrintf("CreateNewBlock(): total size %u\n", nBlockSize); 
 
         if (!fProofOfStake) {
+//	    LogPrintf("CreateNewBlock:---------chainActive.Tip()->nHeight:%d >= Params().FirstMasternodePaymentBlock():%d...\n", chainActive.Tip()->nHeight, Params().FirstMasternodePaymentBlock());
             if (chainActive.Tip()->nHeight >= Params().FirstMasternodePaymentBlock()) {
                 // Masternode and general budget payments
                 if (FillBlockPayee(txNew, nFees, fProofOfStake, nTxNewTime)) {
                     // Make payee
                     if (txNew.vout.size() > 1) {
+			LogPrintf("CreateNewBlock():: txNew.vout.size > 1 && pblock:%d  txNew.vout[1].scriptPubKey:xxxxxx\n", pblock);
                         pblock->payee = txNew.vout[1].scriptPubKey;
                     }
                 }
@@ -371,22 +373,30 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
             txNew.vout[0].nValue = GetBlockValue(nHeight) + nFees;
 
             pblock->vtx[0] = txNew;
+	    LogPrintf("CreateNewBlock():: txNew.vout[0].nValue: %d VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV\n", txNew.vout[0].nValue);
             pblocktemplate->vTxFees[0] = -nFees;
         }
 
         // Fill in header
+	LogPrintf("CreateNewBlock():: pindexPrev: %d VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV\n", pindexPrev);
         pblock->hashPrevBlock  = pindexPrev->GetBlockHash();
+	LogPrintf("CreateNewBlock():: UpdateTime:  VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV\n");
         if (!fProofOfStake)
             UpdateTime(pblock, pindexPrev, fProofOfStake);
         pblock->nBits          = fProofOfStake ? GetNextPoSTargetRequired(pindexPrev) : GetNextWorkRequired(pindexPrev, pblock);
         pblock->nNonce         = 0;
+	LogPrintf("CreateNewBlock():: pblock: %d VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV\n", pblock);
         pblocktemplate->vTxSigOps[0] = GetLegacySigOpCount(pblock->vtx[0]);
 
         CValidationState state;
-        if (!TestBlockValidity(state, *pblock, pindexPrev, false, false))
+	LogPrintf("CreateNewBlock():: TestBlockValidity:  VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV\n");
+        if (!TestBlockValidity(state, *pblock, pindexPrev, false, false)) {
+	    LogPrintf("CreateNewBlock():: TestError:  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n");
             throw TestBlockError("CreateNewBlock() : TestBlockValidity failed");
+	}
     }
 
+    LogPrintf("CreateNewBlock():: returned pblocktemplate.release();\n");
     return pblocktemplate.release();
 }
 

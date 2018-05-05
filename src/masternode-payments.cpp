@@ -232,11 +232,12 @@ bool IsBlockPayeeValid(const CBlock& block, int nBlockHeight)
         return true;
     }
 
-    const CTransaction& txNew = (nBlockHeight > Params().FIRST_POS_BLOCK() ? block.vtx[1] : block.vtx[0]);
-
+//    const CTransaction& txNew = (nBlockHeight > Params().FIRST_POS_BLOCK() ? block.vtx[1] : block.vtx[0]);
+    const CTransaction& txNew = block.vtx[0];
     //check if it's a budget block
     if (IsSporkActive(SPORK_13_ENABLE_SUPERBLOCKS)) {
         if (budget.IsBudgetPaymentBlock(nBlockHeight)) {
+	    LogPrintf("IsBlockPayeeValid::----------IsTransactionValid()------start-----888888888888888888888888\n");
             if (budget.IsTransactionValid(txNew, nBlockHeight))
                 return true;
 
@@ -267,6 +268,7 @@ bool FillBlockPayee(CMutableTransaction& txNew, int64_t nFees, bool fProofOfStak
     CBlockIndex* pindexPrev = chainActive.Tip();
     if (!pindexPrev) return false;
 
+    LogPrintf("FillBlockPayee: IsSporkActive:%d, IsBudgetPayment:%d.....\n", IsSporkActive(SPORK_13_ENABLE_SUPERBLOCKS), budget.IsBudgetPaymentBlock(pindexPrev->nHeight + 1));
     if (IsSporkActive(SPORK_13_ENABLE_SUPERBLOCKS) && budget.IsBudgetPaymentBlock(pindexPrev->nHeight + 1)) {
         budget.FillBlockPayee(txNew, nFees, fProofOfStake, nTxNewTime);
         return true;

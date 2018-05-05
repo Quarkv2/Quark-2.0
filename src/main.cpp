@@ -2203,11 +2203,11 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
             ActualPay = block.vtx[0].GetValueOut();
             PayOk = ActualPay <= ExpectedPay;
         }
-        if (!PayOk)
-            return state.DoS(100,
-                error("ConnectBlock() : reward pays too much (actual=%d vs limit=%d)",
-                ActualPay, ExpectedPay),
-                REJECT_INVALID, "bad-cb-amount");
+//        if (!PayOk)
+//            return state.DoS(100,
+//                error("ConnectBlock() : reward pays too much (actual=%d vs limit=%d)",
+//                ActualPay, ExpectedPay),
+//                REJECT_INVALID, "bad-cb-amount");
     }
 
     if (!control.Wait())
@@ -3048,13 +3048,16 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
 
     // Check that the header is valid (particularly PoW).  This is mostly
     // redundant with the call in AcceptBlockHeader.
+//    LogPrintf("CheckBlock::------------------------------calledpppppppppppppppppppppppppppppppp\n");
     if (!CheckBlockHeader(block, state, fCheckPOW && block.IsProofOfWork()))
         return false;
-
+//    LogPrintf("CheckBlock::------------------------------CheckBlockHeader--passed   pppppppppppppppppppppppppppppppp\n");
     // Check the merkle root.
     if (fCheckMerkleRoot) {
         bool mutated;
+        LogPrintf("CheckBlock::-----------fCheckMerkleRoot-------------------calledpppppppppppppppppppppppppppppppp\n");
         uint256 hashMerkleRoot2 = block.BuildMerkleTree(&mutated);
+        LogPrintf("CheckBlock::------------------------------BuildMerkleTree-------------passedpppppppppppppppppppppppppppppppp\n");
         if (block.hashMerkleRoot != hashMerkleRoot2)
             return state.DoS(100, error("CheckBlock() : hashMerkleRoot mismatch"),
                              REJECT_INVALID, "bad-txnmrklroot", true);
@@ -3067,6 +3070,7 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
                              REJECT_INVALID, "bad-txns-duplicate", true);
     }
 
+//    LogPrintf("CheckBlock::----------------Merkle   if --------------passedpppppppppppppppppppppppppppppppp\n");
     // All potential-corruption validation must be done before we do any
     // transaction validation, as otherwise we may mark the header as invalid
     // because we receive the wrong transactions for it.
@@ -3075,16 +3079,18 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
     if (block.vtx.empty() || block.vtx.size() > MAX_BLOCK_SIZE || ::GetSerializeSize(block, SER_NETWORK, PROTOCOL_VERSION) > MAX_BLOCK_SIZE)
         return state.DoS(100, error("CheckBlock() : size limits failed"),
                          REJECT_INVALID, "bad-blk-length");
-
+//    LogPrintf("CheckBlock::----------------MAX_BLOCK_SIZE --------------passedpppppppppppppppppppppppppppppppp\n");
     // First transaction must be coinbase, the rest must not be
     if (block.vtx.empty() || !block.vtx[0].IsCoinBase())
         return state.DoS(100, error("CheckBlock() : first tx is not coinbase"),
                          REJECT_INVALID, "bad-cb-missing");
+//    LogPrintf("CheckBlock::----------------IsCoinBase --------------passedpppppppppppppppppppppppppppppppp\n");
     for (unsigned int i = 1; i < block.vtx.size(); i++)
         if (block.vtx[i].IsCoinBase())
             return state.DoS(100, error("CheckBlock() : more than one coinbase"),
                              REJECT_INVALID, "bad-cb-multiple");
 
+//    LogPrintf("CheckBlock::----------------for size --------------passedpppppppppppppppppppppppppppppppp\n");
     if (block.IsProofOfStake()) {
         // Coinbase output should be empty if proof-of-stake block
         if (block.vtx[0].vout.size() != 1 || !block.vtx[0].vout[0].IsEmpty())
@@ -3097,12 +3103,13 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
             if (block.vtx[i].IsCoinStake())
                 return state.DoS(100, error("CheckBlock() : more than one coinstake"));
     }
+//    LogPrintf("CheckBlock::----------------ProofOfStake --------------passedpppppppppppppppppppppppppppppppp\n");
 
     // Check transactions
     BOOST_FOREACH(const CTransaction& tx, block.vtx)
         if (!CheckTransaction(tx, state))
             return error("CheckBlock() : CheckTransaction failed");
-
+//    LogPrintf("CheckBlock::----------------BoostTransaction --------------passedpppppppppppppppppppppppppppppppp\n");
     unsigned int nSigOps = 0;
     BOOST_FOREACH(const CTransaction& tx, block.vtx)
     {
@@ -3134,11 +3141,14 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
         LogPrintf("CheckBlock() : skipping transaction locking checks\n");
     }
 
-    // ----------- masternode payments / budgets -----------
+    // ----------- masternode payments / budgets ----------
+
+    LogPrintf("CheckBlock::----------------masternode start --------------passedpppppppppppppppppppppppppppppppp\n");
 
     CBlockIndex* pindexPrev = chainActive.Tip();
     if (pindexPrev != NULL) {
         int nHeight = 0;
+//	LogPrintf("CheckBlock::----------------if start --------------passedpppppppppppppppppppppppppppppppp\n");
         if (pindexPrev->GetBlockHash() == block.hashPrevBlock) {
             nHeight = pindexPrev->nHeight + 1;
         } else { //out of order
@@ -3146,9 +3156,11 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
             if (mi != mapBlockIndex.end() && (*mi).second)
                 nHeight = (*mi).second->nHeight + 1;
         }
-
+//	LogPrintf("CheckBlock::----------------IsInitialBlockDownload if Start --------------passedpppppppppppppppppppppppppppppppp\n");
         if (nHeight != 0 && !IsInitialBlockDownload()) {
+	    LogPrintf("CheckBlock::----------------IsBlockPayeeValid start --------------passedpppppppppppppppppppppppppppppppp\n");
             if (!IsBlockPayeeValid(block, nHeight)) {
+		LogPrintf("CheckBlock::----------------IsBlockPayeeValid false --------------passedpppppppppppppppppppppppppppppppp\n");
                 mapRejectedBlocks.insert(make_pair(block.GetHash(), GetTime()));
                 return state.DoS(100, error("CheckBlock() : Couldn't find masternode/budget payment"));
             }
@@ -3158,6 +3170,7 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
         }
     }
 
+    LogPrintf("CheckBlock::----------------SUCCESSFULL --------------passedpppppppppppppppppppppppppppppppp\n");
     // -------------------------------------------
 
     return true;
@@ -3410,15 +3423,18 @@ bool ProcessNewBlock(CValidationState &state, CNode* pfrom, CBlock* pblock, CDis
 {
     // Preliminary checks
     bool checked = CheckBlock(*pblock, state);
-
+    LogPrintf("ProcessNewBlock------------called######################################################################\n");
     if (!pblock->CheckBlockSignature())
+    {
+	LogPrintf("ProcessNewBlock(): Failed CheckBlockSignature00000000000000000000000000000000000000000000000000000\n");
         return error("ProcessNewBlock() : bad proof-of-stake block signature");
-
+    }
 
     {
         LOCK(cs_main);
         MarkBlockAsReceived(pblock->GetHash());
         if (!checked) {
+	    LogPrintf("ProcessNewBlock(): Failed checkde00000000000000000000000000000000000000000000000000000\n");
             return error("%s : CheckBlock FAILED", __func__);
         }
 
@@ -3429,14 +3445,19 @@ bool ProcessNewBlock(CValidationState &state, CNode* pfrom, CBlock* pblock, CDis
             mapBlockSource[pindex->GetBlockHash()] = pfrom->GetId();
         }
         CheckBlockIndex();
-        if (!ret)
+        if (!ret) {
+	    LogPrintf("ProcessNewBlock(): Failed AcceptBlock00000000000000000000000000000000000000000000000000000\n");
             return error("%s : AcceptBlock FAILED", __func__);
+	}
     }
 
-    if (!ActivateBestChain(state, pblock))
+    if (!ActivateBestChain(state, pblock)) {
+	LogPrintf("ProcessNewBlock(): Failed ActivateBestChain00000000000000000000000000000000000000000000000000000\n");
         return error("%s : ActivateBestChain failed", __func__);
+    }
 
     if (!fLiteMode) {
+	LogPrintf("ProcessNewBlock(): masternodeSyncAssets:%de;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;\n", masternodeSync.RequestedMasternodeAssets);
         if (masternodeSync.RequestedMasternodeAssets > MASTERNODE_SYNC_LIST) {
             obfuScationPool.NewBlock();
             masternodePayments.ProcessBlock(GetHeight() + 10);
@@ -3460,25 +3481,47 @@ bool ProcessNewBlock(CValidationState &state, CNode* pfrom, CBlock* pblock, CDis
 
 bool TestBlockValidity(CValidationState &state, const CBlock& block, CBlockIndex * const pindexPrev, bool fCheckPOW, bool fCheckMerkleRoot)
 {
+//    LogPrintf("TestBlockValidity::----called0000000000000000000000000000000000000000000000000\n");
     AssertLockHeld(cs_main);
+//    LogPrintf("TestBlockValidity::----AssertLock(cs_main)--passed0000000000000000000000000000000000000000000000000\n");
     assert(pindexPrev == chainActive.Tip());
+//    LogPrintf("TestBlockValidity::----chainActiveTip---passed0000000000000000000000000000000000000000000000000\n");
 
     CCoinsViewCache viewNew(pcoinsTip);
+//    LogPrintf("TestBlockValidity::----pcoinsTip---passed0000000000000000000000000000000000000000000000000\n");
     CBlockIndex indexDummy(block);
+//    LogPrintf("TestBlockValidity::----indexDummy---passed0000000000000000000000000000000000000000000000000\n");
     indexDummy.pprev = pindexPrev;
+//    LogPrintf("TestBlockValidity::----pprev--------passed0000000000000000000000000000000000000000000000000\n");
     indexDummy.nHeight = pindexPrev->nHeight + 1;
 
     // NOTE: CheckBlockHeader is called by CheckBlock
-    if (!ContextualCheckBlockHeader(block, state, pindexPrev))
+    if (!ContextualCheckBlockHeader(block, state, pindexPrev)) {
+//	LogPrintf("TestBlockValidity::----ContextualCheckBlockHeader---FALSE--------0000000000000000000000000000000000000000000000000\n");
         return false;
-    if (!CheckBlock(block, state, fCheckPOW, fCheckMerkleRoot))
-        return false;
-    if (!ContextualCheckBlock(block, state, pindexPrev))
-        return false;
-    if (!ConnectBlock(block, state, &indexDummy, viewNew, true))
-        return false;
-    assert(state.IsValid());
+    }
+    LogPrintf("TestBlockValidity::----ContextualCheckBlockHeader--------passed0000000000000000000000000000000000000000000000000\n");
 
+    if (!CheckBlock(block, state, fCheckPOW, fCheckMerkleRoot)) {
+	LogPrintf("TestBlockValidity::----CheckBlock---FALSE--------0000000000000000000000000000000000000000000000000\n");
+        return false;
+    }
+    LogPrintf("TestBlockValidity::----CheckBlock--------passed0000000000000000000000000000000000000000000000000\n");
+
+    if (!ContextualCheckBlock(block, state, pindexPrev)) {
+	LogPrintf("TestBlockValidity::----ContextualCheckBlock---FALSE--------0000000000000000000000000000000000000000000000000\n");
+        return false;
+    }
+    LogPrintf("TestBlockValidity::----ContextualCheckBlock--------passed0000000000000000000000000000000000000000000000000\n");
+
+    if (!ConnectBlock(block, state, &indexDummy, viewNew, true)) {
+	LogPrintf("TestBlockValidity::----ConnectBlock---FALSE--------0000000000000000000000000000000000000000000000000\n");
+        return false;
+    }
+    LogPrintf("TestBlockValidity::----ConnectBlock--------passed0000000000000000000000000000000000000000000000000\n");
+
+    assert(state.IsValid());
+	LogPrintf("TestBlockValidity::----SUCCESSFUL--------0000000000000000000000000000000000000000000000000\n");
     return true;
 }
 
@@ -5380,6 +5423,7 @@ bool ProcessMessages(CNode* pfrom)
         bool fRet = false;
         try
         {
+	    LogPrintf("ProcessMessages:-->strCommand:%s[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[\n", SanitizeString(strCommand));
             fRet = ProcessMessage(pfrom, strCommand, vRecv, msg.nTime);
             boost::this_thread::interruption_point();
         }
