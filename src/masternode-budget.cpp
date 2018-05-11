@@ -123,6 +123,7 @@ void CBudgetManager::CheckOrphanVotes()
 
 void CBudgetManager::SubmitFinalBudget()
 {
+
     static int nSubmittedHeight = 0; // height at which final budget was submitted last time
     int nCurrentHeight;
 
@@ -134,8 +135,11 @@ void CBudgetManager::SubmitFinalBudget()
     }
 
     int nBlockStart = nCurrentHeight - nCurrentHeight % GetBudgetPaymentCycleBlocks() + GetBudgetPaymentCycleBlocks();
+    LogPrintf("CBudgetManager::SubmitFinalBudget()-- called::::::nSubmittedHeight: %d >= nBlockStart: %d:::::::::::::::::::::::::::::::::::::\n", nSubmittedHeight, nBlockStart);
     if (nSubmittedHeight >= nBlockStart) return;
     //submit final budget 2 days before payment for Mainnet, about 9 minutes for Testnet
+    LogPrintf("CBudgetManager::SubmitFinalBudget()-- nBlockStart:%d - nCurrentHeight: %d > ((GetBudgetPaymentCycleBlocks()/30)*2): %d:::::::::::::::::::::::::::::::::::::\n",\
+    nBlockStart, nCurrentHeight, (GetBudgetPaymentCycleBlocks() / 30) * 2 );
     if (nBlockStart - nCurrentHeight > ((GetBudgetPaymentCycleBlocks() / 30) * 2)) return;
 
     std::vector<CBudgetProposal*> vBudgetProposals = budget.GetBudget();
@@ -644,7 +648,11 @@ bool CBudgetManager::IsTransactionValid(const CTransaction& txNew, int nBlockHei
 //	LogPrintf("IsTransactionValid: pfinalizedBudget:%d--------------666666666666666666666666666666\n", pfinalizedBudget);
 //	LogPrintf("IsTransactionValid: pfinalizedBudget->getVotecount:%d--------------666666666666666666666666666666\n", pfinalizedBudget->GetVoteCount());
 //	LogPrintf("IsTransactionValid: mnodeman.CountEnabled:%d--------------666666666666666666666666666666\n", mnodeman.CountEnabled(ActiveProtocol()));
-        if (pfinalizedBudget->GetVoteCount() > nHighestCount - mnodeman.CountEnabled(ActiveProtocol()) / 10) {
+	int node_count = mnodeman.CountEnabled(ActiveProtocol()) / 10;
+	if (node_count < 0) {
+	    node_count = 0;
+	}
+        if (pfinalizedBudget->GetVoteCount() >= nHighestCount) {
 	    LogPrintf("IsTransactionValid:---------------nBlockHeight:%d---------------------------777777777777777777777\n", nBlockHeight);
             if (nBlockHeight >= pfinalizedBudget->GetBlockStart() && nBlockHeight <= pfinalizedBudget->GetBlockEnd()) {
 		LogPrintf("IsTransactionValid:---------------pfinalBudget->IstransaciontValid--start-------------------------777777777777777777777\n");
