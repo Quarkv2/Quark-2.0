@@ -29,6 +29,7 @@ src/qt/test/moc*.cpp
 
 .deps
 .dirstamp
+.libs
 .*.swp
 *.*~*
 *.bak
@@ -116,3 +117,7 @@ src/config/bitcoin-config.h.in~
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
+
+#libtool object files
+*.lo
+*.la
