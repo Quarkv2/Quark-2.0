@@ -88,6 +88,7 @@ static const CRPCConvertParam vRPCConvertParams[] =
     { "estimatepriority", 0 },
     { "prioritisetransaction", 1 },
     { "prioritisetransaction", 2 },
+    { "spork", 1},    
     { "mnbudget", 3 },
     { "mnbudget", 4 },
     { "mnbudget", 6 },

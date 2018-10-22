@@ -24,6 +24,7 @@
 #include "net.h"
 #include "rpcserver.h"
 #include "script/standard.h"
+#include "spork.h"
 #include "txdb.h"
 #include "ui_interface.h"
 #include "util.h"
@@ -161,6 +162,9 @@ void Shutdown()
     GenerateBitcoins(false, NULL, 0);
 #endif
     StopNode();
+    DumpMasternodes();
+    DumpBudgets();
+    DumpMasternodePayments();    
     UnregisterNodeSignals(GetNodeSignals());
 
     if (fFeeEstimatesInitialized)
@@ -335,6 +339,7 @@ std::string HelpMessage(HelpMessageMode mode)
         strUsage += "  -fuzzmessagestest=<n>  " + _("Randomly fuzz 1 of every <n> network messages") + "\n";
         strUsage += "  -flushwallet           " + strprintf(_("Run a thread to flush wallet periodically (default: %u)"), 1) + "\n";
         strUsage += "  -stopafterblockimport  " + strprintf(_("Stop running after importing blocks from disk (default: %u)"), 0) + "\n";
+        strUsage += "  -sporkkey=<privkey>    " +  _("Enable spork administration functionality with the appropriate private key.") + "\n";        
     }
     strUsage += "  -debug=<category>      " + strprintf(_("Output debugging information (default: %u, supplying <category> is optional)"), 0) + "\n";
     strUsage += "                         " + _("If <category> is not supplied, output all debugging information.") + "\n";
@@ -796,6 +801,12 @@ bool AppInit2(boost::thread_group& threadGroup)
         for (int i=0; i<nScriptCheckThreads-1; i++)
             threadGroup.create_thread(&ThreadScriptCheck);
     }
+    
+    if (mapArgs.count("-sporkkey")) // spork priv key
+    {
+        if (!sporkManager.SetPrivKey(GetArg("-sporkkey", "")))
+            return InitError(_("Unable to sign spork message, wrong key?"));
+    }    
 
     /* Start the RPC server already.  It will be started in "warmup" mode
      * and not really process calls already (but it will signify connections
