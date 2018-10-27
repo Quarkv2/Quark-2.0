@@ -374,6 +374,14 @@ std::string HelpMessage(HelpMessageMode mode)
     strUsage += "  -shrinkdebugfile       " + _("Shrink debug.log file on client startup (default: 1 when no -debug)") + "\n";
     strUsage += "  -testnet               " + _("Use the test network") + "\n";
 
+    strUsage += "\n" + _("Masternode options:") + "\n";
+    strUsage += "  -masternode=<n>        " + strprintf(_("Enable the client to act as a masternode (0-1, default: %u)"), 0) + "\n";
+    strUsage += "  -mnconf=<file>         " + strprintf(_("Specify masternode configuration file (default: %s)"), "masternode.conf") + "\n";
+    strUsage += "  -mnconflock=<n>        " + strprintf(_("Lock masternodes from masternode configuration file (default: %u)"), 1) + "\n";
+    strUsage += "  -masternodeprivkey=<n> " + _("Set the masternode private key") + "\n";
+    strUsage += "  -masternodeaddr=<n>    " + strprintf(_("Set external address:port to get to this masternode (example: %s)"), "128.127.106.235:11973") + "\n";
+    strUsage += "  -budgetvotemode=<mode> " + _("Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)") + "\n";
+    
     strUsage += "\n" + _("Node relay options:") + "\n";
     strUsage += "  -datacarrier           " + strprintf(_("Relay and mine data carrier transactions (default: %u)"), 1) + "\n";
     strUsage += "  -datacarriersize       " + strprintf(_("Maximum size of data in data carrier transactions we relay and mine (default: %u)"), MAX_OP_RETURN_RELAY) + "\n";
