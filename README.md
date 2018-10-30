@@ -3,12 +3,12 @@ Quark Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/quark/quark.svg?branch=master)](https://travis-ci.org/quark/quark)
 
-https://www.qrknet.info
+https://www.xxxx.xx
 
 What is Quark?
 --------------
 
-Quark is an experimental new digital currency that enables instant payments to
+Quark 2.0 is an experimental new digital currency that enables instant payments to
 anyone, anywhere in the world. Quark uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
 out collectively by the network. Quark Core is the name of open source
