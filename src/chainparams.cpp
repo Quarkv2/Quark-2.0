@@ -132,12 +132,12 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0xfe;
-        pchMessageStart[1] = 0xa5;
-        pchMessageStart[2] = 0x03;
-        pchMessageStart[3] = 0xdd;
+        pchMessageStart[0] = 0xf1;
+        pchMessageStart[1] = 0xab;
+        pchMessageStart[2] = 0x8d;
+        pchMessageStart[3] = 0xd7;
         vAlertPubKey = ParseHex("0493e6dc310a0e444cfb20f3234a238f77699806d47909a42481010c5ce68ff04d3babc959cd037bd3aa6ded929f2b9b4aa2f626786cd7f8495e5bb61e9cfebbc4");
-        nDefaultPort = 12973;
+        nDefaultPort = 12974;
         bnProofOfWorkLimit = nMainProofOfWorkLimit;
         nSubsidyHalvingInterval = 262800;
         nEnforceBlockUpgradeMajority = 7500;
@@ -229,12 +229,12 @@ public:
     CTestNetParams() {
         networkID = CBaseChainParams::TESTNET;
         strNetworkID = "test";
-        pchMessageStart[0] = 0x01;
-        pchMessageStart[1] = 0x1a;
-        pchMessageStart[2] = 0x39;
-        pchMessageStart[3] = 0xf7;
+        pchMessageStart[0] = 0x42;
+        pchMessageStart[1] = 0xde;
+        pchMessageStart[2] = 0x8e;
+        pchMessageStart[3] = 0xf3;
         vAlertPubKey = ParseHex("04218bc3f08237baa077cb1b0e5a81695fcf3f5b4e220b4ad274d05a31d762dd4e191efa7b736a24a32d6fd9ac1b5ebb2787c70e9dfad0016a8b32f7bd2520dbd5");
-        nDefaultPort = 22973;
+        nDefaultPort = 22974;
         nSubsidyHalvingInterval = 1440;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
@@ -294,10 +294,10 @@ public:
     CRegTestParams() {
         networkID = CBaseChainParams::REGTEST;
         strNetworkID = "regtest";
-        pchMessageStart[0] = 0xfa;
-        pchMessageStart[1] = 0xbf;
-        pchMessageStart[2] = 0xb5;
-        pchMessageStart[3] = 0xda;
+        pchMessageStart[0] = 0xfe;
+        pchMessageStart[1] = 0x93;
+        pchMessageStart[2] = 0xb4;
+        pchMessageStart[3] = 0x98;
         nSubsidyHalvingInterval = 150;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
