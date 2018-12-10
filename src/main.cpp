@@ -1583,13 +1583,18 @@ bool ReadBlockFromDisk(CBlock& block, const CBlockIndex* pindex)
     return true;
 }
 
-static const int64_t nGenesisBlockRewardCoin = 1 * COIN;
-static const int64_t nBlockRewardStartCoin = 2048 * COIN;
+static const int64_t nGenesisBlockRewardCoin = 32 * COIN;
+static const int64_t nBlockRewardStartCoin   = 32 * COIN;
 static const int64_t nBlockRewardMinimumCoin = 1 * COIN;
 
 // 7/2 = 3.5%
 static const int64_t nProofOfStakeInterestMul = 7;
 static const int64_t nProofOfStakeInterestDiv = 2;
+
+// 3/5 = 0.6
+static const int64_t nProofOfWorkHalvingMul = 3;
+static const int64_t nProofOfWorkHalvingDiv = 5;
+
 
 // miner's coin stake reward
 CAmount GetProofOfStakeReward(const int nHeight, int64_t nCoinAge)
@@ -1610,22 +1615,23 @@ CAmount GetBlockValue(int nHeight)
         return nGenesisBlockRewardCoin;
     }
 
-    if (Params().NetworkID() == CBaseChainParams::TESTNET)
-    {
-        if (nHeight < 1000)
-            return nBlockRewardStartCoin;
-        else
-            return nBlockRewardMinimumCoin;
-    }
-
     CAmount nSubsidy = nBlockRewardStartCoin;
 
-
-    // Subsidy is cut in half every 60480 blocks (21 days)
-    nSubsidy >>= min((nHeight / Params().SubsidyHalvingInterval()), 63);
-
-    // Minimum subsidy
-    if (nSubsidy < nBlockRewardMinimumCoin)
+    int halvings = nHeight / Params().SubsidyHalvingInterval();
+    
+    // Subsidy is cut in 0.6 times every 262800 blocks (182.5 days) for first three years   
+    if (halvings > 0 && halvings < 6) {
+        int64_t halvingMul = 1;
+        int64_t halvingDiv = 1;
+        for(int i = 0; i < halvings; ++i ){
+            halvingMul *= nProofOfWorkHalvingMul;
+            halvingDiv *= nProofOfWorkHalvingDiv;
+        }
+        nSubsidy = nSubsidy * halvingMul / halvingDiv;
+    }
+    
+    // Minimum subsidy after three years
+    if ( halvings >=6 )
     {
         nSubsidy = nBlockRewardMinimumCoin;
     }
