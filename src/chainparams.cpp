@@ -137,7 +137,7 @@ public:
         pchMessageStart[2] = 0x03;
         pchMessageStart[3] = 0xdd;
         vAlertPubKey = ParseHex("0493e6dc310a0e444cfb20f3234a238f77699806d47909a42481010c5ce68ff04d3babc959cd037bd3aa6ded929f2b9b4aa2f626786cd7f8495e5bb61e9cfebbc4");
-        nDefaultPort = 11973;
+        nDefaultPort = 12973;
         bnProofOfWorkLimit = nMainProofOfWorkLimit;
         nSubsidyHalvingInterval = 262800;
         nEnforceBlockUpgradeMajority = 7500;
@@ -233,7 +233,7 @@ public:
         pchMessageStart[2] = 0x39;
         pchMessageStart[3] = 0xf7;
         vAlertPubKey = ParseHex("04218bc3f08237baa077cb1b0e5a81695fcf3f5b4e220b4ad274d05a31d762dd4e191efa7b736a24a32d6fd9ac1b5ebb2787c70e9dfad0016a8b32f7bd2520dbd5");
-        nDefaultPort = 21973;
+        nDefaultPort = 22973;
         nSubsidyHalvingInterval = 1440;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
@@ -309,7 +309,7 @@ public:
         genesis.nBits = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce = 3;
         hashGenesisBlock = genesis.GetHash();
-        nDefaultPort = 18444;
+        nDefaultPort = 19444;
         nFirstPOSBlock = 20;
         nFirstMasternodePaymentBlock = 20;
         // assert(hashGenesisBlock == uint256("0x0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206"));
