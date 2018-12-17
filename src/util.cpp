@@ -404,7 +404,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Unix: ~/.quarkcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Quarkcoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Quark2";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -416,10 +416,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "Quarkcoin";
+    return pathRet / "Quark2";
 #else
     // Unix
-    return pathRet / ".quarkcoin";
+    return pathRet / ".Quark2";
 #endif
 #endif
 }
