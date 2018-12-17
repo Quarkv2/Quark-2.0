@@ -96,6 +96,16 @@ BITCOIN_CORE_H = \
   crypto/sph_bmw.h \
   crypto/sph_jh.h \
   crypto/sph_skein.h \
+  crypto/sph_luffa.h \
+  crypto/sph_cubehash.h \
+  crypto/sph_shavite.h \
+  crypto/sph_simd.h \
+  crypto/sph_echo.h \
+  crypto/sph_hamsi.h \
+  crypto/sph_fugue.h \
+  crypto/sph_shabal.h \
+  crypto/sph_whirlpool.h \
+  crypto/sph_sha2.h \
   db.h \
   eccryptoverify.h \
   ecwrapper.h \
@@ -255,13 +265,33 @@ crypto_libquark_crypto_a_SOURCES = \
   crypto/jh.c \
   crypto/keccak.c \
   crypto/skein.c \
+  crypto/luffa.c \
+  crypto/cubehash.c \
+  crypto/shavite.c \
+  crypto/simd.c \
+  crypto/echo.c \
+  crypto/sph_hamsi.c \
+  crypto/sph_fugue.c \
+  crypto/sph_shabal.c \
+  crypto/sph_whirlpool.c \
+  crypto/sph_sha2.c \
   crypto/sph_types.h \
   crypto/sph_blake.h \
   crypto/sph_groestl.h \
   crypto/sph_keccak.h \
   crypto/sph_bmw.h \
   crypto/sph_jh.h \
-  crypto/sph_skein.h
+  crypto/sph_skein.h \
+  crypto/sph_luffa.h \
+  crypto/sph_cubehash.h \
+  crypto/sph_shavite.h \
+  crypto/sph_simd.h \
+  crypto/sph_echo.h \
+  crypto/sph_hamsi.h \
+  crypto/sph_fugue.h \
+  crypto/sph_shabal.h \
+  crypto/sph_whirlpool.h \
+  crypto/sph_sha2.h 
 
 # univalue JSON library
 univalue_libquark_univalue_a_SOURCES = \
