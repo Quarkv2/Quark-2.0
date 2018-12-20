@@ -271,10 +271,12 @@ crypto_libquark_crypto_a_SOURCES = \
   crypto/simd.c \
   crypto/echo.c \
   crypto/sph_hamsi.c \
+  crypto/sph_hamsi_helper.c \
   crypto/sph_fugue.c \
   crypto/sph_shabal.c \
   crypto/sph_whirlpool.c \
   crypto/sph_sha2.c \
+  crypto/sph_sha512.c \
   crypto/sph_types.h \
   crypto/sph_blake.h \
   crypto/sph_groestl.h \
@@ -436,6 +438,7 @@ libquarkconsensus_la_SOURCES = \
   eccryptoverify.cpp \
   ecwrapper.cpp \
   hash.cpp \
+  hash.h \
   pubkey.cpp \
   script/script.cpp \
   script/interpreter.cpp \
