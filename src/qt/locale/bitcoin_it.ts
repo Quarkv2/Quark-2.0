@@ -3041,12 +3041,12 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Esegue un comando in caso di ricezione di un allarme pertinente o se si rileva un fork molto lungo (%s in cmd è sostituito dal messaggio)</translation>
     </message>
     <message>
-        <source>Fees (in QRK/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Le commissioni (in QRK/kB) inferiori a questo valore sono considerate pari a zero relativamente alla trasmissione (predefinito: %s)</translation>
+        <source>Fees (in QRK2/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Le commissioni (in QRK2/kB) inferiori a questo valore sono considerate pari a zero relativamente alla trasmissione (predefinito: %s)</translation>
     </message>
     <message>
-        <source>Fees (in QRK/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Le commissioni (in QRK/kB) inferiori a questo valore sono considerate pari a zero relativamente alla creazione della transazione (predefinito: %s)</translation>
+        <source>Fees (in QRK2/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Le commissioni (in QRK2/kB) inferiori a questo valore sono considerate pari a zero relativamente alla creazione della transazione (predefinito: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3156,8 +3156,8 @@ Si raccomanda inoltre di configurare alertnotify in modo da ricevere notifiche d
         <translation>Errore: Rilevato argomento -tor non supportato, utilizzare -onion.</translation>
     </message>
     <message>
-        <source>Fee (in QRK/kB) to add to transactions you send (default: %s)</source>
-        <translation>Commissione (in QRK/kB) da aggiungere alle transazioni che invii (predefinito: %s)</translation>
+        <source>Fee (in QRK2/kB) to add to transactions you send (default: %s)</source>
+        <translation>Commissione (in QRK2/kB) da aggiungere alle transazioni che invii (predefinito: %s)</translation>
     </message>
     <message>
         <source>Information</source>

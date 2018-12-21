@@ -3048,12 +3048,12 @@ Adress: %4
         <translation>Exekvera kommando när ett relevant meddelande är mottagen eller när vi ser en väldigt lång förgrening (%s i cmd är utbytt med ett meddelande)</translation>
     </message>
     <message>
-        <source>Fees (in QRK/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Avgifter (i QRK/Kb) mindre än detta betraktas som nollavgift för vidarebefodran (förvalt: %s)</translation>
+        <source>Fees (in QRK2/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Avgifter (i QRK2/Kb) mindre än detta betraktas som nollavgift för vidarebefodran (förvalt: %s)</translation>
     </message>
     <message>
-        <source>Fees (in QRK/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Avgifter (i QRK/Kb) mindre än detta betraktas som nollavgift för transaktionsskapande (förvalt: %s)</translation>
+        <source>Fees (in QRK2/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Avgifter (i QRK2/Kb) mindre än detta betraktas som nollavgift för transaktionsskapande (förvalt: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3161,8 +3161,8 @@ till exempel: alertnotify=echo %%s | mail -s "Quark Alert" admin@foo.com
         <translation>Fel: Argumentet -tor stöds inte, använd -onion.</translation>
     </message>
     <message>
-        <source>Fee (in QRK/kB) to add to transactions you send (default: %s)</source>
-        <translation>Avgift (i QRK/Kb) att lägga till på transaktioner du skickar (förvalt: %s)</translation>
+        <source>Fee (in QRK2/kB) to add to transactions you send (default: %s)</source>
+        <translation>Avgift (i QRK2/Kb) att lägga till på transaktioner du skickar (förvalt: %s)</translation>
     </message>
     <message>
         <source>Information</source>

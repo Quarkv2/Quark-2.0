@@ -3043,12 +3043,12 @@ Address: %4
         <translation>Executa l'ordre quan es rebi un avís rellevant o veiem una forquilla molt llarga (%s en cmd és reemplaçat per un missatge)</translation>
     </message>
     <message>
-        <source>Fees (in QRK/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Comissions (en QRK/Kb) inferiors a això es consideren de comissió zero per a la transmissió (per defecte: %s)</translation>
+        <source>Fees (in QRK2/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Comissions (en QRK2/Kb) inferiors a això es consideren de comissió zero per a la transmissió (per defecte: %s)</translation>
     </message>
     <message>
-        <source>Fees (in QRK/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Comissions (en QRK/Kb) inferiors a això es consideren de comissió zero per a la creació de la transacció (per defecte: %s)</translation>
+        <source>Fees (in QRK2/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Comissions (en QRK2/Kb) inferiors a això es consideren de comissió zero per a la creació de la transacció (per defecte: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
@@ -3154,8 +3154,8 @@ per exemple: alertnotify=echo %%s | mail -s "Avís de Quark" admin@foo.com</tran
         <translation>Error: s'ha trobat un argument -tor no acceptat. Feu servir -onion.</translation>
     </message>
     <message>
-        <source>Fee (in QRK/kB) to add to transactions you send (default: %s)</source>
-        <translation>Comissió en (QRK/kB) per afegir a les transaccions que envieu (per defecte: %s)</translation>
+        <source>Fee (in QRK2/kB) to add to transactions you send (default: %s)</source>
+        <translation>Comissió en (QRK2/kB) per afegir a les transaccions que envieu (per defecte: %s)</translation>
     </message>
     <message>
         <source>Information</source>

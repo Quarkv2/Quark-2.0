@@ -3051,11 +3051,11 @@ Adres: %4
         <translation>İlgili bir uyarı alındığında ya da gerçekten uzun bir çatallama gördüğümüzde komutu çalıştır (komuttaki %s mesaj ile değiştirilir)</translation>
     </message>
     <message>
-        <source>Fees (in QRK/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in QRK2/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation>Kb başına QRK olarak bundan düşük ücretler aktarım için sıfır değerinde ücret olarak kabul edilir (varsayılan: %s)</translation>
     </message>
     <message>
-        <source>Fees (in QRK/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in QRK2/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation>Kb başına QRK olarak bundan düşük ücretler muamele oluşturulması için sıfır değerinde ücret olarak kabul edilir (varsayılan: %s)</translation>
     </message>
     <message>
@@ -3163,7 +3163,7 @@ mesela: alertnotify=echo %%s | mail -s "Quark Alert" admin@foo.com
         <translation>Hata: Deskteklenmeyen -tor argümanı bulundu, -onion kullanınız.</translation>
     </message>
     <message>
-        <source>Fee (in QRK/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in QRK2/kB) to add to transactions you send (default: %s)</source>
         <translation>Yolladığınız muamelelere kB başına QRK olarak eklenecek ücret (varsayılan: %s)</translation>
     </message>
     <message>
