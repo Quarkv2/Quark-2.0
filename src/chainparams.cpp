@@ -145,7 +145,7 @@ public:
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 112;
         genesis.nTime    = timeMainGenesisBlock;
-        genesis.nBits    = nMainProofOfWorkLimit.GetCompact();
+        genesis.nBits    = 0x1e0ffff0;
         genesis.nNonce   = 1075193;
 
         assert(genesis.hashMerkleRoot == uint256("0xbb3193bb82478557f89d99095a94f504c6a31ec29e761e4b5e7f20ae5e4d704c"));
@@ -278,7 +278,7 @@ public:
         bnProofOfWorkLimit = ~uint256(0);
         nMaxTipAge = 24 * 60 * 60;
         genesis.nTime = 1296688602;
-        genesis.nBits = bnProofOfWorkLimit.GetCompact();
+        genesis.nBits = 0x207fffff;
         genesis.nNonce = 3;
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 19444;
