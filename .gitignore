@@ -1,12 +1,12 @@
 *.tar.gz
 
 *.exe
-src/quark
-src/quarkd
-src/quark-cli
-src/quark-tx
-src/test/test_quark
-src/qt/test/test_quark-qt
+src/quark2
+src/quark2d
+src/quark2-cli
+src/quark2-tx
+src/test/test_quark2
+src/qt/test/test_quark2-qt
 
 Makefile.in
 aclocal.m4
@@ -52,12 +52,12 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-quark-qt
-Quark-Qt.app
+quark2-qt
+Quark2-Qt.app
 
 # Unit-tests
 Makefile.test
-quark-qt_test
+quark2-qt_test
 
 # Resources cpp
 qrc_*.cpp

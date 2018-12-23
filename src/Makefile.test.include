@@ -1,7 +1,7 @@
-TESTS += test/test_quark test/bitcoin-util-test.py
-bin_PROGRAMS += test/test_quark
+TESTS += test/test_quark2 test/bitcoin-util-test.py
+bin_PROGRAMS += test/test_quark2
 TEST_SRCDIR = test
-TEST_BINARY=test/test_quark$(EXEEXT)
+TEST_BINARY=test/test_quark2$(EXEEXT)
 
 
 EXTRA_DIST += \
@@ -80,18 +80,18 @@ BITCOIN_TESTS += \
   test/rpc_wallet_tests.cpp
 endif
 
-test_test_quark_SOURCES = $(BITCOIN_TESTS) $(JSON_TEST_FILES) $(RAW_TEST_FILES)
-test_test_quark_CPPFLAGS = $(BITCOIN_INCLUDES) -I$(builddir)/test/ $(TESTDEFS)
-test_test_quark_LDADD = $(LIBBITCOIN_SERVER) $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBBITCOIN_UNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
+test_test_quark2_SOURCES = $(BITCOIN_TESTS) $(JSON_TEST_FILES) $(RAW_TEST_FILES)
+test_test_quark2_CPPFLAGS = $(BITCOIN_INCLUDES) -I$(builddir)/test/ $(TESTDEFS)
+test_test_quark2_LDADD = $(LIBBITCOIN_SERVER) $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBBITCOIN_UNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(BOOST_UNIT_TEST_FRAMEWORK_LIB) $(LIBSECP256K1)
 if ENABLE_WALLET
-test_test_quark_LDADD += $(LIBBITCOIN_WALLET)
+test_test_quark2_LDADD += $(LIBBITCOIN_WALLET)
 endif
 
-test_test_quark_LDADD += $(LIBBITCOIN_CONSENSUS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-test_test_quark_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) -static
+test_test_quark2_LDADD += $(LIBBITCOIN_CONSENSUS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+test_test_quark2_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) -static
 
-nodist_test_test_quark_SOURCES = $(GENERATED_TEST_FILES)
+nodist_test_test_quark2_SOURCES = $(GENERATED_TEST_FILES)
 
 $(BITCOIN_TESTS): $(GENERATED_TEST_FILES)
 
@@ -99,13 +99,13 @@ CLEAN_BITCOIN_TEST = test/*.gcda test/*.gcno $(GENERATED_TEST_FILES)
 
 CLEANFILES += $(CLEAN_BITCOIN_TEST)
 
-quark_test: $(TEST_BINARY)
+quark2_test: $(TEST_BINARY)
 
-quark_test_check: $(TEST_BINARY) FORCE
+quark2_test_check: $(TEST_BINARY) FORCE
 	$(MAKE) check-TESTS TESTS=$^
 
-quark_test_clean : FORCE
-	rm -f $(CLEAN_BITCOIN_TEST) $(test_test_quark_OBJECTS) $(TEST_BINARY)
+quark2_test_clean : FORCE
+	rm -f $(CLEAN_BITCOIN_TEST) $(test_test_quark2_OBJECTS) $(TEST_BINARY)
 
 check-local:
 	$(AM_V_at)$(MAKE) $(AM_MAKEFLAGS) -C secp256k1 check
