@@ -21,14 +21,14 @@ BITCOIN_INCLUDES=-I$(builddir) -I$(builddir)/obj $(BOOST_CPPFLAGS) $(LEVELDB_CPP
 
 BITCOIN_INCLUDES += -I$(srcdir)/secp256k1/include
 
-LIBBITCOIN_SERVER=libquark_server.a
-LIBBITCOIN_WALLET=libquark_wallet.a
-LIBBITCOIN_COMMON=libquark_common.a
-LIBBITCOIN_CLI=libquark_cli.a
-LIBBITCOIN_UTIL=libquark_util.a
-LIBBITCOIN_CRYPTO=crypto/libquark_crypto.a
-LIBBITCOIN_UNIVALUE=univalue/libquark_univalue.a
-LIBBITCOINQT=qt/libquarkqt.a
+LIBBITCOIN_SERVER=libquark2_server.a
+LIBBITCOIN_WALLET=libquark2_wallet.a
+LIBBITCOIN_COMMON=libquark2_common.a
+LIBBITCOIN_CLI=libquark2_cli.a
+LIBBITCOIN_UTIL=libquark2_util.a
+LIBBITCOIN_CRYPTO=crypto/libquark2_crypto.a
+LIBBITCOIN_UNIVALUE=univalue/libquark2_univalue.a
+LIBBITCOINQT=qt/libquark2qt.a
 LIBSECP256K1=secp256k1/libsecp256k1.la
 
 $(LIBSECP256K1): $(wildcard secp256k1/src/*) $(wildcard secp256k1/include/*)
@@ -37,20 +37,20 @@ $(LIBSECP256K1): $(wildcard secp256k1/src/*) $(wildcard secp256k1/include/*)
 # Make is not made aware of per-object dependencies to avoid limiting building parallelization
 # But to build the less dependent modules first, we manually select their order here:
 EXTRA_LIBRARIES = \
-  crypto/libquark_crypto.a \
-  libquark_util.a \
-  libquark_common.a \
-  univalue/libquark_univalue.a \
-  libquark_server.a \
-  libquark_cli.a
+  crypto/libquark2_crypto.a \
+  libquark2_util.a \
+  libquark2_common.a \
+  univalue/libquark2_univalue.a \
+  libquark2_server.a \
+  libquark2_cli.a
 if ENABLE_WALLET
 BITCOIN_INCLUDES += $(BDB_CPPFLAGS)
-EXTRA_LIBRARIES += libquark_wallet.a
+EXTRA_LIBRARIES += libquark2_wallet.a
 endif
 
 if BUILD_BITCOIN_LIBS
-lib_LTLIBRARIES = libquarkconsensus.la
-LIBBITCOIN_CONSENSUS=libquarkconsensus.la
+lib_LTLIBRARIES = libquark2consensus.la
+LIBBITCOIN_CONSENSUS=libquark2consensus.la
 else
 LIBBITCOIN_CONSENSUS=
 endif
@@ -59,11 +59,11 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += quarkd
+  bin_PROGRAMS += quark2d
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += quark-cli quark-tx
+  bin_PROGRAMS += quark2-cli quark2-tx
 endif
 
 .PHONY: FORCE
@@ -183,11 +183,11 @@ obj/build.h: FORCE
 	@$(MKDIR_P) $(builddir)/obj
 	@$(top_srcdir)/share/genbuild.sh $(abs_top_builddir)/src/obj/build.h \
 	  $(abs_top_srcdir)
-libquark_util_a-clientversion.$(OBJEXT): obj/build.h
+libquark2_util_a-clientversion.$(OBJEXT): obj/build.h
 
 # server: shared between quarkd and quark-qt
-libquark_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS)
-libquark_server_a_SOURCES = \
+libquark2_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS)
+libquark2_server_a_SOURCES = \
   addrman.cpp \
   alert.cpp \
   bloom.cpp \
@@ -218,8 +218,8 @@ libquark_server_a_SOURCES = \
 
 # wallet: shared between quarkd and quark-qt, but only linked
 # when wallet enabled
-libquark_wallet_a_CPPFLAGS = $(BITCOIN_INCLUDES)
-libquark_wallet_a_SOURCES = \
+libquark2_wallet_a_CPPFLAGS = $(BITCOIN_INCLUDES)
+libquark2_wallet_a_SOURCES = \
   activemasternode.cpp \
   obfuscation.cpp \
   obfuscation-relay.cpp \
@@ -241,9 +241,9 @@ libquark_wallet_a_SOURCES = \
   $(BITCOIN_CORE_H)
 
 # crypto primitives library
-crypto_libquark_crypto_a_CFLAGS = -fPIC
-crypto_libquark_crypto_a_CPPFLAGS = $(BITCOIN_CONFIG_INCLUDES)
-crypto_libquark_crypto_a_SOURCES = \
+crypto_libquark2_crypto_a_CFLAGS = -fPIC
+crypto_libquark2_crypto_a_CPPFLAGS = $(BITCOIN_CONFIG_INCLUDES)
+crypto_libquark2_crypto_a_SOURCES = \
   crypto/sha1.cpp \
   crypto/sha256.cpp \
   crypto/sha512.cpp \
@@ -296,7 +296,7 @@ crypto_libquark_crypto_a_SOURCES = \
   crypto/sph_sha2.h 
 
 # univalue JSON library
-univalue_libquark_univalue_a_SOURCES = \
+univalue_libquark2_univalue_a_SOURCES = \
   univalue/univalue.cpp \
   univalue/univalue_read.cpp \
   univalue/univalue_write.cpp \
@@ -304,8 +304,8 @@ univalue_libquark_univalue_a_SOURCES = \
   univalue/univalue.h
 
 # common: shared between quarkd, and quark-qt and non-server tools
-libquark_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
-libquark_common_a_SOURCES = \
+libquark2_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
+libquark2_common_a_SOURCES = \
   allocators.cpp \
   amount.cpp \
   base58.cpp \
@@ -336,8 +336,8 @@ libquark_common_a_SOURCES = \
 # util: shared between all executables.
 # This library *must* be included to make sure that the glibc
 # backward-compatibility objects and their sanity checks are linked.
-libquark_util_a_CPPFLAGS = $(BITCOIN_INCLUDES)
-libquark_util_a_SOURCES = \
+libquark2_util_a_CPPFLAGS = $(BITCOIN_INCLUDES)
+libquark2_util_a_SOURCES = \
   compat/strnlen.cpp \
   compat/glibc_sanity.cpp \
   compat/glibcxx_sanity.cpp \
@@ -354,21 +354,21 @@ libquark_util_a_SOURCES = \
   $(BITCOIN_CORE_H)
 
 if GLIBC_BACK_COMPAT
-libquark_util_a_SOURCES += compat/glibc_compat.cpp
-libquark_util_a_SOURCES += compat/glibcxx_compat.cpp
+libquark2_util_a_SOURCES += compat/glibc_compat.cpp
+libquark2_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
 # cli: shared between quark-cli and quark-qt
-libquark_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
-libquark_cli_a_SOURCES = \
+libquark2_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
+libquark2_cli_a_SOURCES = \
   rpcclient.cpp \
   $(BITCOIN_CORE_H)
 
-nodist_libquark_util_a_SOURCES = $(srcdir)/obj/build.h
+nodist_libquark2_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # quarkd binary #
-quarkd_LDADD = \
+quark2d_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -379,35 +379,35 @@ quarkd_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_WALLET
-quarkd_LDADD += libquark_wallet.a
+quark2d_LDADD += libquark2_wallet.a
 endif
-quarkd_SOURCES = bitcoind.cpp
+quark2d_SOURCES = bitcoind.cpp
 #
 
 if TARGET_WINDOWS
-quarkd_SOURCES += bitcoind-res.rc
+quark2d_SOURCES += bitcoind-res.rc
 endif
 
-quarkd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-quarkd_CPPFLAGS = $(BITCOIN_INCLUDES)
-quarkd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+quark2d_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+quark2d_CPPFLAGS = $(BITCOIN_INCLUDES)
+quark2d_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 # quark-cli binary #
-quark_cli_LDADD = \
+quark2_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
   $(CRYPTO_LIBS)
 
-quark_cli_SOURCES = \
+quark2_cli_SOURCES = \
   bitcoin-cli.cpp
 
-quark_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+quark2_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
 # quark-tx binary #
-quark_tx_LDADD = \
+quark2_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -416,19 +416,19 @@ quark_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-quark_tx_SOURCES = bitcoin-tx.cpp
-quark_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+quark2_tx_SOURCES = bitcoin-tx.cpp
+quark2_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-quark_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+quark2_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-quark_cli_SOURCES += bitcoin-cli-res.rc
+quark2_cli_SOURCES += bitcoin-cli-res.rc
 endif
-quark_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+quark2_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h
-libquarkconsensus_la_SOURCES = \
+libquark2consensus_la_SOURCES = \
   primitives/transaction.cpp \
   crypto/hmac_sha512.cpp \
   crypto/sha1.cpp \
@@ -447,15 +447,15 @@ libquarkconsensus_la_SOURCES = \
   utilstrencodings.cpp
 
 if GLIBC_BACK_COMPAT
-  libquarkconsensus_la_SOURCES += compat/glibc_compat.cpp
-  libquarkconsensus_la_SOURCES += compat/glibcxx_compat.cpp
+  libquark2consensus_la_SOURCES += compat/glibc_compat.cpp
+  libquark2consensus_la_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-libquarkconsensus_la_LDFLAGS = -no-undefined $(RELDFLAGS)
-libquarkconsensus_la_LIBADD = $(CRYPTO_LIBS)
-libquarkconsensus_la_CPPFLAGS = $(CRYPTO_CFLAGS) -I$(builddir)/obj -DBUILD_BITCOIN_INTERNAL
+libquark2consensus_la_LDFLAGS = -no-undefined $(RELDFLAGS)
+libquark2consensus_la_LIBADD = $(CRYPTO_LIBS)
+libquark2consensus_la_CPPFLAGS = $(CRYPTO_CFLAGS) -I$(builddir)/obj -DBUILD_BITCOIN_INTERNAL
 if USE_LIBSECP256K1
-libquarkconsensus_la_LIBADD += secp256k1/libsecp256k1.la
+libquark2consensus_la_LIBADD += secp256k1/libsecp256k1.la
 endif
 endif
 
