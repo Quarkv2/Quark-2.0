@@ -106,7 +106,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a Quark address (e.g. %1)").arg("1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L"));
+    widget->setPlaceholderText(QObject::tr("Enter a Quark2 address (e.g. %1)").arg("QZ6GkAS2tRHPz4SFgYuKDfyRYaJjK82hX9"));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -184,13 +184,13 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert quark:// to quark:
+    // Convert quark2:// to quark2:
     //
-    //    Cannot handle this later, because quark:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because quark2:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("quark://", Qt::CaseInsensitive))
+    if(uri.startsWith("quark2://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 8, "quark:");
+        uri.replace(0, 9, "quark2:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -198,7 +198,7 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 
 QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("quark:%1").arg(info.address);
+    QString ret = QString("quark2:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)
