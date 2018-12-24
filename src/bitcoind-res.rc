@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Quark"
-            VALUE "FileDescription",    "Quarkd (OSS daemon/client for Quark)"
+            VALUE "CompanyName",        "Quark2"
+            VALUE "FileDescription",    "Quark2d (OSS daemon/client for Quark)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "quarkd"
+            VALUE "InternalName",       "quark2d"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "quarkd.exe"
-            VALUE "ProductName",        "Quarkd"
+            VALUE "OriginalFilename",   "quark2d.exe"
+            VALUE "ProductName",        "Quark2d"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END
