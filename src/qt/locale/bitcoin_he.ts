@@ -62,11 +62,11 @@
         <translation>כתובות לקבלה</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Quark2 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>אלה כתובת הביטקוין שלך לצורך שליחת תשלומים. תמיד יש לבדוק את הכמות ואת כתובות מקבלי התשלומים לפני שליחת מטבעות.</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Quark2 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>אלה כתובות הביטקוין שלך לצורך קבלת תשלומים. מומלץ להשתמש בכתובת קבלה חדשה לכל העברה.</translation>
     </message>
     <message>
@@ -184,7 +184,7 @@
         <translation>נא להזין את מילת הצופן החדשה לארנק.&lt;br/&gt;כדאי להשתמש במילת צופן המורכבת מ&lt;b&gt;עשרה תווים אקראיים ומעלה&lt;/b&gt;, או &lt;b&gt;שמונה מילים ומעלה&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Quark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
+        <source>Quark2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
         <translation>ביטקוין ייסגר כעת כדי להשלים את תהליך ההצפנה. עליך לזכור שהצפנת הארנק שלך אינה מגנה באופן מלא על הביטקוינים שלך מתכניות זדוניות המושתלות על המחשב.</translation>
     </message>
     <message>
@@ -291,7 +291,7 @@
         <translation>פתיחת &amp;כתובת משאב…</translation>
     </message>
     <message>
-        <source>Quark Core client</source>
+        <source>Quark 2.0 Core client</source>
         <translation>לקוח ליבה של ביטקוין</translation>
     </message>
     <message>
@@ -303,11 +303,11 @@
         <translation>המקטעים נוספים למפתח בכונן…</translation>
     </message>
     <message>
-        <source>Send coins to a Quark address</source>
+        <source>Send coins to a Quark2 address</source>
         <translation>שליחת מטבעות לכתובת ביטקוין</translation>
     </message>
     <message>
-        <source>Modify configuration options for Quark</source>
+        <source>Modify configuration options for Quark2</source>
         <translation>שינוי התצורה של ביטקוין</translation>
     </message>
     <message>
@@ -331,7 +331,7 @@
         <translation>&amp;אימות הודעה…</translation>
     </message>
     <message>
-        <source>Quark</source>
+        <source>Quark2</source>
         <translation>ביטקוין</translation>
     </message>
     <message>
@@ -347,7 +347,7 @@
         <translation>&amp;קבלה</translation>
     </message>
     <message>
-        <source>Show information about Quark Core</source>
+        <source>Show information about Quark 2.0 Core</source>
         <translation>הצגת מידע על ליבת ביטקוין</translation>
     </message>
     <message>
@@ -363,11 +363,11 @@
         <translation>הצפנת המפתחות הפרטיים ששייכים לארנק שלך</translation>
     </message>
     <message>
-        <source>Sign messages with your Quark addresses to prove you own them</source>
+        <source>Sign messages with your Quark2 addresses to prove you own them</source>
         <translation>חתום על הודעות עם כתובות הביטקוין שלך כדי להוכיח שהן בבעלותך</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Quark addresses</source>
+        <source>Verify messages to ensure they were signed with specified Quark2 addresses</source>
         <translation>אמת הודעות כדי להבטיח שהן נחתמו עם כתובת ביטקוין מסוימות</translation>
     </message>
     <message>
@@ -387,15 +387,15 @@
         <translation>סרגל כלים לשוניות</translation>
     </message>
     <message>
-        <source>Quark Core</source>
+        <source>Quark 2.0 Core</source>
         <translation>ליבת ביטקוין</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
-        <translation>בקשת תשלומים (יצירה של קודים מסוג QR וסכימות כתובות משאב של :quark)</translation>
+        <source>Request payments (generates QR codes and quark2: URIs)</source>
+        <translation>בקשת תשלומים (יצירה של קודים מסוג QR וסכימות כתובות משאב של :quark2)</translation>
     </message>
     <message>
-        <source>&amp;About Quark Core</source>
+        <source>&amp;About Quark 2.0 Core</source>
         <translation>על &amp;אודות ליבת ביטקוין</translation>
     </message>
     <message>
@@ -407,7 +407,7 @@
         <translation>הצגת רשימת הכתובות והתוויות הנמצאות בשימוש</translation>
     </message>
     <message>
-        <source>Open a quark: URI or payment request</source>
+        <source>Open a quark2: URI or payment request</source>
         <translation>פתיחת ביטקוין: כתובת משאב או בקשת תשלום</translation>
     </message>
     <message>
@@ -415,7 +415,7 @@
         <translation>אפשרויות &amp;שורת הפקודה</translation>
     </message>
     <message>
-        <source>Show the Quark Core help message to get a list with possible Quark command-line options</source>
+        <source>Show the Quark 2.0 Core help message to get a list with possible Quark2 command-line options</source>
         <translation>הצגת הודעות העזרה של ליבת ביטקוין כדי לקבל רשימה עם אפשרויות שורת הפקודה האפשריות של ביטקוין</translation>
     </message>
     <message>
@@ -747,7 +747,7 @@ Address: %4
         <translation>הכתובת שהוכנסה „%1“ כבר נמצאת בפנקס הכתובות.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Quark address.</source>
+        <source>The entered address "%1" is not a valid Quark2 address.</source>
         <translation>הכתובת שהוכנסה „%1“ אינה כתובת ביטקוין תקנית.</translation>
     </message>
     <message>
@@ -785,7 +785,7 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Quark Core</source>
+        <source>Quark 2.0 Core</source>
         <translation>ליבת ביטקוין</translation>
     </message>
     <message>
@@ -797,7 +797,7 @@ Address: %4
         <translation>(%1-סיביות)</translation>
     </message>
     <message>
-        <source>About Quark Core</source>
+        <source>About Quark 2.0 Core</source>
         <translation>על אודות ליבת ביטקוין</translation>
     </message>
     <message>
@@ -844,15 +844,15 @@ Address: %4
         <translation>ברוך בואך</translation>
     </message>
     <message>
-        <source>Welcome to Quark Core.</source>
+        <source>Welcome to Quark 2.0 Core.</source>
         <translation>ברוך בואך לליבת ביטקוין</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Quark Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Quark 2.0 Core will store its data.</source>
         <translation>מכיוון שזאת הפעם הראשונה שהתכנית פועלת ניתן לבחור איפה ליבת ביטקוין תאחסן את הנתונים שלה.</translation>
     </message>
     <message>
-        <source>Quark Core will download and store a copy of the Quark block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Quark 2.0 Core will download and store a copy of the Quark2 block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>לקוח ביטקוין יוריד וישמור העתק של שרשרת המקטעים של ביטקוין. לפחות %1 ג״ב מהנתונים יאוחסנו בתיקייה זו, והיא תגדל עם הזמן. הארנק גם יאוחסן בתיקייה הזו.</translation>
     </message>
     <message>
@@ -864,7 +864,7 @@ Address: %4
         <translation>שימוש בתיקיית נתונים מותאמת אישית:</translation>
     </message>
     <message>
-        <source>Quark Core</source>
+        <source>Quark 2.0 Core</source>
         <translation>ליבת ביטקוין</translation>
     </message>
     <message>
@@ -910,11 +910,11 @@ Address: %4
         <translation>&amp;ראשי</translation>
     </message>
     <message>
-        <source>Automatically start Quark after logging in to the system.</source>
+        <source>Automatically start Quark2 after logging in to the system.</source>
         <translation>הפעלת ביטקוין אוטומטית לאחר כניסה למערכת.</translation>
     </message>
     <message>
-        <source>&amp;Start Quark on system login</source>
+        <source>&amp;Start Quark2 on system login</source>
         <translation>ה&amp;פעלת ביטקוין בעת הכניסה למערכת</translation>
     </message>
     <message>
@@ -990,7 +990,7 @@ Address: %4
         <translation>עודף &amp;בלתי מאושר מההשקעה</translation>
     </message>
     <message>
-        <source>Automatically open the Quark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Quark2 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>פתיחת הפתחה של ביטקוין בנתב באופן אוטומטי. עובד רק אם UPnP מופעל ונתמך בנתב.</translation>
     </message>
     <message>
@@ -1038,7 +1038,7 @@ Address: %4
         <translation>&amp;שפת מנשק המשתמש:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Quark.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Quark2.</source>
         <translation>להלן ניתן לקבוע את שפת מנשק המשתמש. הגדרה זו תיכנס לתוקף לאחר הפעלה מחדש של ביטקוין.</translation>
     </message>
     <message>
@@ -1097,7 +1097,7 @@ Address: %4
         <translation>טופס</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark2 network after a connection is established, but this process has not completed yet.</source>
         <translation>המידע המוצג עשוי להיות מיושן. הארנק שלך מסתנכרן באופן אוטומטי עם רשת הביטקוין לאחר יצירת החיבור, אך התהליך טרם הסתיים.</translation>
     </message>
     <message>
@@ -1200,7 +1200,7 @@ Address: %4
         <translation>שגיאה בבקשת תשלום</translation>
     </message>
     <message>
-        <source>Cannot start quark: click-to-pay handler</source>
+        <source>Cannot start quark2: click-to-pay handler</source>
         <translation>לא ניתן להתחיל את ביטקוין: טיפול בלחיצה–לתשלום </translation>
     </message>
     <message>
@@ -1208,7 +1208,7 @@ Address: %4
         <translation>כתובת אחזור בקשת התשלום שגויה: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Quark address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Quark2 address or malformed URI parameters.</source>
         <translation>לא ניתן לנתח את כתובת המשאב! מצב זה יכול לקרות עקב כתובת ביטקוין שגויה או פרמטרים שגויים בכתובת המשאב.</translation>
     </message>
     <message>
@@ -1270,7 +1270,7 @@ Address: %4
         <translation>כמות</translation>
     </message>
     <message>
-        <source>Enter a Quark address (e.g. %1)</source>
+        <source>Enter a Quark2 address (e.g. %1)</source>
         <translation>נא להזין כתובת ביטקוין (למשל: %1)</translation>
     </message>
     <message>
@@ -1496,7 +1496,7 @@ Address: %4
         <translation>קובץ יומן ניפוי</translation>
     </message>
     <message>
-        <source>Open the Quark debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Quark2 debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>פתיחת קובץ יומן הניפוי מתיקיית הנתונים הנוכחית. פעולה זו עשויה להימשך מספר שניות עבור קובצי יומן גדולים.</translation>
     </message>
     <message>
@@ -1504,7 +1504,7 @@ Address: %4
         <translation>ניקוי מסוף הבקרה</translation>
     </message>
     <message>
-        <source>Welcome to the Quark RPC console.</source>
+        <source>Welcome to the Quark2 RPC console.</source>
         <translation>ברוכים הבאים למסוף ה־RPC של ביטקוין.</translation>
     </message>
     <message>
@@ -1579,7 +1579,7 @@ Address: %4
         <translation>ש&amp;ימוש &amp;חוזר בכתובת קבלה קיימת (לא מומלץ)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Quark network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Quark2 network.</source>
         <translation>הודעת רשות לצירוף לבקשת התשלום שתוצג בעת פתיחת הבקשה. לתשומת לבך: ההודעה לא תישלח עם התשלום ברשת ביטקוין.</translation>
     </message>
     <message>
@@ -1884,7 +1884,7 @@ Address: %4
         <translation>ההעברה נדחתה! מצב כזה עשוי לקרות אם חלק מהמטבעות בארנק שלך כבר הושקעו, כמו למשל עקב שימוש בעותק של wallet.dat והמטבעות הושקעו בעותק אבל לא סומנו כאילו הושקעו דרך כאן.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Quark address</source>
+        <source>Warning: Invalid Quark2 address</source>
         <translation>אזהרה: כתובת ביטקוין שגויה</translation>
     </message>
     <message>
@@ -1935,7 +1935,7 @@ Address: %4
         <translation>זהו תשלום רגיל.</translation>
     </message>
     <message>
-        <source>The Quark address to send the payment to</source>
+        <source>The Quark2 address to send the payment to</source>
         <translation>כתובת הביטקוין של המוטב</translation>
     </message>
     <message>
@@ -1967,7 +1967,7 @@ Address: %4
         <translation>יש להזין תווית עבור כתובת זו כדי להוסיף אותה לרשימת הכתובות בשימוש</translation>
     </message>
     <message>
-        <source>A message that was attached to the quark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Quark network.</source>
+        <source>A message that was attached to the quark2: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Quark2 network.</source>
         <translation>הודעה שצורפה לביטקוין: כתובת שתאוחסן בהעברה לצורך מעקב מצדך. לתשומת לבך: הודעה זו לא תישלח ברשת הביטקוין.</translation>
     </message>
     <message>
@@ -1986,7 +1986,7 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Quark Core is shutting down...</source>
+        <source>Quark 2.0 Core is shutting down...</source>
         <translation>ליבת ביטקוין נסגרת…</translation>
     </message>
     <message>
@@ -2009,7 +2009,7 @@ Address: %4
         <translation>ניתן לחתום על הודעות עם הכתובות שלך כדי להוכיח שהן בבעלותך. מומלץ להיזהר לא לחתום על משהו מפוקפק, שכן התקפות דיוג עשויות לגרום לך בעורמה למסור את זהותך. רצוי לחתום רק על הצהרות מפורטות לחלוטין שהסכמת עמן.</translation>
     </message>
     <message>
-        <source>The Quark address to sign the message with</source>
+        <source>The Quark2 address to sign the message with</source>
         <translation>כתובת הביטקוין אתה לחתום אתה את ההודעה</translation>
     </message>
     <message>
@@ -2041,7 +2041,7 @@ Address: %4
         <translation>העתקת החתימה הנוכחית ללוח הגזירים</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Quark address</source>
+        <source>Sign the message to prove you own this Quark2 address</source>
         <translation>ניתן לחתום על ההודעה כדי להוכיח שכתובת הביטקוין הזו בבעלותך.</translation>
     </message>
     <message>
@@ -2065,11 +2065,11 @@ Address: %4
         <translation>הכנס למטה את הכתובת החותמת, ההודעה (ודא שאתה מעתיק מעברי שורה, רווחים, טאבים וכו' באופן מדויק) והחתימה כדי לאמת את ההודעה. היזהר לא לפרש את החתימה כיותר ממה שמופיע בהודעה החתומה בעצמה, כדי להימנע מליפול קורבן למתקפת איש-באמצע.</translation>
     </message>
     <message>
-        <source>The Quark address the message was signed with</source>
+        <source>The Quark2 address the message was signed with</source>
         <translation>כתובת הביטקוין שאתה נחתמה ההודעה</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Quark address</source>
+        <source>Verify the message to ensure it was signed with the specified Quark2 address</source>
         <translation>ניתן לאמת את ההודעה כדי להבטיח שהיא נחתמה עם כתובת הביטקוין הנתונה</translation>
     </message>
     <message>
@@ -2136,11 +2136,11 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Quark Core</source>
+        <source>Quark 2.0 Core</source>
         <translation>ליבת ביטקוין</translation>
     </message>
     <message>
-        <source>The Quark Core developers</source>
+        <source>The Quark 2.0 Core developers</source>
         <translation>מתכנתי ליבת ביטקוין</translation>
     </message>
     <message>
@@ -2670,7 +2670,7 @@ Address: %4
         <translation>זוהי בניית ניסיון טרום-שחרור - השימוש בה על אחריותך - אין להשתמש לצורך כריה או יישומי מסחר</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Quark Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Quark 2.0 Core is probably already running.</source>
         <translation>לא ניתן להתאגד אל %s במחשב זה. כנראה שליבת ביטקוין כבר פועלת.</translation>
     </message>
     <message>
@@ -2838,7 +2838,7 @@ Address: %4
         <translation>העמלות (ב־QRK2/ק״ב) הנמוכות מהסכום הזה נחשבות לעמלות אפס ליצירת העברה (בררת מחדל: %s)</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Quark Core will not work properly.</source>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Quark 2.0 Core will not work properly.</source>
         <translation>אזהרה: נא לבדוק שהתאריך והשעה של המחשב שלך נכונים! אם השעון שלך שגוי ליבת ביטקוין לא תעבוד כראוי.</translation>
     </message>
     <message>
@@ -2850,7 +2850,7 @@ Address: %4
         <translation>התחברות דרך מתווך SOCKS5</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Quark Core and Quark Core Developers</source>
+        <source>Copyright (C) 2009-%i The Bitcoin and Quark 2.0 Core Developers</source>
         <translation>כל הזכויות שמורות (C)‏ 2009‏-%i מתכנתי ליבת ביטקוין</translation>
     </message>
     <message>
@@ -2858,7 +2858,7 @@ Address: %4
         <translation>לא ניתן לנתח את הערך של ‎-rpcbind שצוין בתור %s ככתובת רשת</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Quark Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Quark 2.0 Core</source>
         <translation>אירעה שגיאה בטעינת wallet.dat: הארנק דורש גרסה חדשה יותר של ליבת ביטקוין</translation>
     </message>
     <message>
@@ -2874,7 +2874,7 @@ Address: %4
         <translation>מידע</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Quark Core is shutting down.</source>
+        <source>Initialization sanity check failed. Quark 2.0 Core is shutting down.</source>
         <translation>בדיקת התקינות ההתחלתית נכשלה. ליבת ביטקוין תיסגר כעת.</translation>
     </message>
     <message>
@@ -2902,7 +2902,7 @@ Address: %4
         <translation>אפשרויות ממסר מפרק:</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the Quark Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the Quark2 Wiki for SSL setup instructions)</source>
         <translation>אפשרויות RPC SSL: (נא לעיין בוויקי של ביטקוין לקבלת הנחיות על הגדרת SSL)</translation>
     </message>
     <message>
@@ -2958,7 +2958,7 @@ Address: %4
         <translation>שם משתמש לחיבורי JSON-RPC</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Quark Core to complete</source>
+        <source>Wallet needed to be rewritten: restart Quark 2.0 Core to complete</source>
         <translation>יש לכתוב את הארנק מחדש: נא להפעיל את ליבת ביטקוין מחדש כדי להשלים את הפעולה</translation>
     </message>
     <message>

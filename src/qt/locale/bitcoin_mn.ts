@@ -62,12 +62,12 @@
         <translation>Хүлээн авах хаяг</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Эдгээр Биткойн хаягууд нь илгээх хаягууд. Хүлээн авах хаяг болон тоо хэмжээг илгээхээсээ өмнө сайн нягталж үзэж байна уу</translation>
+        <source>These are your Quark2 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Эдгээр Quark2 хаягууд нь илгээх хаягууд. Хүлээн авах хаяг болон тоо хэмжээг илгээхээсээ өмнө сайн нягталж үзэж байна уу</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Эдгээр Биткойн хаягууд нь хүлээн авах хаягууд. Гүйлгээ болгонд шинээр хаяг үүсгэхийг бид санал болгож байна.</translation>
+        <source>These are your Quark2 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Эдгээр Quark2 хаягууд нь хүлээн авах хаягууд. Гүйлгээ болгонд шинээр хаяг үүсгэхийг бид санал болгож байна.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -152,8 +152,8 @@
         <translation>Түрүйвч цоожлогдлоо</translation>
     </message>
     <message>
-        <source>Quark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
-        <translation>Цоожлолтын процесыг дуусгахын тулд Биткойн одоо хаагдана. Ѳѳрийн түрүйвчийг цоожлох нь таны биткойнуудыг компьютерийн вирус хулгайлахаас бүрэн сэргийлж чадахгүй гэдгийг санаарай.</translation>
+        <source>Quark2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
+        <translation>Цоожлолтын процесыг дуусгахын тулд Quark2 одоо хаагдана. Ѳѳрийн түрүйвчийг цоожлох нь таны биткойнуудыг компьютерийн вирус хулгайлахаас бүрэн сэргийлж чадахгүй гэдгийг санаарай.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -247,8 +247,8 @@
         <translation>Оношилгоо ба засварын консолыг онгойлго</translation>
     </message>
     <message>
-        <source>Quark</source>
-        <translation>Биткойн</translation>
+        <source>Quark2</source>
+        <translation>Quark2</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -271,8 +271,8 @@
         <translation>&amp;Тусламж</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Quark network</source>
-        <translation><numerusform>Биткойны сүлжээрүү %n идэвхитэй холболт байна </numerusform><numerusform>Биткойны сүлжээрүү %n идэвхитэй холболтууд байна </numerusform></translation>
+        <source>%n active connection(s) to Quark2 network</source>
+        <translation><numerusform>Quark2 сүлжээрүү %n идэвхитэй холболт байна </numerusform><numerusform>Quark2 сүлжээрүү %n идэвхитэй холболтууд байна </numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -708,8 +708,8 @@ Address: %4
         <translation>Гүйлгээний тѳлбѳр %1-ийг тооцхоор нийт дүн нь таны балансаас хэтрээд байна.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Quark address</source>
-        <translation>Анхаар:Буруу Биткойны хаяг байна</translation>
+        <source>Warning: Invalid Quark2 address</source>
+        <translation>Анхаар:Буруу Quark2 хаяг байна</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -754,8 +754,8 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Quark Core is shutting down...</source>
-        <translation>Биткойны цѳм хаагдаж байна...</translation>
+        <source>Quark 2.0 Core is shutting down...</source>
+        <translation>Quark 2.0 цѳм хаагдаж байна...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>

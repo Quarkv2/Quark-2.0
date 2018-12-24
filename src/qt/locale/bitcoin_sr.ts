@@ -108,8 +108,8 @@
         <translation>Новчаник је шифрован</translation>
     </message>
     <message>
-        <source>Quark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
-        <translation>Quark će se sad zatvoriti da bi završio  proces enkripcije. Zapamti da enkripcija tvog novčanika ne može u potpunosti da zaštiti tvoje quarke da ne budu ukradeni od malawarea koji bi inficirao tvoj kompjuter.</translation>
+        <source>Quark2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
+        <translation>Quark2 će se sad zatvoriti da bi završio  proces enkripcije. Zapamti da enkripcija tvog novčanika ne može u potpunosti da zaštiti tvoje quarke da ne budu ukradeni od malawarea koji bi inficirao tvoj kompjuter.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -195,12 +195,12 @@
         <translation>Промени &amp;лозинку...</translation>
     </message>
     <message>
-        <source>Send coins to a Quark address</source>
-        <translation>Пошаљите новац на quark адресу</translation>
+        <source>Send coins to a Quark2 address</source>
+        <translation>Пошаљите новац на quark2 адресу</translation>
     </message>
     <message>
-        <source>Modify configuration options for Quark</source>
-        <translation>Изаберите могућности quark-а</translation>
+        <source>Modify configuration options for Quark2</source>
+        <translation>Изаберите могућности quark2-а</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -334,8 +334,8 @@ Address: %4
         <translation>верзија</translation>
     </message>
     <message>
-        <source>About Quark Core</source>
-        <translation>O Quark Coru</translation>
+        <source>About Quark 2.0 Core</source>
+        <translation>O Quark 2.0 Coru</translation>
     </message>
     <message>
         <source>Usage:</source>

@@ -159,8 +159,8 @@
         <translation>แถบเครื่องมือ</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Quark network</source>
-        <translation><numerusform>%n ที่ใช้งานการเชื่อมต่อกับเครือข่าย Quark</numerusform></translation>
+        <source>%n active connection(s) to Quark2 network</source>
+        <translation><numerusform>%n ที่ใช้งานการเชื่อมต่อกับเครือข่าย Quark2</numerusform></translation>
     </message>
     <message>
         <source>Up to date</source>

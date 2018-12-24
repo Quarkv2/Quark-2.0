@@ -66,12 +66,12 @@
         <translation>Adresa za primanje</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ovo su vaše Quark adrese za slanje uplate. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your Quark2 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ovo su vaše Quark2 adrese za slanje uplate. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ovo su vaše Quark adrese za primanje isplate. Preporučamo da koristite novu primateljsku adresu za svaku transakciju.</translation>
+        <source>These are your Quark2 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ovo su vaše Quark2 adrese za primanje isplate. Preporučamo da koristite novu primateljsku adresu za svaku transakciju.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -188,8 +188,8 @@
         <translation>Unesite novu lozinku za novčanik. &lt;br/&gt;Molimo Vas da koristite zaporku od &lt;b&gt;deset ili više slučajnih znakova&lt;/b&gt;, ili &lt;b&gt;osam ili više riječi.&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>Quark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
-        <translation>Quark će se sada zatvoriti kako bi dovršio postupak šifriranja. Zapamtite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše quarke od krađe preko zloćudnog softvera koji bi bio na vašem računalu.</translation>
+        <source>Quark2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
+        <translation>Quark2 će se sada zatvoriti kako bi dovršio postupak šifriranja. Zapamtite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše quarke od krađe preko zloćudnog softvera koji bi bio na vašem računalu.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -295,8 +295,8 @@
         <translation>Otvori &amp;URI...</translation>
     </message>
     <message>
-        <source>Quark Core client</source>
-        <translation>Quark Core klijent</translation>
+        <source>Quark 2.0 Core client</source>
+        <translation>Quark 2.0 Core klijent</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,12 +307,12 @@
         <translation>Re-indeksiranje blokova na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Quark address</source>
-        <translation>Slanje novca na quark adresu</translation>
+        <source>Send coins to a Quark2 address</source>
+        <translation>Slanje novca na quark2 adresu</translation>
     </message>
     <message>
-        <source>Modify configuration options for Quark</source>
-        <translation>Promijeni postavke konfiguracije za quark</translation>
+        <source>Modify configuration options for Quark2</source>
+        <translation>Promijeni postavke konfiguracije za quark2</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -335,8 +335,8 @@
         <translation>&amp;Potvrdite poruku...</translation>
     </message>
     <message>
-        <source>Quark</source>
-        <translation>Quark</translation>
+        <source>Quark2</source>
+        <translation>Quark2</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -351,8 +351,8 @@
         <translation>Pri&amp;miti</translation>
     </message>
     <message>
-        <source>Show information about Quark Core</source>
-        <translation>Prikaži informacije o Quark Coreu</translation>
+        <source>Show information about Quark 2.0 Core</source>
+        <translation>Prikaži informacije o Quark 2.0 Coreu</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -367,12 +367,12 @@
         <translation>Šifriraj privatne ključeve koji pripadaju tvom novčaniku</translation>
     </message>
     <message>
-        <source>Sign messages with your Quark addresses to prove you own them</source>
-        <translation>Potpiši poruke svojim Quark adresama kako bi dokazao da si njihov vlasnik</translation>
+        <source>Sign messages with your Quark2 addresses to prove you own them</source>
+        <translation>Potpiši poruke svojim Quark2 adresama kako bi dokazao da si njihov vlasnik</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Quark addresses</source>
-        <translation>Provjerite porkue kako bi se uvjerili da su potpisane navedenim Quark adresama</translation>
+        <source>Verify messages to ensure they were signed with specified Quark2 addresses</source>
+        <translation>Provjerite porkue kako bi se uvjerili da su potpisane navedenim Quark2 adresama</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -391,16 +391,16 @@
         <translation>Traka kartica</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Jezgra</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Jezgra</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
-        <translation>Zatraži uplate (Stvara QR kodove i quark: URIje)</translation>
+        <source>Request payments (generates QR codes and quark2: URIs)</source>
+        <translation>Zatraži uplate (Stvara QR kodove i quark2: URIje)</translation>
     </message>
     <message>
-        <source>&amp;About Quark Core</source>
-        <translation>&amp;O Quark Jezgri</translation>
+        <source>&amp;About Quark 2.0 Core</source>
+        <translation>&amp;O Quark 2.0 Jezgri</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,20 +411,20 @@
         <translation>Prikaži popis korištenih adresa i oznaka za primanje isplate</translation>
     </message>
     <message>
-        <source>Open a quark: URI or payment request</source>
-        <translation>Otvori quark: URI adresu ili zahtjev za uplatu</translation>
+        <source>Open a quark2: URI or payment request</source>
+        <translation>Otvori quark2: URI adresu ili zahtjev za uplatu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opcije &amp;naredbene linije</translation>
     </message>
     <message>
-        <source>Show the Quark Core help message to get a list with possible Quark command-line options</source>
+        <source>Show the Quark 2.0 Core help message to get a list with possible Quark2 command-line options</source>
         <translation>Ispis svih opcija naredbene linije programa sa kratkim opisom</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Quark network</source>
-        <translation><numerusform>%n aktivna veza na Quark mrežu</numerusform><numerusform>%n aktivne veze na Quark mrežu</numerusform><numerusform>%n aktivnih veza na Quark mrežu</numerusform></translation>
+        <source>%n active connection(s) to Quark2 network</source>
+        <translation><numerusform>%n aktivna veza na Quark2 mrežu</numerusform><numerusform>%n aktivne veze na Quark2 mrežu</numerusform><numerusform>%n aktivnih veza na Quark2 mrežu</numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -641,7 +641,7 @@ Adresa:%4
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Quark adresa. Izmjene adrese su moguće samo za adrese za slanje.</translation>
+        <translation>Quark2 adresa. Izmjene adrese su moguće samo za adrese za slanje.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -668,8 +668,8 @@ Adresa:%4
         <translation>Upisana adresa "%1" je već u adresaru.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Quark address.</source>
-        <translation>Upisana adresa "%1" nije valjana quark adresa.</translation>
+        <source>The entered address "%1" is not a valid Quark2 address.</source>
+        <translation>Upisana adresa "%1" nije valjana quark2 adresa.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -698,8 +698,8 @@ Adresa:%4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Jezgra</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Jezgra</translation>
     </message>
     <message>
         <source>version</source>
@@ -710,8 +710,8 @@ Adresa:%4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Quark Core</source>
-        <translation>O Quark Jezrgu</translation>
+        <source>About Quark 2.0 Core</source>
+        <translation>O Quark 2.0 Jezrgu</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -741,12 +741,12 @@ Adresa:%4
         <translation>Dobrodošli</translation>
     </message>
     <message>
-        <source>Welcome to Quark Core.</source>
-        <translation>Dobrodošli u programu Quark Core.</translation>
+        <source>Welcome to Quark 2.0 Core.</source>
+        <translation>Dobrodošli u programu Quark 2.0 Core.</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Jezgra</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Jezgra</translation>
     </message>
     <message>
         <source>Error</source>
@@ -787,12 +787,12 @@ Adresa:%4
         <translation>&amp;Glavno</translation>
     </message>
     <message>
-        <source>Automatically start Quark after logging in to the system.</source>
-        <translation>Automatski pokreni Quark kad se uključi računalo</translation>
+        <source>Automatically start Quark2 after logging in to the system.</source>
+        <translation>Automatski pokreni Quark2 kad se uključi računalo</translation>
     </message>
     <message>
-        <source>&amp;Start Quark on system login</source>
-        <translation>&amp;Pokreni Quark kod pokretanja sustava</translation>
+        <source>&amp;Start Quark2 on system login</source>
+        <translation>&amp;Pokreni Quark2 kod pokretanja sustava</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -835,8 +835,8 @@ Adresa:%4
         <translation>&amp;Trošenje nepotvrđenih vraćenih iznosa</translation>
     </message>
     <message>
-        <source>Automatically open the Quark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvori port Quark klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
+        <source>Automatically open the Quark2 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatski otvori port Quark2 klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -914,8 +914,8 @@ Adresa:%4
         <translation>Oblik</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Quark mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark2 network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Quark2 mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -1049,8 +1049,8 @@ Adresa:%4
         <translation>Očisti konzolu</translation>
     </message>
     <message>
-        <source>Welcome to the Quark RPC console.</source>
-        <translation>Dobrodošli u Quark RPC konzolu.</translation>
+        <source>Welcome to the Quark2 RPC console.</source>
+        <translation>Dobrodošli u Quark2 RPC konzolu.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1365,8 +1365,8 @@ Adresa:%4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Jezgra</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Jezgra</translation>
     </message>
     <message>
         <source>[testnet]</source>

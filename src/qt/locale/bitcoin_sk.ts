@@ -66,12 +66,12 @@
         <translation>Adresa prijatia</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú Vaše Quark adresy pre posielanie platieb. Vždy skontrolujte množstvo a prijímaciu adresu pred poslaním coins.</translation>
+        <source>These are your Quark2 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú Vaše Quark2 adresy pre posielanie platieb. Vždy skontrolujte množstvo a prijímaciu adresu pred poslaním coins.</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše Quark adresy pre prijímanie platieb. Odporúča sa použiť novú prijímaciu adresu pre každú transakciu.</translation>
+        <source>These are your Quark2 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše Quark2 adresy pre prijímanie platieb. Odporúča sa použiť novú prijímaciu adresu pre každú transakciu.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -188,8 +188,8 @@
         <translation>Zadajte nové heslo k peňaženke.&lt;br/&gt;Prosím použite heslo s dĺžkou aspoň &lt;b&gt;10 alebo viac náhodných znakov&lt;/b&gt;, alebo &lt;b&gt;8 alebo viac slov&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Quark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
-        <translation>Quark sa teraz ukončí pre dokončenie procesu šifrovania. Pamätaj že šifrovanie peňaženky Ťa nemôže úplne ochrániť pred kráďežou quarkov pomocou škodlivého software.</translation>
+        <source>Quark2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
+        <translation>Quark2 sa teraz ukončí pre dokončenie procesu šifrovania. Pamätaj že šifrovanie peňaženky Ťa nemôže úplne ochrániť pred kráďežou quarkov pomocou škodlivého software.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -295,8 +295,8 @@
         <translation>Otvoriť &amp;URI...</translation>
     </message>
     <message>
-        <source>Quark Core client</source>
-        <translation>Quark Core klient</translation>
+        <source>Quark 2.0 Core client</source>
+        <translation>Quark 2.0 Core klient</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,12 +307,12 @@
         <translation>Preindexúvam bloky na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Quark address</source>
-        <translation>Poslať quarkcoins na adresu</translation>
+        <source>Send coins to a Quark2 address</source>
+        <translation>Poslať coins na adresu</translation>
     </message>
     <message>
-        <source>Modify configuration options for Quark</source>
-        <translation>Upraviť možnosti nastavenia pre quark</translation>
+        <source>Modify configuration options for Quark2</source>
+        <translation>Upraviť možnosti nastavenia pre quark2</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -335,8 +335,8 @@
         <translation>Overiť správu</translation>
     </message>
     <message>
-        <source>Quark</source>
-        <translation>Quark</translation>
+        <source>Quark2</source>
+        <translation>Quark2</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -351,8 +351,8 @@
         <translation>&amp;Prijať</translation>
     </message>
     <message>
-        <source>Show information about Quark Core</source>
-        <translation>Zobraziť informácie o Quark Core</translation>
+        <source>Show information about Quark 2.0 Core</source>
+        <translation>Zobraziť informácie o Quark 2.0 Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -367,12 +367,12 @@
         <translation>Zašifruj súkromné kľúče ktoré patria do vašej peňaženky</translation>
     </message>
     <message>
-        <source>Sign messages with your Quark addresses to prove you own them</source>
-        <translation>Podpísať správu s vašou adresou Quark aby ste preukázali že ju vlastníte</translation>
+        <source>Sign messages with your Quark2 addresses to prove you own them</source>
+        <translation>Podpísať správu s vašou adresou Quark2 aby ste preukázali že ju vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Quark addresses</source>
-        <translation>Overiť či správa bola podpísaná uvedenou Quark adresou</translation>
+        <source>Verify messages to ensure they were signed with specified Quark2 addresses</source>
+        <translation>Overiť či správa bola podpísaná uvedenou Quark2 adresou</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -391,16 +391,16 @@
         <translation>Lišta záložiek</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Jadro Quark</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Jadro Quark 2.0</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
-        <translation>Vyžiadať platbu (vygeneruje QR kód a quark: URI)</translation>
+        <source>Request payments (generates QR codes and quark2: URIs)</source>
+        <translation>Vyžiadať platbu (vygeneruje QR kód a quark2: URI)</translation>
     </message>
     <message>
-        <source>&amp;About Quark Core</source>
-        <translation>O jadre Quark</translation>
+        <source>&amp;About Quark 2.0 Core</source>
+        <translation>O jadre Quark 2.0</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,20 +411,20 @@
         <translation>Zobraziť zoznam použitých prijímacích adries a ich popisov</translation>
     </message>
     <message>
-        <source>Open a quark: URI or payment request</source>
-        <translation>Otvoriť quark URI alebo výzvu k platbe</translation>
+        <source>Open a quark2: URI or payment request</source>
+        <translation>Otvoriť quark2 URI alebo výzvu k platbe</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message>
-        <source>Show the Quark Core help message to get a list with possible Quark command-line options</source>
-        <translation>Zobraziť pomocnú správu od Quark Jadra pre získanie zoznamu dostupných možností príkazového riadku</translation>
+        <source>Show the Quark 2.0 Core help message to get a list with possible Quark2 command-line options</source>
+        <translation>Zobraziť pomocnú správu od Quark 2.0 Jadra pre získanie zoznamu dostupných možností príkazového riadku</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Quark network</source>
-        <translation><numerusform>%n aktívne pripojenie do siete Quark</numerusform><numerusform>%n aktívne pripojenia do siete Quark</numerusform><numerusform>%n aktívnych pripojení do siete Quark</numerusform></translation>
+        <source>%n active connection(s) to Quark2 network</source>
+        <translation><numerusform>%n aktívne pripojenie do siete Quark2</numerusform><numerusform>%n aktívne pripojenia do siete Quark2</numerusform><numerusform>%n aktívnych pripojení do siete Quark2</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -787,8 +787,8 @@ Adresa: %4</translation>
         <translation>Vložená adresa "%1" sa už nachádza v adresári.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Quark address.</source>
-        <translation>Vložená adresa "%1" nieje platnou adresou quark.</translation>
+        <source>The entered address "%1" is not a valid Quark2 address.</source>
+        <translation>Vložená adresa "%1" nieje platnou adresou quark2.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -825,8 +825,8 @@ Adresa: %4</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Jadro Quark</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Jadro Quark 2.0</translation>
     </message>
     <message>
         <source>version</source>
@@ -837,8 +837,8 @@ Adresa: %4</translation>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Quark Core</source>
-        <translation>O jadre Quark</translation>
+        <source>About Quark 2.0 Core</source>
+        <translation>O jadre Quark 2.0</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -884,16 +884,16 @@ Adresa: %4</translation>
         <translation>Vitajte</translation>
     </message>
     <message>
-        <source>Welcome to Quark Core.</source>
-        <translation>Vitajte v jadre Quark.</translation>
+        <source>Welcome to Quark 2.0 Core.</source>
+        <translation>Vitajte v jadre Quark 2.0</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Quark Core will store its data.</source>
-        <translation>Keďže spúštate program prvý krát, môžte si vybrať kde bude Quark Jadro ukladať svoje dáta.</translation>
+        <source>As this is the first time the program is launched, you can choose where Quark 2.0 Core will store its data.</source>
+        <translation>Keďže spúštate program prvý krát, môžte si vybrať kde bude Quark 2.0 Jadro ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>Quark Core will download and store a copy of the Quark block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Jadro Quark stiahne zo siete a uloží kópiu Quark blockchain. Aspoň %1GB dát bude uložených v tomto priečinku a časom porastie. Peňaženka bude tiež uložená v tomto priečinku.</translation>
+        <source>Quark 2.0 Core will download and store a copy of the Quark2 block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Jadro Quark 2.0 stiahne zo siete a uloží kópiu Quark2 blockchain. Aspoň %1GB dát bude uložených v tomto priečinku a časom porastie. Peňaženka bude tiež uložená v tomto priečinku.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -904,8 +904,8 @@ Adresa: %4</translation>
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Jadro Quark</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Jadro Quark 2.0</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -958,12 +958,12 @@ Adresa: %4</translation>
         <translation>&amp;Hlavné</translation>
     </message>
     <message>
-        <source>Automatically start Quark after logging in to the system.</source>
-        <translation>Automaticky spustiť Quark po zapnutí počítača</translation>
+        <source>Automatically start Quark2 after logging in to the system.</source>
+        <translation>Automaticky spustiť Quark2 po zapnutí počítača</translation>
     </message>
     <message>
-        <source>&amp;Start Quark on system login</source>
-        <translation>&amp;Spustiť Quark pri spustení systému správy okien</translation>
+        <source>&amp;Start Quark2 on system login</source>
+        <translation>&amp;Spustiť Quark2 pri spustení systému správy okien</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1038,16 +1038,16 @@ Adresa: %4</translation>
         <translation>Minúť nepotvrdený výdavok</translation>
     </message>
     <message>
-        <source>Automatically open the Quark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvorit port pre Quark na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
+        <source>Automatically open the Quark2 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvorit port pre Quark2 na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapovať port pomocou &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Quark network through a SOCKS5 proxy.</source>
-        <translation>Pripojiť do siete Quark cez proxy server SOCKS5.</translation>
+        <source>Connect to the Quark2 network through a SOCKS5 proxy.</source>
+        <translation>Pripojiť do siete Quark2 cez proxy server SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1094,8 +1094,8 @@ Adresa: %4</translation>
         <translation>Jazyk užívateľského rozhrania:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Quark.</source>
-        <translation>Tu sa dá nastaviť jazyk užívateľského rozhrania. Toto nastavenie bude účinné po reštartovaní Quark.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Quark2.</source>
+        <translation>Tu sa dá nastaviť jazyk užívateľského rozhrania. Toto nastavenie bude účinné po reštartovaní Quark2.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1153,8 +1153,8 @@ Adresa: %4</translation>
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť neaktuálne. Vaša peňaženka sa automaticky synchronizuje so sieťou Quark po nadviazaní spojenia, ale tento proces ešte nie je ukončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark2 network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť neaktuálne. Vaša peňaženka sa automaticky synchronizuje so sieťou Quark2 po nadviazaní spojenia, ale tento proces ešte nie je ukončený.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1256,16 +1256,16 @@ Adresa: %4</translation>
         <translation>Chyba pri vyžiadaní platby</translation>
     </message>
     <message>
-        <source>Cannot start quark: click-to-pay handler</source>
-        <translation>Nedá sa spustiť obslužný program quark: click-to-pay zaplatiť kliknutím</translation>
+        <source>Cannot start quark2: click-to-pay handler</source>
+        <translation>Nedá sa spustiť obslužný program quark2: click-to-pay zaplatiť kliknutím</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>URL pre stiahnutie výzvy na zaplatenie je neplatné: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Quark address or malformed URI parameters.</source>
-        <translation>URI sa nedá analyzovať! To môže byť spôsobené neplatnou Quark adresou alebo zle upravenými vlastnosťami URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Quark2 address or malformed URI parameters.</source>
+        <translation>URI sa nedá analyzovať! To môže byť spôsobené neplatnou Quark2 adresou alebo zle upravenými vlastnosťami URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1334,8 +1334,8 @@ Adresa: %4</translation>
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a Quark address (e.g. %1)</source>
-        <translation>Zadajte quark adresu (napr. %1)</translation>
+        <source>Enter a Quark2 address (e.g. %1)</source>
+        <translation>Zadajte quark2 adresu (napr. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1552,16 +1552,16 @@ Adresa: %4</translation>
         <translation>Súbor záznamu ladenia</translation>
     </message>
     <message>
-        <source>Open the Quark debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvoriť Quark log súbor pre ladenie z aktuálneho dátového adresára. Toto môže trvať niekoľko sekúnd pre veľké súbory.</translation>
+        <source>Open the Quark2 debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvoriť Quark2 log súbor pre ladenie z aktuálneho dátového adresára. Toto môže trvať niekoľko sekúnd pre veľké súbory.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Vymazať konzolu</translation>
     </message>
     <message>
-        <source>Welcome to the Quark RPC console.</source>
-        <translation>Vitajte v Quark RPC konzole.</translation>
+        <source>Welcome to the Quark2 RPC console.</source>
+        <translation>Vitajte v Quark2 RPC konzole.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1635,8 +1635,8 @@ Adresa: %4</translation>
         <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Quark network.</source>
-        <translation>Pridať voliteľnú správu k výzve na zaplatenie, ktorá sa zobrazí keď bude výzva otvorená. Poznámka: Správa nebude poslaná s platbou cez sieť Quark.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Quark2 network.</source>
+        <translation>Pridať voliteľnú správu k výzve na zaplatenie, ktorá sa zobrazí keď bude výzva otvorená. Poznámka: Správa nebude poslaná s platbou cez sieť Quark2.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2020,8 +2020,8 @@ Adresa: %4</translation>
         <translation>Zaplatiť minimálny poplatok %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Quark address</source>
-        <translation>Varovanie: Nesprávna Quark adresa</translation>
+        <source>Warning: Invalid Quark2 address</source>
+        <translation>Varovanie: Nesprávna Quark2 adresa</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2071,7 +2071,7 @@ Adresa: %4</translation>
         <translation>Toto je normálna platba.</translation>
     </message>
     <message>
-        <source>The Quark address to send the payment to</source>
+        <source>The Quark2 address to send the payment to</source>
         <translation>Zvoľte adresu kam poslať platbu</translation>
     </message>
     <message>
@@ -2103,8 +2103,8 @@ Adresa: %4</translation>
         <translation>Vložte popis pre túto adresu aby sa uložila do zoznamu použitých adries</translation>
     </message>
     <message>
-        <source>A message that was attached to the quark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Quark network.</source>
-        <translation>Správa ktorá bola pripojená k quark: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Quark.</translation>
+        <source>A message that was attached to the quark2: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Quark2 network.</source>
+        <translation>Správa ktorá bola pripojená k quark2: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Quark2.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2122,8 +2122,8 @@ Adresa: %4</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Quark Core is shutting down...</source>
-        <translation>Jadro Quark sa ukončuje...</translation>
+        <source>Quark 2.0 Core is shutting down...</source>
+        <translation>Jadro Quark 2.0 sa ukončuje...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2173,7 +2173,7 @@ Adresa: %4</translation>
         <translation>Kopírovať práve zvolenú adresu do systémového klipbordu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Quark address</source>
+        <source>Sign the message to prove you own this Quark2 address</source>
         <translation>Podpíšte správu aby ste dokázali že vlastníte túto adresu</translation>
     </message>
     <message>
@@ -2197,12 +2197,12 @@ Adresa: %4</translation>
         <translation>Vložte podpisovaciu adresu, správu (uistite sa, že kopírujete ukončenia riadkov, medzery, odrážky, atď. presne) a podpis pod to na overenie adresy. Buďte opatrní a nečítajte ako podpísané viac než je v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu mitm útokom.</translation>
     </message>
     <message>
-        <source>The Quark address the message was signed with</source>
-        <translation>Adresa Quark, ktorou bola podpísaná správa</translation>
+        <source>The Quark2 address the message was signed with</source>
+        <translation>Adresa Quark2, ktorou bola podpísaná správa</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Quark address</source>
-        <translation>Overím správy sa uistiť že bola podpísaná označenou Quark adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Quark2 address</source>
+        <translation>Overím správy sa uistiť že bola podpísaná označenou Quark2 adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2268,12 +2268,12 @@ Adresa: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Jadro Quark</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Jadro Quark 2.0</translation>
     </message>
     <message>
-        <source>The Quark Core developers</source>
-        <translation>Vývojári jadra Quark</translation>
+        <source>The Quark 2.0 Core developers</source>
+        <translation>Vývojári jadra Quark 2.0</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2806,8 +2806,8 @@ Adresa: %4</translation>
         <translation>Toto je pred-testovacia verzia - použitie je na vlastné riziko - nepoužívajte na tvorbu quark ani obchodovanie.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Quark Core is probably already running.</source>
-        <translation>Nepodarilo sa pripojiť na %s na tomto počítači. Quark Jadro je už pravdepodobne spustené.</translation>
+        <source>Unable to bind to %s on this computer. Quark 2.0 Core is probably already running.</source>
+        <translation>Nepodarilo sa pripojiť na %s na tomto počítači. Quark 2.0 Jadro je už pravdepodobne spustené.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -2992,8 +2992,8 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Spojiť s danou adresou pre počúvanie JSON-RPC spojení. Použite zápis [host]:port pre IPv6. Táto možnosť môže byt zadaná niekoľko krát (predvolené: spojiť so všetkými rozhraniami)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Quark Core is probably already running.</source>
-        <translation>Neviem uzamknúť data adresár %s. Jadro Quark je pravdepodobne už spustené.</translation>
+        <source>Cannot obtain a lock on data directory %s. Quark 2.0 Core is probably already running.</source>
+        <translation>Neviem uzamknúť data adresár %s. Jadro Quark 2.0 je pravdepodobne už spustené.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3076,16 +3076,16 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Pripojiť cez proxy server SOCKS5</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Quark Core and Quark Core Developers</source>
-        <translation>Copyright (C) 2009-%i Vývojári jadra Quark</translation>
+        <source>Copyright (C) 2009-%i The Bitcoin and Quark 2.0 Core Developers</source>
+        <translation>Copyright (C) 2009-%i Vývojári jadra Quark 2.0</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
         <translation>Nedá sa analyzovať -rpcbind hodnota %s ako sieťová adresa</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Quark Core</source>
-        <translation>Chyba pri čítaní wallet.dat: Peňaženka vyžaduje vyššiu verziu Jadra Quark</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Quark 2.0 Core</source>
+        <translation>Chyba pri čítaní wallet.dat: Peňaženka vyžaduje vyššiu verziu Jadra Quark 2.0</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3136,8 +3136,8 @@ The network does not appear to fully agree! Some miners appear to be experiencin
         <translation>Prenosové možnosti uzla:</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the Quark Wiki for SSL setup instructions)</source>
-        <translation>Možnosti RPC SSL: (Pozri v Quark Wiki pokyny pre SSL nastavenie)</translation>
+        <source>RPC SSL options: (see the Quark2 Wiki for SSL setup instructions)</source>
+        <translation>Možnosti RPC SSL: (Pozri v Quark2 Wiki pokyny pre SSL nastavenie)</translation>
     </message>
     <message>
         <source>RPC server options:</source>

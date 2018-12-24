@@ -66,12 +66,12 @@
         <translation>адрасы Прымання</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Тут знаходзяцца Біткойн-адрасы для высылання плацяжоў. Заўсёды спраўджвайце колькасць і адрас прызначэння перад здзяйсненнем транзакцыі.</translation>
+        <source>These are your Quark2 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Тут знаходзяцца Quark2-адрасы для высылання плацяжоў. Заўсёды спраўджвайце колькасць і адрас прызначэння перад здзяйсненнем транзакцыі.</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Тут знаходзяцца Біткойн-адрасы для прымання плацяжоў. Пажадана выкарыстоўваць новы адрас для кожнай транзакцыі.</translation>
+        <source>These are your Quark2 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Тут знаходзяцца Quark2-адрасы для прымання плацяжоў. Пажадана выкарыстоўваць новы адрас для кожнай транзакцыі.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -188,8 +188,8 @@
         <translation>Увядзіце новы пароль для гаманца.&lt;br/&gt;Парольная фраза павинна складацца&lt;b&gt; не меньш чым з дзесяці сімвалаў&lt;/b&gt;, ці &lt;b&gt;больш чым з васьмі слоў&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Quark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
-        <translation>Quark зачыняецца дзеля завяршэння працэсса шыфравання. Памятайце, што шыфраванне гаманца цалкам абараняе вашыя сродкі ад скрадання шкоднымі праграмамі якія могуць пранікнуць у ваш камп'ютар.</translation>
+        <source>Quark2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
+        <translation>Quark2 зачыняецца дзеля завяршэння працэсса шыфравання. Памятайце, што шыфраванне гаманца цалкам абараняе вашыя сродкі ад скрадання шкоднымі праграмамі якія могуць пранікнуць у ваш камп'ютар.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -295,8 +295,8 @@
         <translation>Адчыниць &amp;URI...</translation>
     </message>
     <message>
-        <source>Quark Core client</source>
-        <translation>Quark Core кліент</translation>
+        <source>Quark 2.0 Core client</source>
+        <translation>Quark 2.0 Core кліент</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,8 +307,8 @@
         <translation>Пераіндэксацыя блокаў на дыску...</translation>
     </message>
     <message>
-        <source>Send coins to a Quark address</source>
-        <translation>Даслаць манеты на Біткойн-адрас</translation>
+        <source>Send coins to a Quark2 address</source>
+        <translation>Даслаць манеты на Quark2-адрас</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -331,8 +331,8 @@
         <translation>Праверыць паведамленне...</translation>
     </message>
     <message>
-        <source>Quark</source>
-        <translation>Біткойн</translation>
+        <source>Quark2</source>
+        <translation>Quark2</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -347,8 +347,8 @@
         <translation>Атрымаць</translation>
     </message>
     <message>
-        <source>Show information about Quark Core</source>
-        <translation>Паказаць інфармацыю аб Quark Core</translation>
+        <source>Show information about Quark 2.0 Core</source>
+        <translation>Паказаць інфармацыю аб Quark 2.0 Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -363,12 +363,12 @@
         <translation>Зашыфраваць прыватныя ключы, якия належаць вашаму гаманцу</translation>
     </message>
     <message>
-        <source>Sign messages with your Quark addresses to prove you own them</source>
-        <translation>Падпісаць паведамленне з дапамогай Біткойн-адраса каб даказаць, што яно належыць вам</translation>
+        <source>Sign messages with your Quark2 addresses to prove you own them</source>
+        <translation>Падпісаць паведамленне з дапамогай Quark2-адраса каб даказаць, што яно належыць вам</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Quark addresses</source>
-        <translation>Спраўдзіць паведамленне з дапамогай Біткойн-адраса каб даказаць, што яно належыць вам</translation>
+        <source>Verify messages to ensure they were signed with specified Quark2 addresses</source>
+        <translation>Спраўдзіць паведамленне з дапамогай Quark2-адраса каб даказаць, што яно належыць вам</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -383,16 +383,16 @@
         <translation>Дапамога</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
-        <translation>Запатрабаваць плацёж (генеруецца QR-код для біткойн URI)</translation>
+        <source>Request payments (generates QR codes and quark2: URIs)</source>
+        <translation>Запатрабаваць плацёж (генеруецца QR-код для quark2 URI)</translation>
     </message>
     <message>
-        <source>&amp;About Quark Core</source>
-        <translation>Аб Quark Core</translation>
+        <source>&amp;About Quark 2.0 Core</source>
+        <translation>Аб Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -403,20 +403,20 @@
         <translation>Паказаць спіс адрасоў і метак для прымання</translation>
     </message>
     <message>
-        <source>Open a quark: URI or payment request</source>
-        <translation>Адкрыць біткойн: URI ці запыт плацяжу</translation>
+        <source>Open a quark2: URI or payment request</source>
+        <translation>Адкрыць quark2: URI ці запыт плацяжу</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Опцыі каманднага радка</translation>
     </message>
     <message>
-        <source>Show the Quark Core help message to get a list with possible Quark command-line options</source>
-        <translation>Паказваць даведку Quark Core каб атрымаць спіс магчымых опцый каманднага радка</translation>
+        <source>Show the Quark 2.0 Core help message to get a list with possible Quark2 command-line options</source>
+        <translation>Паказваць даведку Quark 2.0 Core каб атрымаць спіс магчымых опцый каманднага радка</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Quark network</source>
-        <translation><numerusform>%n актыўнае злучэнне з Quark-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Quark-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Quark-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Quark-сецівам</numerusform></translation>
+        <source>%n active connection(s) to Quark2 network</source>
+        <translation><numerusform>%n актыўнае злучэнне з Quark2-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Quark2-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Quark2-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Quark2-сецівам</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -742,16 +742,16 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-біт)</translation>
     </message>
     <message>
-        <source>About Quark Core</source>
-        <translation>Аб Quark Core</translation>
+        <source>About Quark 2.0 Core</source>
+        <translation>Аб Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -777,12 +777,12 @@ Address: %4
         <translation>Вітаем</translation>
     </message>
     <message>
-        <source>Welcome to Quark Core.</source>
-        <translation>Вітаем у Quark Core.</translation>
+        <source>Welcome to Quark 2.0 Core.</source>
+        <translation>Вітаем у Quark 2.0 Core.</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1033,12 +1033,12 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
-        <source>The Quark Core developers</source>
-        <translation>Распрацоўнікі Quark Core</translation>
+        <source>The Quark 2.0 Core developers</source>
+        <translation>Распрацоўнікі Quark 2.0 Core</translation>
     </message>
     <message>
         <source>[testnet]</source>

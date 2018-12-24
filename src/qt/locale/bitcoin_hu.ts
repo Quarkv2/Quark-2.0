@@ -66,11 +66,11 @@
         <translation>Fogadó címek</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Quark2 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Ezekről a címekről küldhetsz quarkt. Mindig ellenőrizd a fogadó címet és a fizetendő összeget, mielőtt elküldöd.</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Quark2 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Ezekkel a címekkel fogadhatsz quarkt. Ajánlott minden tranzakcióhoz egy új fogadó címet használni.</translation>
     </message>
     <message>
@@ -188,8 +188,8 @@
         <translation>Add meg a tárca új jelszavát.&lt;br/&gt;Olyan jelszót válassz, ami &lt;b&gt;legalább tíz véletlenszerű karakterből&lt;/b&gt; vagy &lt;b&gt;legalább 8 véletlenszerű szóból&lt;/b&gt; áll.</translation>
     </message>
     <message>
-        <source>Quark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
-        <translation>A Quark Core most bezár, hogy befejezze a titkosítást. Ne feledd: a tárca titkosítása nem nyújt teljes védelmet azzal szemben, hogy adathalász programok megfertőzzék a számítógéped és ellopják a quarkjaid.</translation>
+        <source>Quark2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
+        <translation>A Quark 2.0 Core most bezár, hogy befejezze a titkosítást. Ne feledd: a tárca titkosítása nem nyújt teljes védelmet azzal szemben, hogy adathalász programok megfertőzzék a számítógéped és ellopják a quarkjaid.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -295,8 +295,8 @@
         <translation>&amp;URI azonosító megnyitása...</translation>
     </message>
     <message>
-        <source>Quark Core client</source>
-        <translation>Quark Core kliens</translation>
+        <source>Quark 2.0 Core client</source>
+        <translation>Quark 2.0 Core kliens</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,12 +307,12 @@
         <translation>Lemezen lévő blokkok újraindexelése...</translation>
     </message>
     <message>
-        <source>Send coins to a Quark address</source>
-        <translation>Quark küldése megadott címre</translation>
+        <source>Send coins to a Quark2 address</source>
+        <translation>Quark2 küldése megadott címre</translation>
     </message>
     <message>
-        <source>Modify configuration options for Quark</source>
-        <translation>Quark konfigurációs opciók</translation>
+        <source>Modify configuration options for Quark2</source>
+        <translation>Quark2 konfigurációs opciók</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -335,8 +335,8 @@
         <translation>Üzenet &amp;valódiságának ellenőrzése</translation>
     </message>
     <message>
-        <source>Quark</source>
-        <translation>Quark</translation>
+        <source>Quark2</source>
+        <translation>Quark2</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -351,8 +351,8 @@
         <translation>&amp;Fogadás</translation>
     </message>
     <message>
-        <source>Show information about Quark Core</source>
-        <translation>Quark Core információ megjelenítése</translation>
+        <source>Show information about Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core információ megjelenítése</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -367,12 +367,12 @@
         <translation>A tárcádhoz tartozó privát kulcsok titkosítása</translation>
     </message>
     <message>
-        <source>Sign messages with your Quark addresses to prove you own them</source>
-        <translation>Üzenetek aláírása a Quark-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
+        <source>Sign messages with your Quark2 addresses to prove you own them</source>
+        <translation>Üzenetek aláírása a Quark2-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Quark addresses</source>
-        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Quark-címekkel vannak-e aláírva</translation>
+        <source>Verify messages to ensure they were signed with specified Quark2 addresses</source>
+        <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Quark2-címekkel vannak-e aláírva</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -391,16 +391,16 @@
         <translation>Fül eszköztár</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
-        <translation>Fizetési kérelem (QR-kódot és "quark:" URI azonosítót hoz létre)</translation>
+        <source>Request payments (generates QR codes and quark2: URIs)</source>
+        <translation>Fizetési kérelem (QR-kódot és "quark2:" URI azonosítót hoz létre)</translation>
     </message>
     <message>
-        <source>&amp;About Quark Core</source>
-        <translation>&amp;A Quark Core-ról</translation>
+        <source>&amp;About Quark 2.0 Core</source>
+        <translation>&amp;A Quark 2.0 Core-ról</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,20 +411,20 @@
         <translation>A használt fogadó címek és címkék megtekintése</translation>
     </message>
     <message>
-        <source>Open a quark: URI or payment request</source>
-        <translation>"quark:" URI azonosító vagy fizetési kérelem megnyitása</translation>
+        <source>Open a quark2: URI or payment request</source>
+        <translation>"quark2:" URI azonosító vagy fizetési kérelem megnyitása</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Paran&amp;cssor kapcsolók</translation>
     </message>
     <message>
-        <source>Show the Quark Core help message to get a list with possible Quark command-line options</source>
-        <translation>A Quark Core súgóüzenet megjelenítése a Quark lehetséges parancssori kapcsolóival.</translation>
+        <source>Show the Quark 2.0 Core help message to get a list with possible Quark2 command-line options</source>
+        <translation>A Quark 2.0 Core súgóüzenet megjelenítése a Quark2 lehetséges parancssori kapcsolóival.</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Quark network</source>
-        <translation><numerusform>%n aktív kapcsolat a Quark-hálózattal</numerusform><numerusform>%n aktív kapcsolat a Quark-hálózattal</numerusform></translation>
+        <source>%n active connection(s) to Quark2 network</source>
+        <translation><numerusform>%n aktív kapcsolat a Quark2-hálózattal</numerusform><numerusform>%n aktív kapcsolat a Quark2-hálózattal</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -784,8 +784,8 @@ Cím: %4
         <translation>A megadott "%1" cím már szerepel a címjegyzékben.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Quark address.</source>
-        <translation>A megadott "%1" cím nem egy érvényes Quark-cím.</translation>
+        <source>The entered address "%1" is not a valid Quark2 address.</source>
+        <translation>A megadott "%1" cím nem egy érvényes Quark2-cím.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -818,8 +818,8 @@ Cím: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -830,8 +830,8 @@ Cím: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Quark Core</source>
-        <translation>A Quark Core-ról</translation>
+        <source>About Quark 2.0 Core</source>
+        <translation>A Quark 2.0 Core-ról</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -878,12 +878,12 @@ Cím: %4
         <translation>Üdvözlünk</translation>
     </message>
     <message>
-        <source>Welcome to Quark Core.</source>
-        <translation>Üdvözlünk a Quark Core-ban.</translation>
+        <source>Welcome to Quark 2.0 Core.</source>
+        <translation>Üdvözlünk a Quark 2.0 Core-ban.</translation>
     </message>
     <message>
-        <source>Quark Core will download and store a copy of the Quark block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>A Quark Core le fogja tölteni és tárolni fogja a Quark blokklánc egy másolatát. Legalább %1GB adat lesz tárolva ebben a mappában, és ez folyamatosan nőni fog. A tárca szintén itt lesz tárolva.</translation>
+        <source>Quark 2.0 Core will download and store a copy of the Quark2 block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>A Quark 2.0 Core le fogja tölteni és tárolni fogja a Quark2 blokklánc egy másolatát. Legalább %1GB adat lesz tárolva ebben a mappában, és ez folyamatosan nőni fog. A tárca szintén itt lesz tárolva.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -894,8 +894,8 @@ Cím: %4
         <translation>Saját adatkönyvtár használata:</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -940,11 +940,11 @@ Cím: %4
         <translation>&amp;Fő</translation>
     </message>
     <message>
-        <source>Automatically start Quark after logging in to the system.</source>
-        <translation>Induljon el a Quark a számítógép bekapcsolásakor</translation>
+        <source>Automatically start Quark2 after logging in to the system.</source>
+        <translation>Induljon el a Quark2 a számítógép bekapcsolásakor</translation>
     </message>
     <message>
-        <source>&amp;Start Quark on system login</source>
+        <source>&amp;Start Quark2 on system login</source>
         <translation>&amp;Induljon el a számítógép bekapcsolásakor</translation>
     </message>
     <message>
@@ -988,16 +988,16 @@ Cím: %4
         <translation>szakértő</translation>
     </message>
     <message>
-        <source>Automatically open the Quark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>A Quark-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <source>Automatically open the Quark2 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>A Quark2-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>&amp;UPnP port-feltérképezés</translation>
     </message>
     <message>
-        <source>Connect to the Quark network through a SOCKS5 proxy.</source>
-        <translation>Csatlakozás a Quark hálózatához SOCKS5 proxyn keresztül</translation>
+        <source>Connect to the Quark2 network through a SOCKS5 proxy.</source>
+        <translation>Csatlakozás a Quark2 hálózatához SOCKS5 proxyn keresztül</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1040,8 +1040,8 @@ Cím: %4
         <translation>Felhasználófelület nye&amp;lve:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Quark.</source>
-        <translation>Itt beállíthatod a felhasználófelület nyelvét. Ez a beállítás a Quark ujraindítása után lép érvénybe.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Quark2.</source>
+        <translation>Itt beállíthatod a felhasználófelület nyelvét. Ez a beállítás a Quark2 ujraindítása után lép érvénybe.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1087,8 +1087,8 @@ Cím: %4
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark network after a connection is established, but this process has not completed yet.</source>
-        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Quark hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark2 network after a connection is established, but this process has not completed yet.</source>
+        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Quark2 hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1150,8 +1150,8 @@ Cím: %4
         <translation>URI kezelés</translation>
     </message>
     <message>
-        <source>Cannot start quark: click-to-pay handler</source>
-        <translation>A quarkt nem lehet elindítani: click-to-pay handler</translation>
+        <source>Cannot start quark2: click-to-pay handler</source>
+        <translation>A quark2 nem lehet elindítani: click-to-pay handler</translation>
     </message>
     </context>
 <context>
@@ -1176,8 +1176,8 @@ Cím: %4
         <translation>Összeg</translation>
     </message>
     <message>
-        <source>Enter a Quark address (e.g. %1)</source>
-        <translation>Ad meg egy Quark címet (pl: %1)</translation>
+        <source>Enter a Quark2 address (e.g. %1)</source>
+        <translation>Ad meg egy Quark2 címet (pl: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1390,8 +1390,8 @@ Cím: %4
         <translation>Konzol törlése</translation>
     </message>
     <message>
-        <source>Welcome to the Quark RPC console.</source>
-        <translation>Üdv a Quark RPC konzoljában!</translation>
+        <source>Welcome to the Quark2 RPC console.</source>
+        <translation>Üdv a Quark2 RPC konzoljában!</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1742,8 +1742,8 @@ Cím: %4
         <translation>Többször szerepel ugyanaz a cím. Egy küldési műveletben egy címre csak egyszer lehet küldeni.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Quark address</source>
-        <translation>Figyelmeztetés: Érvénytelen Quark cím</translation>
+        <source>Warning: Invalid Quark2 address</source>
+        <translation>Figyelmeztetés: Érvénytelen Quark2 cím</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1809,8 +1809,8 @@ Cím: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Quark Core is shutting down...</source>
-        <translation>A Quark Core leáll...</translation>
+        <source>Quark 2.0 Core is shutting down...</source>
+        <translation>A Quark 2.0 Core leáll...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1860,7 +1860,7 @@ Cím: %4
         <translation>A jelenleg kiválasztott aláírás másolása a rendszer-vágólapra</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Quark address</source>
+        <source>Sign the message to prove you own this Quark2 address</source>
         <translation>Üzenet </translation>
     </message>
     <message>
@@ -1919,11 +1919,11 @@ Cím: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
-        <source>The Quark Core developers</source>
+        <source>The Quark 2.0 Core developers</source>
         <translation>A Quark fejlesztői</translation>
     </message>
     <message>
@@ -2442,8 +2442,8 @@ Cím: %4
         <translation>Az adatbázist újra kell építeni -reindex használatával (módosítás -tindex).</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Quark Core and Quark Core Developers</source>
-        <translation>Copyright (C) 2009-%i A Quark Core Fejlesztői</translation>
+        <source>Copyright (C) 2009-%i The Bitcoin and Quark 2.0 Core Developers</source>
+        <translation>Copyright (C) 2009-%i A Bitcoin és Quark 2.0 Core Fejlesztői</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>

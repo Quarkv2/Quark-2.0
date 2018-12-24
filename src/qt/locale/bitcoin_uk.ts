@@ -66,12 +66,12 @@
         <translation>Адреси для отримання</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Це ваші Quark-адреси для відправлення платежів. Перед відправленням монет завжди перевіряйте суму та адресу прийому.</translation>
+        <source>These are your Quark2 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Це ваші Quark2-адреси для відправлення платежів. Перед відправленням монет завжди перевіряйте суму та адресу прийому.</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Це ваша нова Quark адреса для отримання платежів. Рекомендовано використовувати нову адресу для кожної транзакції.</translation>
+        <source>These are your Quark2 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Це ваша нова Quark2 адреса для отримання платежів. Рекомендовано використовувати нову адресу для кожної транзакції.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -165,7 +165,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR QUARKS&lt;/b&gt;!</source>
-        <translation>УВАГА: Якщо ви зашифруєте гаманець і забудете пароль, ви &lt;b&gt;ВТРАТИТЕ ВСІ СВОЇ БІТКОІНИ&lt;/b&gt;!</translation>
+        <translation>УВАГА: Якщо ви зашифруєте гаманець і забудете пароль, ви &lt;b&gt;ВТРАТИТЕ ВСІ СВОЇ QUARKS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +188,8 @@
         <translation>Введіть нову кодову фразу для гаманця.&lt;br/&gt;Будь ласка, використовуйте кодові фрази що містять &lt;b&gt; щонайменше десять випадкових символів &lt;/b&gt; або &lt;b&gt; щонайменше вісім слів &lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Quark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
-        <translation>Біткоін-клієнт буде закрито для завершення процесу шифрування. Пам'ятайте, що шифрування гаманця не може повністю захистити ваші біткоіни від крадіжки, у випадку якщо ваш комп'ютер буде інфіковано шкідливими програмами.</translation>
+        <source>Quark2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
+        <translation>Quark2-клієнт буде закрито для завершення процесу шифрування. Пам'ятайте, що шифрування гаманця не може повністю захистити ваші кварки від крадіжки, у випадку якщо ваш комп'ютер буде інфіковано шкідливими програмами.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -295,8 +295,8 @@
         <translation>Відкрити &amp;URI</translation>
     </message>
     <message>
-        <source>Quark Core client</source>
-        <translation>Клієнт «Quark Core»</translation>
+        <source>Quark 2.0 Core client</source>
+        <translation>Клієнт «Quark 2.0 Core»</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,11 +307,11 @@
         <translation>Переіндексація блоків на диску ...</translation>
     </message>
     <message>
-        <source>Send coins to a Quark address</source>
+        <source>Send coins to a Quark2 address</source>
         <translation>Відправити монети на вказану адресу</translation>
     </message>
     <message>
-        <source>Modify configuration options for Quark</source>
+        <source>Modify configuration options for Quark2</source>
         <translation>Редагувати параметри</translation>
     </message>
     <message>
@@ -335,8 +335,8 @@
         <translation>П&amp;еревірити повідомлення...</translation>
     </message>
     <message>
-        <source>Quark</source>
-        <translation>Quark</translation>
+        <source>Quark2</source>
+        <translation>Quark2</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -351,8 +351,8 @@
         <translation>&amp;Отримати</translation>
     </message>
     <message>
-        <source>Show information about Quark Core</source>
-        <translation>Показати інформацію про Quark Core</translation>
+        <source>Show information about Quark 2.0 Core</source>
+        <translation>Показати інформацію про Quark 2.0 Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -367,12 +367,12 @@
         <translation>Зашифрувати закриті ключі, що знаходяться у вашому гаманці</translation>
     </message>
     <message>
-        <source>Sign messages with your Quark addresses to prove you own them</source>
-        <translation>Підтвердіть, що Ви є власником повідомлення підписавши його Вашою Quark-адресою </translation>
+        <source>Sign messages with your Quark2 addresses to prove you own them</source>
+        <translation>Підтвердіть, що Ви є власником повідомлення підписавши його Вашою Quark2-адресою </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Quark addresses</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною Quark-адресою</translation>
+        <source>Verify messages to ensure they were signed with specified Quark2 addresses</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною Quark2-адресою</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -391,16 +391,16 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
-        <translation>Створити запит платежу (генерує QR-код та quark: URI)</translation>
+        <source>Request payments (generates QR codes and quark2: URIs)</source>
+        <translation>Створити запит платежу (генерує QR-код та quark2: URI)</translation>
     </message>
     <message>
-        <source>&amp;About Quark Core</source>
-        <translation>П&amp;ро Quark Core</translation>
+        <source>&amp;About Quark 2.0 Core</source>
+        <translation>П&amp;ро Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,20 +411,20 @@
         <translation>Показати список адрес і міток, що були використані для отримання</translation>
     </message>
     <message>
-        <source>Open a quark: URI or payment request</source>
-        <translation>Відкрити quark: URI чи запит платежу</translation>
+        <source>Open a quark2: URI or payment request</source>
+        <translation>Відкрити quark2: URI чи запит платежу</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>П&amp;араметри командного рядка</translation>
     </message>
     <message>
-        <source>Show the Quark Core help message to get a list with possible Quark command-line options</source>
-        <translation>Показати довідку Quark Core для отримання переліку можливих параметрів командного рядка.</translation>
+        <source>Show the Quark 2.0 Core help message to get a list with possible Quark2 command-line options</source>
+        <translation>Показати довідку Quark 2.0 Core для отримання переліку можливих параметрів командного рядка.</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Quark network</source>
-        <translation><numerusform>%n активне з'єднання з мережею Quark</numerusform><numerusform>%n активні з'єднання з мережею Quark</numerusform><numerusform>%n активних з'єднань з мережею Quark</numerusform></translation>
+        <source>%n active connection(s) to Quark2 network</source>
+        <translation><numerusform>%n активне з'єднання з мережею Quark2</numerusform><numerusform>%n активні з'єднання з мережею Quark2</numerusform><numerusform>%n активних з'єднань з мережею Quark2</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -788,8 +788,8 @@ Address: %4
         <translation>Введена адреса «%1» вже присутня в адресній книзі.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Quark address.</source>
-        <translation>Введена адреса «%1» не є коректною адресою в мережі Quark.</translation>
+        <source>The entered address "%1" is not a valid Quark2 address.</source>
+        <translation>Введена адреса «%1» не є коректною адресою в мережі Quark2.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -826,8 +826,8 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -838,8 +838,8 @@ Address: %4
         <translation>(%1-бітний)</translation>
     </message>
     <message>
-        <source>About Quark Core</source>
-        <translation>Про Quark Core</translation>
+        <source>About Quark 2.0 Core</source>
+        <translation>Про Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -885,16 +885,16 @@ Address: %4
         <translation>Вітання</translation>
     </message>
     <message>
-        <source>Welcome to Quark Core.</source>
-        <translation>Ласкаво просимо в Quark Core.</translation>
+        <source>Welcome to Quark 2.0 Core.</source>
+        <translation>Ласкаво просимо в Quark 2.0 Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Quark Core will store its data.</source>
-        <translation>Оскільки це перший запуск програми, ви можете обрати де Quark Core буде зберігати дані.</translation>
+        <source>As this is the first time the program is launched, you can choose where Quark 2.0 Core will store its data.</source>
+        <translation>Оскільки це перший запуск програми, ви можете обрати де Quark 2.0 Core буде зберігати дані.</translation>
     </message>
     <message>
-        <source>Quark Core will download and store a copy of the Quark block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Quark Core завантажить та збереже копію ланцюжка блоків Quark. Щонайменше %1ГБ даних буде збережено в цьому каталозі. Гаманець теж буде збережено в цьому каталозі.</translation>
+        <source>Quark 2.0 Core will download and store a copy of the Quark2 block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Quark 2.0 Core завантажить та збереже копію ланцюжка блоків Quark2. Щонайменше %1ГБ даних буде збережено в цьому каталозі. Гаманець теж буде збережено в цьому каталозі.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -905,8 +905,8 @@ Address: %4
         <translation>Використовувати свій каталог даних:</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -959,11 +959,11 @@ Address: %4
         <translation>&amp;Головні</translation>
     </message>
     <message>
-        <source>Automatically start Quark after logging in to the system.</source>
+        <source>Automatically start Quark2 after logging in to the system.</source>
         <translation>Автоматично запускати гаманець при вході до системи.</translation>
     </message>
     <message>
-        <source>&amp;Start Quark on system login</source>
+        <source>&amp;Start Quark2 on system login</source>
         <translation>&amp;Запускати гаманець при вході в систему</translation>
     </message>
     <message>
@@ -1039,7 +1039,7 @@ Address: %4
         <translation>&amp;Витрачати непідтверджену решту</translation>
     </message>
     <message>
-        <source>Automatically open the Quark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Quark2 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Автоматично відкривати порт для клієнту біткоін на роутері. Працює лише якщо ваш роутер підтримує UPnP і ця функція увімкнена.</translation>
     </message>
     <message>
@@ -1047,8 +1047,8 @@ Address: %4
         <translation>Відображення порту через &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Quark network through a SOCKS5 proxy.</source>
-        <translation>Підключення до мережі Quark через SOCKS5 проксі.</translation>
+        <source>Connect to the Quark2 network through a SOCKS5 proxy.</source>
+        <translation>Підключення до мережі Quark2 через SOCKS5 проксі.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1095,8 +1095,8 @@ Address: %4
         <translation>Мов&amp;а інтерфейсу користувача:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Quark.</source>
-        <translation>Встановлює мову інтерфейсу. Зміни набудуть чинності після перезапуску Quark.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Quark2.</source>
+        <translation>Встановлює мову інтерфейсу. Зміни набудуть чинності після перезапуску Quark2.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1154,8 +1154,8 @@ Address: %4
         <translation>Форма</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark network after a connection is established, but this process has not completed yet.</source>
-        <translation>Показана інформація вже може бути застарілою. Ваш гаманець буде автоматично синхронізовано з мережею Quark після встановлення підключення, але цей процес ще не завершено.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark2 network after a connection is established, but this process has not completed yet.</source>
+        <translation>Показана інформація вже може бути застарілою. Ваш гаманець буде автоматично синхронізовано з мережею Quark2 після встановлення підключення, але цей процес ще не завершено.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1261,16 +1261,16 @@ Address: %4
         <translation>Помилка запиту платежу</translation>
     </message>
     <message>
-        <source>Cannot start quark: click-to-pay handler</source>
-        <translation>Неможливо запустити quark: обробник click-to-pay</translation>
+        <source>Cannot start quark2: click-to-pay handler</source>
+        <translation>Неможливо запустити quark2: обробник click-to-pay</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>URL запиту платежу є некоректним: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Quark address or malformed URI parameters.</source>
-        <translation>Неможливо обробити URI! Причиною цього може бути некоректна Quark-адреса або неправильні параметри URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Quark2 address or malformed URI parameters.</source>
+        <translation>Неможливо обробити URI! Причиною цього може бути некоректна Quark2-адреса або неправильні параметри URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1339,8 +1339,8 @@ Address: %4
         <translation>Кількість</translation>
     </message>
     <message>
-        <source>Enter a Quark address (e.g. %1)</source>
-        <translation>Введіть адресу Quark (наприклад %1)</translation>
+        <source>Enter a Quark2 address (e.g. %1)</source>
+        <translation>Введіть адресу Quark2 (наприклад %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1565,16 +1565,16 @@ Address: %4
         <translation>Файл звіту зневадження</translation>
     </message>
     <message>
-        <source>Open the Quark debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Відкрийте файл журналу налагодження Quark з поточного каталогу даних. Це може зайняти кілька секунд для великих файлів журналів.</translation>
+        <source>Open the Quark2 debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Відкрийте файл журналу налагодження Quark2 з поточного каталогу даних. Це може зайняти кілька секунд для великих файлів журналів.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Очистити консоль</translation>
     </message>
     <message>
-        <source>Welcome to the Quark RPC console.</source>
-        <translation>Вітаємо у консолі Quark RPC.</translation>
+        <source>Welcome to the Quark2 RPC console.</source>
+        <translation>Вітаємо у консолі Quark2 RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1648,8 +1648,8 @@ Address: %4
         <translation>По&amp;вторно використати адресу для отримання (не рекомендується)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Quark network.</source>
-        <translation>Необов'язкове повідомлення на додаток до запиту платежу, котре буде показане під час відкриття запиту. Примітка: Це повідомлення не буде відправлено з платежем через мережу Quark.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Quark2 network.</source>
+        <translation>Необов'язкове повідомлення на додаток до запиту платежу, котре буде показане під час відкриття запиту. Примітка: Це повідомлення не буде відправлено з платежем через мережу Quark2.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2041,8 +2041,8 @@ Address: %4
         <translation>Розрахунковий початок підтвердження протягом %1 блоку(ів).</translation>
     </message>
     <message>
-        <source>Warning: Invalid Quark address</source>
-        <translation>Увага: Неправильна Quark-адреса</translation>
+        <source>Warning: Invalid Quark2 address</source>
+        <translation>Увага: Неправильна Quark2-адреса</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2092,8 +2092,8 @@ Address: %4
         <translation>Це звичайний платіж.</translation>
     </message>
     <message>
-        <source>The Quark address to send the payment to</source>
-        <translation>Адреса Quark для відправлення платежу</translation>
+        <source>The Quark2 address to send the payment to</source>
+        <translation>Адреса Quark2 для відправлення платежу</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2124,8 +2124,8 @@ Address: %4
         <translation>Введіть мітку для цієї адреси для додавання її в список використаних адрес</translation>
     </message>
     <message>
-        <source>A message that was attached to the quark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Quark network.</source>
-        <translation>Повідомлення, що було додане до quark:URI та буде збережено разом з транзакцією для довідки. Примітка: Це повідомлення не буде відправлено в мережу Quark.</translation>
+        <source>A message that was attached to the quark2: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Quark2 network.</source>
+        <translation>Повідомлення, що було додане до quark2:URI та буде збережено разом з транзакцією для довідки. Примітка: Це повідомлення не буде відправлено в мережу Quark2.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2143,8 +2143,8 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Quark Core is shutting down...</source>
-        <translation>Quark Core вимикається...</translation>
+        <source>Quark 2.0 Core is shutting down...</source>
+        <translation>Quark 2.0 Core вимикається...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2166,8 +2166,8 @@ Address: %4
         <translation>Ви можете підписувати повідомлення зі своїми адресами, щоб довести, що ви є їх власником. Остерігайтеся підписувати будь-що незрозуміле, так як за допомогою фішинг-атаки вас можуть спробувати обдурити для отримання вашого підпису під чужими словами. Підписуйте тільки ті повідомлення, з якими ви повністю згодні.</translation>
     </message>
     <message>
-        <source>The Quark address to sign the message with</source>
-        <translation>Адреса Quark для підпису цього повідомлення</translation>
+        <source>The Quark2 address to sign the message with</source>
+        <translation>Адреса Quark2 для підпису цього повідомлення</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2198,7 +2198,7 @@ Address: %4
         <translation>Копіювати поточну сигнатуру до системного буферу обміну</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Quark address</source>
+        <source>Sign the message to prove you own this Quark2 address</source>
         <translation>Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
     </message>
     <message>
@@ -2222,12 +2222,12 @@ Address: %4
         <translation>Введіть нижче адресу підпису, повідомлення (впевніться, що ви точно скопіювали символи завершення рядку, табуляцію, пробіли тощо) та підпис для перевірки повідомлення. Впевніться, що в підпис не було додано зайвих символів: це допоможе уникнути атак типу «людина посередині».</translation>
     </message>
     <message>
-        <source>The Quark address the message was signed with</source>
-        <translation>Адреса Quark, якою було підписано це повідомлення</translation>
+        <source>The Quark2 address the message was signed with</source>
+        <translation>Адреса Quark2, якою було підписано це повідомлення</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Quark address</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною Quark-адресою</translation>
+        <source>Verify the message to ensure it was signed with the specified Quark2 address</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною Quark2-адресою</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2293,12 +2293,12 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
-        <source>The Quark Core developers</source>
-        <translation>Розробники Quark Core</translation>
+        <source>The Quark 2.0 Core developers</source>
+        <translation>Розробники Quark 2.0 Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2847,8 +2847,8 @@ Address: %4
         <translation>Це тестова збірка пре-релізної версії - використовуйте на свій страх і ризик - не застосовувати для добування монет або торгівлі</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Quark Core is probably already running.</source>
-        <translation>Неможливо прив'язатися до %s на цьому комп'ютері. Можливо, Quark Core вже запущено.</translation>
+        <source>Unable to bind to %s on this computer. Quark 2.0 Core is probably already running.</source>
+        <translation>Неможливо прив'язатися до %s на цьому комп'ютері. Можливо, Quark 2.0 Core вже запущено.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3031,8 +3031,8 @@ Address: %4
         <translation>Прив'язатися до даної адреси для прослуховування JSON-RPC підключень. Використовуйте запис виду [хост]:порт для IPv6. Цей параметр можна вказувати декілька разів (типово: прив'язуватися до всіх інтерфейсів)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Quark Core is probably already running.</source>
-        <translation>Не вдалося встановити блокування на каталог даних %s. Quark Core, ймовірно, вже запущений.</translation>
+        <source>Cannot obtain a lock on data directory %s. Quark 2.0 Core is probably already running.</source>
+        <translation>Не вдалося встановити блокування на каталог даних %s. Quark 2.0 Core, ймовірно, вже запущений.</translation>
     </message>
     <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
@@ -3099,27 +3099,27 @@ Address: %4
         <translation>Цей продукт включає в себе програмне забезпечення, розроблене в рамках проекту OpenSSL &lt;https://www.openssl.org/&gt;, криптографічне програмне забезпечення, написане Еріком Янгом, та функції для роботи з UPnP, написані Томасом Бернардом.</translation>
     </message>
     <message>
-        <source>To use quarkd, or the -server option to quark-qt, you must set an rpcpassword in the configuration file:
+        <source>To use quark2d, or the -server option to quark2-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=quarkrpc
+rpcuser=quark2rpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Quark Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Quark2 Alert" admin@foo.com
 </source>
-        <translation>Для використання quarkd, або quark-qt з параметром -server, ви повинні встановити rpcpassword в файлі конфігурації:
+        <translation>Для використання quark2d, або quark2-qt з параметром -server, ви повинні встановити rpcpassword в файлі конфігурації:
 %s
 Рекомендується використати такий випадковий пароль:
-rpcuser=quarkrpc
+rpcuser=quark2rpc
 rpcpassword=%s
 (вам не треба запам'ятовувати цей пароль)
 Ім'я користувача та пароль ПОВИННІ бути різними.
 Якщо файлу не існує, створіть його, обмеживши доступ правом читання для власника.
 Також рекомендується використовувати alertnotify для того, щоб отримувати сповіщення про проблеми;
-наприклад: alertnotify=echo %%s | mail -s "Сповіщення Quark" admin@foo.com
+наприклад: alertnotify=echo %%s | mail -s "Сповіщення Quark2" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3127,8 +3127,8 @@ rpcpassword=%s
         <translation>Увага: установлено дуже велике значення -maxtxfee! Такі великі комісії можуть бути сплачені в окремій транзакції.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Quark Core will not work properly.</source>
-        <translation>Увага: будь ласка, перевірте дату і час на своєму комп'ютері! Якщо ваш годинник йде неправильно, Quark Core може працювати некоректно.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Quark 2.0 Core will not work properly.</source>
+        <translation>Увага: будь ласка, перевірте дату і час на своєму комп'ютері! Якщо ваш годинник йде неправильно, Quark 2.0 Core може працювати некоректно.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3147,16 +3147,16 @@ rpcpassword=%s
         <translation>Підключитись через SOCKS5-проксі</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Quark Core and Quark Core Developers</source>
-        <translation>(C) 2009-%i Розробники Quark Core</translation>
+        <source>Copyright (C) 2009-%i The Bitcoin and Quark 2.0 Core Developers</source>
+        <translation>(C) 2009-%i Розробники Bitcoin та Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
         <translation>Неможливо розпізнати мережеву адресу для параметру -rpcbind (%s)</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Quark Core</source>
-        <translation>Помилка при завантаженні wallet.dat: Гаманець потребує новішої версії Quark Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Quark 2.0 Core</source>
+        <translation>Помилка при завантаженні wallet.dat: Гаманець потребує новішої версії Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3179,8 +3179,8 @@ rpcpassword=%s
         <translation>Інформація</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Quark Core is shutting down.</source>
-        <translation>Не вдалося пройти базові перевірки під час ініціалізації. Quark Core буде вимкнено.</translation>
+        <source>Initialization sanity check failed. Quark 2.0 Core is shutting down.</source>
+        <translation>Не вдалося пройти базові перевірки під час ініціалізації. Quark 2.0 Core буде вимкнено.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3215,8 +3215,8 @@ rpcpassword=%s
         <translation>Параметри вузла ретрансляції:</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the Quark Wiki for SSL setup instructions)</source>
-        <translation>Параметри RPC SSL: (див. Quark Wiki для налаштування SSL)</translation>
+        <source>RPC SSL options: (see the Quark2 Wiki for SSL setup instructions)</source>
+        <translation>Параметри RPC SSL: (див. Quark2 Wiki для налаштування SSL)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3291,8 +3291,8 @@ rpcpassword=%s
         <translation>Ім'я користувача для JSON-RPC-з'єднань</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Quark Core to complete</source>
-        <translation>Потрібно перезаписати гаманець: перезапустіть Quark Core для завершення</translation>
+        <source>Wallet needed to be rewritten: restart Quark 2.0 Core to complete</source>
+        <translation>Потрібно перезаписати гаманець: перезапустіть Quark 2.0 Core для завершення</translation>
     </message>
     <message>
         <source>Warning</source>
