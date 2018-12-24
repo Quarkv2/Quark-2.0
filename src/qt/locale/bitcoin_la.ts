@@ -30,7 +30,7 @@
         <translation>&amp;Dele</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Quark2 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Hae sunt inscriptiones mittendi pensitationes.  Semper inspice quantitatem et inscriptionem accipiendi antequam nummos mittis.</translation>
     </message>
     <message>
@@ -132,8 +132,8 @@
         <translation>Cassidile cifratum</translation>
     </message>
     <message>
-        <source>Quark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
-        <translation>Quark iam desinet ut finiat actionem cifrandi.  Memento cassidile cifrare non posse cuncte curare ne tui nummi clepantur ab malis programatibus in tuo computatro.</translation>
+        <source>Quark2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
+        <translation>Quark2 iam desinet ut finiat actionem cifrandi.  Memento cassidile cifrare non posse cuncte curare ne tui nummi clepantur ab malis programatibus in tuo computatro.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -231,12 +231,12 @@
         <translation>Recreans indicem frustorum in disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Quark address</source>
-        <translation>Mitte nummos ad inscriptionem Quark</translation>
+        <source>Send coins to a Quark2 address</source>
+        <translation>Mitte nummos ad inscriptionem Quark2</translation>
     </message>
     <message>
-        <source>Modify configuration options for Quark</source>
-        <translation>Muta configurationis optiones pro Quark</translation>
+        <source>Modify configuration options for Quark2</source>
+        <translation>Muta configurationis optiones pro Quark2</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -259,8 +259,8 @@
         <translation>&amp;Verifica nuntium...</translation>
     </message>
     <message>
-        <source>Quark</source>
-        <translation>Quark</translation>
+        <source>Quark2</source>
+        <translation>Quark2</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -287,12 +287,12 @@
         <translation>Cifra claves privatas quae cassidili tui sunt</translation>
     </message>
     <message>
-        <source>Sign messages with your Quark addresses to prove you own them</source>
-        <translation>Signa nuntios cum tuis inscriptionibus Quark ut demonstres te eas possidere</translation>
+        <source>Sign messages with your Quark2 addresses to prove you own them</source>
+        <translation>Signa nuntios cum tuis inscriptionibus Quark2 ut demonstres te eas possidere</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Quark addresses</source>
-        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Quark</translation>
+        <source>Verify messages to ensure they were signed with specified Quark2 addresses</source>
+        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Quark2</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -311,12 +311,12 @@
         <translation>Tabella instrumentorum "Tabs"</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Nucleus</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Nucleus</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Quark network</source>
-        <translation><numerusform>%n activa conexio ad rete Quark</numerusform><numerusform>%n activae conexiones ad rete Quark</numerusform></translation>
+        <source>%n active connection(s) to Quark2 network</source>
+        <translation><numerusform>%n activa conexio ad rete Quark2</numerusform><numerusform>%n activae conexiones ad rete Quark2</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -476,8 +476,8 @@ Inscriptio: %4
         <translation>Inserta inscriptio "%1" iam in libro inscriptionum est.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Quark address.</source>
-        <translation>Inscriptio inserta "%1" non valida inscriptio Quark est.</translation>
+        <source>The entered address "%1" is not a valid Quark2 address.</source>
+        <translation>Inscriptio inserta "%1" non valida inscriptio Quark2 est.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -494,8 +494,8 @@ Inscriptio: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Nucleus</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Nucleus</translation>
     </message>
     <message>
         <source>version</source>
@@ -533,8 +533,8 @@ Inscriptio: %4
 <context>
     <name>Intro</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Nucleus</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Nucleus</translation>
     </message>
     <message>
         <source>Error</source>
@@ -555,12 +555,12 @@ Inscriptio: %4
         <translation>&amp;Princeps</translation>
     </message>
     <message>
-        <source>Automatically start Quark after logging in to the system.</source>
-        <translation>Pelle Quark per se postquam in systema inire.</translation>
+        <source>Automatically start Quark2 after logging in to the system.</source>
+        <translation>Pelle Quark2 per se postquam in systema inire.</translation>
     </message>
     <message>
-        <source>&amp;Start Quark on system login</source>
-        <translation>&amp;Pelle Quark cum inire systema</translation>
+        <source>&amp;Start Quark2 on system login</source>
+        <translation>&amp;Pelle Quark2 cum inire systema</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -575,8 +575,8 @@ Inscriptio: %4
         <translation>&amp;Rete</translation>
     </message>
     <message>
-        <source>Automatically open the Quark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aperi per se portam clientis Quark in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
+        <source>Automatically open the Quark2 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aperi per se portam clientis Quark2 in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -623,8 +623,8 @@ Inscriptio: %4
         <translation>&amp;Lingua monstranda utenti:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Quark.</source>
-        <translation>Lingua monstranda utenti hic constitui potest.  Haec configuratio effectiva erit postquam Quark iterum initiatum erit.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Quark2.</source>
+        <translation>Lingua monstranda utenti hic constitui potest.  Haec configuratio effectiva erit postquam Quark2 iterum initiatum erit.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -662,8 +662,8 @@ Inscriptio: %4
         <translation>Schema</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark network after a connection is established, but this process has not completed yet.</source>
-        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Quark postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark2 network after a connection is established, but this process has not completed yet.</source>
+        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Quark2 postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -685,8 +685,8 @@ Inscriptio: %4
         <translation>Tractatio URI</translation>
     </message>
     <message>
-        <source>Cannot start quark: click-to-pay handler</source>
-        <translation>Quark incipere non potest: cliccare-ad-pensandum handler</translation>
+        <source>Cannot start quark2: click-to-pay handler</source>
+        <translation>Quark2 incipere non potest: cliccare-ad-pensandum handler</translation>
     </message>
     </context>
 <context>
@@ -773,16 +773,16 @@ Inscriptio: %4
         <translation>Debug catalogi plica</translation>
     </message>
     <message>
-        <source>Open the Quark debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Aperi plicam catalogi de Quark debug ex activo indice datorum.  Hoc possit pauca secunda pro plicis magnis catalogi.</translation>
+        <source>Open the Quark2 debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Aperi plicam catalogi de Quark2 debug ex activo indice datorum.  Hoc possit pauca secunda pro plicis magnis catalogi.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Vacuefac terminale</translation>
     </message>
     <message>
-        <source>Welcome to the Quark RPC console.</source>
-        <translation>Bene ventio in terminale RPC de Quark.</translation>
+        <source>Welcome to the Quark2 RPC console.</source>
+        <translation>Bene ventio in terminale RPC de Quark2.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1002,8 +1002,8 @@ Inscriptio: %4
         <translation>Copia signationem in latibulum systematis</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Quark address</source>
-        <translation>Signa nuntium ut demonstres hanc inscriptionem Quark a te possessa esse</translation>
+        <source>Sign the message to prove you own this Quark2 address</source>
+        <translation>Signa nuntium ut demonstres hanc inscriptionem Quark2 a te possessa esse</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1026,8 +1026,8 @@ Inscriptio: %4
         <translation>Insere inscriptionem signantem, nuntium (cura ut copias intermissiones linearum, spatia, tabs, et cetera exacte) et signationem infra ut nuntium verifices.  Cautus esto ne magis legas in signationem quam in nuntio signato ipso est, ut vites falli ab impetu homo-in-medio.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Quark address</source>
-        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Quark</translation>
+        <source>Verify the message to ensure it was signed with the specified Quark2 address</source>
+        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Quark2</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1093,8 +1093,8 @@ Inscriptio: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Nucleus</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Nucleus</translation>
     </message>
     <message>
         <source>[testnet]</source>

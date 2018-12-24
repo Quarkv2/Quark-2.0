@@ -66,12 +66,12 @@
         <translation>Қабул қилинадиган манзиллар</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Улар тўловларни жўнатиш учун сизнинг Quark манзилларингиз. Доимо тангаларни жўнатишдан олдин сумма ва қабул қилувчи манзилни текшириб кўринг. </translation>
+        <source>These are your Quark2 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Улар тўловларни жўнатиш учун сизнинг Quark2 манзилларингиз. Доимо тангаларни жўнатишдан олдин сумма ва қабул қилувчи манзилни текшириб кўринг. </translation>
     </message>
     <message>
-        <source>These are your Quark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Улар тўловларни қабул қилиш учун сизнинг Quark манзилларингиз. Ҳар бир ўтказма учун янги қабул қилувчи манзилдан фойдаланиш тавсия қилинади.</translation>
+        <source>These are your Quark2 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Улар тўловларни қабул қилиш учун сизнинг Quark2 манзилларингиз. Ҳар бир ўтказма учун янги қабул қилувчи манзилдан фойдаланиш тавсия қилинади.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -188,8 +188,8 @@
         <translation>Ҳамёнга янги махфий сўз киритинг.&lt;br/&gt;Илтимос, &lt;b&gt;ўнта ёки тасодифий белгили&lt;/b&gt; махфий сўздан фойдаланинг ёки &lt;b&gt;саккизта ёки кўпроқ сўзлар&lt;/b&gt;дан фойдаланинг.</translation>
     </message>
     <message>
-        <source>Quark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
-        <translation>Quark кодлаш жараёнини тугатиш учун ёпилади. Ёдда сақланг: ҳамёнингизни кодлаш компьютерингизни зарарлаган зарарли дастурлар томонидан quark тангаларингизни ўғирланишидан тўлиқ ҳимоя қила олмайди.</translation>
+        <source>Quark2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
+        <translation>Quark2 кодлаш жараёнини тугатиш учун ёпилади. Ёдда сақланг: ҳамёнингизни кодлаш компьютерингизни зарарлаган зарарли дастурлар томонидан quark тангаларингизни ўғирланишидан тўлиқ ҳимоя қила олмайди.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -295,8 +295,8 @@
         <translation>Интернет манзилни очиш</translation>
     </message>
     <message>
-        <source>Quark Core client</source>
-        <translation>Quark асос мижози</translation>
+        <source>Quark 2.0 Core client</source>
+        <translation>Quark 2.0 асос мижози</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,12 +307,12 @@
         <translation>Дискдаги блоклар қайта индексланмоқда...</translation>
     </message>
     <message>
-        <source>Send coins to a Quark address</source>
-        <translation>Тангаларни Quark манзилига жўнатиш</translation>
+        <source>Send coins to a Quark2 address</source>
+        <translation>Тангаларни Quark2 манзилига жўнатиш</translation>
     </message>
     <message>
-        <source>Modify configuration options for Quark</source>
-        <translation>Quark учун мослаш танловларини ўзгартириш</translation>
+        <source>Modify configuration options for Quark2</source>
+        <translation>Quark2 учун мослаш танловларини ўзгартириш</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -335,8 +335,8 @@
         <translation>Хабарни &amp;тасдиқлаш...</translation>
     </message>
     <message>
-        <source>Quark</source>
-        <translation>Quark</translation>
+        <source>Quark2</source>
+        <translation>Quark2</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -351,8 +351,8 @@
         <translation>&amp;Қабул қилиш</translation>
     </message>
     <message>
-        <source>Show information about Quark Core</source>
-        <translation>Quark Core ҳақидаги маълумотларни кўрсатиш</translation>
+        <source>Show information about Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core ҳақидаги маълумотларни кўрсатиш</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -367,12 +367,12 @@
         <translation>Ҳамёнингизга тегишли махфий калитларни кодлаш</translation>
     </message>
     <message>
-        <source>Sign messages with your Quark addresses to prove you own them</source>
-        <translation>Quark манзилидан унинг эгаси эканлигингизни исботлаш учун хабарлар ёзинг</translation>
+        <source>Sign messages with your Quark2 addresses to prove you own them</source>
+        <translation>Quark2 манзилидан унинг эгаси эканлигингизни исботлаш учун хабарлар ёзинг</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Quark addresses</source>
-        <translation>Хабарларни махсус Quark манзилларингиз билан ёзилганлигига ишонч ҳосил қилиш учун уларни тасдиқланг</translation>
+        <source>Verify messages to ensure they were signed with specified Quark2 addresses</source>
+        <translation>Хабарларни махсус Quark2 манзилларингиз билан ёзилганлигига ишонч ҳосил қилиш учун уларни тасдиқланг</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -391,16 +391,16 @@
         <translation>Ички ойналар асбоблар панели</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
-        <translation>Тўловлар (QR кодлари ва quark ёрдамида яратишлар: URI’лар) сўраш</translation>
+        <source>Request payments (generates QR codes and quark2: URIs)</source>
+        <translation>Тўловлар (QR кодлари ва quark2 ёрдамида яратишлар: URI’лар) сўраш</translation>
     </message>
     <message>
-        <source>&amp;About Quark Core</source>
-        <translation>Quark Core &amp;ҳақида</translation>
+        <source>&amp;About Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core &amp;ҳақида</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,20 +411,20 @@
         <translation>Фойдаланилган қабул қилинган манзиллар ва ёрлиқлар рўйхатини кўрсатиш</translation>
     </message>
     <message>
-        <source>Open a quark: URI or payment request</source>
-        <translation>Quark’ни очиш: URI ёки тўлов сўрови</translation>
+        <source>Open a quark2: URI or payment request</source>
+        <translation>Quark2’ни очиш: URI ёки тўлов сўрови</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Буйруқлар сатри мосламалари</translation>
     </message>
     <message>
-        <source>Show the Quark Core help message to get a list with possible Quark command-line options</source>
-        <translation>Мавжуд Quark буйруқлар матни мосламалари билан  Quark Core ёрдам хабарларини олиш рўйхатини кўрсатиш</translation>
+        <source>Show the Quark 2.0 Core help message to get a list with possible Quark2 command-line options</source>
+        <translation>Мавжуд Quark2 буйруқлар матни мосламалари билан  Quark 2.0 Core ёрдам хабарларини олиш рўйхатини кўрсатиш</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Quark network</source>
-        <translation><numerusform>%n та Quark тармоғига фаол уланиш мавжуд</numerusform></translation>
+        <source>%n active connection(s) to Quark2 network</source>
+        <translation><numerusform>%n та Quark2 тармоғига фаол уланиш мавжуд</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -772,8 +772,8 @@ Address: %4
         <translation>Киритилган "%1" манзили аллақачон манзил китобида.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Quark address.</source>
-        <translation>Киритилган "%1" манзили тўғри Quark манзили эмас.</translation>
+        <source>The entered address "%1" is not a valid Quark2 address.</source>
+        <translation>Киритилган "%1" манзили тўғри Quark2 манзили эмас.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -810,8 +810,8 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -822,8 +822,8 @@ Address: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Quark Core</source>
-        <translation>Quark Core ҳақида</translation>
+        <source>About Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core ҳақида</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -857,16 +857,16 @@ Address: %4
         <translation>Хуш келибсиз</translation>
     </message>
     <message>
-        <source>Welcome to Quark Core.</source>
-        <translation>"Quark Core"га хуш келибсиз.</translation>
+        <source>Welcome to Quark 2.0 Core.</source>
+        <translation>"Quark 2.0 Core"га хуш келибсиз.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Quark Core will store its data.</source>
-        <translation>Биринчи марта дастур ишга тушгани каби сиз Quark Core маълумотларини жойлаштирадиган жойни танлашингиз мумкин.</translation>
+        <source>As this is the first time the program is launched, you can choose where Quark 2.0 Core will store its data.</source>
+        <translation>Биринчи марта дастур ишга тушгани каби сиз Quark 2.0 Core маълумотларини жойлаштирадиган жойни танлашингиз мумкин.</translation>
     </message>
     <message>
-        <source>Quark Core will download and store a copy of the Quark block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Quark Core юклаб олинади ва Quark блок занжири нусхаси жойлаштирилади. Камида %1GB  маълумот ушбу директорияга жойлаштирилади ва вақт давомида ўсиб боради. Ҳамён ҳам ушбу директорияда жойлашади.</translation>
+        <source>Quark 2.0 Core will download and store a copy of the Quark2 block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Quark 2.0 Core юклаб олинади ва Quark2 блок занжири нусхаси жойлаштирилади. Камида %1GB  маълумот ушбу директорияга жойлаштирилади ва вақт давомида ўсиб боради. Ҳамён ҳам ушбу директорияда жойлашади.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -877,8 +877,8 @@ Address: %4
         <translation>Бошқа маълумотлар директориясида фойдаланинг:</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -923,12 +923,12 @@ Address: %4
         <translation>&amp;Асосий</translation>
     </message>
     <message>
-        <source>Automatically start Quark after logging in to the system.</source>
-        <translation>Тизимга киргандан сўнг Quark дастури автоматик ишга туширилсин.</translation>
+        <source>Automatically start Quark2 after logging in to the system.</source>
+        <translation>Тизимга киргандан сўнг Quark2 дастури автоматик ишга туширилсин.</translation>
     </message>
     <message>
-        <source>&amp;Start Quark on system login</source>
-        <translation>Тизимга кирганда Quark &amp;ишга туширилсин</translation>
+        <source>&amp;Start Quark2 on system login</source>
+        <translation>Тизимга кирганда Quark2 &amp;ишга туширилсин</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -999,8 +999,8 @@ Address: %4
         <translation>Фойдаланувчи интерфейси &amp;тили:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Quark.</source>
-        <translation>Фойдаланувчи тили интерфесини шу ерда ўрнатиш мумкин. TУшбу созлама Quark қайта ишга туширилганда кучга киради.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Quark2.</source>
+        <translation>Фойдаланувчи тили интерфесини шу ерда ўрнатиш мумкин. TУшбу созлама Quark2 қайта ишга туширилганда кучга киради.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1050,8 +1050,8 @@ Address: %4
         <translation>Шакл</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark network after a connection is established, but this process has not completed yet.</source>
-        <translation>Кўрсатилган маълумот эскирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан сўнг Quark тармоқ билан автоматик тарзда синхронланади, аммо жараён ҳалигача тугалланмади.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark2 network after a connection is established, but this process has not completed yet.</source>
+        <translation>Кўрсатилган маълумот эскирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан сўнг Quark2 тармоқ билан автоматик тарзда синхронланади, аммо жараён ҳалигача тугалланмади.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1163,8 +1163,8 @@ Address: %4
         <translation>Миқдори</translation>
     </message>
     <message>
-        <source>Enter a Quark address (e.g. %1)</source>
-        <translation>Quark манзилини киритинг (масалан.  %1)</translation>
+        <source>Enter a Quark2 address (e.g. %1)</source>
+        <translation>Quark2 манзилини киритинг (масалан.  %1)</translation>
     </message>
     <message>
         <source>%1 m</source>
@@ -1361,16 +1361,16 @@ Address: %4
         <translation>Тузатиш журнали файли</translation>
     </message>
     <message>
-        <source>Open the Quark debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Жорий махлумотлар директориясидан Quark тузатиш журнали файлини очинг. Бу катта журнал файллари учун бир неча сонияни олиши мумкин.</translation>
+        <source>Open the Quark2 debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Жорий махлумотлар директориясидан Quark2 тузатиш журнали файлини очинг. Бу катта журнал файллари учун бир неча сонияни олиши мумкин.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Терминални тозалаш</translation>
     </message>
     <message>
-        <source>Welcome to the Quark RPC console.</source>
-        <translation>Quark RPC терминлга хуш келибсиз.</translation>
+        <source>Welcome to the Quark2 RPC console.</source>
+        <translation>Quark2 RPC терминлга хуш келибсиз.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1729,8 +1729,8 @@ Address: %4
         <translation>Тўлов миқдори 0. дан катта бўлиши керак. </translation>
     </message>
     <message>
-        <source>Warning: Invalid Quark address</source>
-        <translation>Диққат: Нотўғр Quark манзили</translation>
+        <source>Warning: Invalid Quark2 address</source>
+        <translation>Диққат: Нотўғр Quark2 манзили</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1837,12 +1837,12 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
-        <source>The Quark Core developers</source>
-        <translation>Quark Core дастурчилари</translation>
+        <source>The Quark 2.0 Core developers</source>
+        <translation>Quark 2.0 Core дастурчилари</translation>
     </message>
     <message>
         <source>[testnet]</source>

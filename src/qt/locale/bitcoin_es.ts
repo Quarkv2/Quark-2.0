@@ -66,12 +66,12 @@
         <translation>Direcciones de recepción</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son tus direcciones Quark para enviar los pagos. Comprueba siempre la cantidad y la dirección receptora antes de enviar las monedas.</translation>
+        <source>These are your Quark2 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son tus direcciones Quark2 para enviar los pagos. Comprueba siempre la cantidad y la dirección receptora antes de enviar las monedas.</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son tus direcciones de Quark para recibir los pagos. Se recomienda utilizar una nueva dirección de recepción para cada transacción.</translation>
+        <source>These are your Quark2 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son tus direcciones de Quark2 para recibir los pagos. Se recomienda utilizar una nueva dirección de recepción para cada transacción.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -184,8 +184,8 @@
         <translation>Introduzca la nueva contraseña para el monedero.&lt;br/&gt;Utilice por favor una contraseña con &lt;b&gt;diez o más caracteres aleatorios&lt;/b&gt; o con &lt;b&gt;ocho o más palabras&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Quark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
-        <translation>Quark se cerrará para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus quarkcoins de robo por malware que infecte su sistema.</translation>
+        <source>Quark2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
+        <translation>Quark2 se cerrará para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus quarkcoins de robo por malware que infecte su sistema.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -291,8 +291,8 @@
         <translation>Abrir &amp;URI...</translation>
     </message>
     <message>
-        <source>Quark Core client</source>
-        <translation>Cliente Quark Core</translation>
+        <source>Quark 2.0 Core client</source>
+        <translation>Cliente Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -303,12 +303,12 @@
         <translation>Reindexando bloques en disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Quark address</source>
-        <translation>Enviar quarkcoins a una dirección Quark</translation>
+        <source>Send coins to a Quark2 address</source>
+        <translation>Enviar quarkcoins a una dirección Quark2</translation>
     </message>
     <message>
-        <source>Modify configuration options for Quark</source>
-        <translation>Modificar las opciones de configuración de Quark</translation>
+        <source>Modify configuration options for Quark2</source>
+        <translation>Modificar las opciones de configuración de Quark2</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -331,8 +331,8 @@
         <translation>&amp;Verificar mensaje...</translation>
     </message>
     <message>
-        <source>Quark</source>
-        <translation>Quark</translation>
+        <source>Quark2</source>
+        <translation>Quark2</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -347,8 +347,8 @@
         <translation>&amp;Recibir</translation>
     </message>
     <message>
-        <source>Show information about Quark Core</source>
-        <translation>Mostrar información acerca de Quark Core</translation>
+        <source>Show information about Quark 2.0 Core</source>
+        <translation>Mostrar información acerca de Quark 2.0 Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -363,12 +363,12 @@
         <translation>Cifrar las claves privadas de su monedero</translation>
     </message>
     <message>
-        <source>Sign messages with your Quark addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones Quark para demostrar la propiedad</translation>
+        <source>Sign messages with your Quark2 addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones Quark2 para demostrar la propiedad</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Quark addresses</source>
-        <translation>Verificar mensajes comprobando que están firmados con direcciones Quark concretas</translation>
+        <source>Verify messages to ensure they were signed with specified Quark2 addresses</source>
+        <translation>Verificar mensajes comprobando que están firmados con direcciones Quark2 concretas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -387,16 +387,16 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
-        <translation>Solicitar pagos (generando códigos QR e identificadores URI "quark:")</translation>
+        <source>Request payments (generates QR codes and quark2: URIs)</source>
+        <translation>Solicitar pagos (generando códigos QR e identificadores URI "quark2:")</translation>
     </message>
     <message>
-        <source>&amp;About Quark Core</source>
-        <translation>&amp;Acerca de Quark Core</translation>
+        <source>&amp;About Quark 2.0 Core</source>
+        <translation>&amp;Acerca de Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -407,20 +407,20 @@
         <translation>Muestra la lista de direcciones de recepción y etiquetas</translation>
     </message>
     <message>
-        <source>Open a quark: URI or payment request</source>
-        <translation>Abrir un identificador URI "quark:" o una petición de pago</translation>
+        <source>Open a quark2: URI or payment request</source>
+        <translation>Abrir un identificador URI "quark2:" o una petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Opciones de consola de comandos</translation>
     </message>
     <message>
-        <source>Show the Quark Core help message to get a list with possible Quark command-line options</source>
-        <translation>Mostrar el mensaje de ayuda de Quark Core con una lista de las posibles opciones de la consola de comandos de Quark</translation>
+        <source>Show the Quark 2.0 Core help message to get a list with possible Quark2 command-line options</source>
+        <translation>Mostrar el mensaje de ayuda de Quark 2.0 Core con una lista de las posibles opciones de la consola de comandos de Quark2</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Quark network</source>
-        <translation><numerusform>%n conexión activa hacia la red Quark</numerusform><numerusform>%n conexiones activas hacia la red Quark</numerusform></translation>
+        <source>%n active connection(s) to Quark2 network</source>
+        <translation><numerusform>%n conexión activa hacia la red Quark2</numerusform><numerusform>%n conexiones activas hacia la red Quark2</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -784,8 +784,8 @@ Dirección: %4
         <translation>La dirección introducida "%1" ya está presente en la libreta de direcciones.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Quark address.</source>
-        <translation>La dirección introducida "%1" no es una dirección Quark válida.</translation>
+        <source>The entered address "%1" is not a valid Quark2 address.</source>
+        <translation>La dirección introducida "%1" no es una dirección Quark2 válida.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -822,8 +822,8 @@ Dirección: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -834,8 +834,8 @@ Dirección: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Quark Core</source>
-        <translation>Acerca de Quark Core</translation>
+        <source>About Quark 2.0 Core</source>
+        <translation>Acerca de Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -881,16 +881,16 @@ Dirección: %4
         <translation>Bienvenido</translation>
     </message>
     <message>
-        <source>Welcome to Quark Core.</source>
-        <translation>Bienvenido a Quark Core</translation>
+        <source>Welcome to Quark 2.0 Core.</source>
+        <translation>Bienvenido a Quark 2.0 Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Quark Core will store its data.</source>
-        <translation>Al ser la primera vez que se ejecuta el programa, puede elegir dónde almacenará sus datos Quark Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where Quark 2.0 Core will store its data.</source>
+        <translation>Al ser la primera vez que se ejecuta el programa, puede elegir dónde almacenará sus datos Quark 2.0 Core.</translation>
     </message>
     <message>
-        <source>Quark Core will download and store a copy of the Quark block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Quark Core va a descargar y guardar una copia de la cadena de bloques de Quark. Se almacenará al menos %1GB de datos en este directorio, que irá creciendo con el tiempo. El monedero se guardará también en este directorio.</translation>
+        <source>Quark 2.0 Core will download and store a copy of the Quark2 block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Quark 2.0 Core va a descargar y guardar una copia de la cadena de bloques de Quark2. Se almacenará al menos %1GB de datos en este directorio, que irá creciendo con el tiempo. El monedero se guardará también en este directorio.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -901,8 +901,8 @@ Dirección: %4
         <translation>Utilizar un directorio de datos personalizado:</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -955,12 +955,12 @@ Dirección: %4
         <translation>&amp;Principal</translation>
     </message>
     <message>
-        <source>Automatically start Quark after logging in to the system.</source>
-        <translation>Iniciar Quark automáticamente al encender el sistema.</translation>
+        <source>Automatically start Quark2 after logging in to the system.</source>
+        <translation>Iniciar Quark2 automáticamente al encender el sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Quark on system login</source>
-        <translation>&amp;Iniciar Quark al iniciar el sistema</translation>
+        <source>&amp;Start Quark2 on system login</source>
+        <translation>&amp;Iniciar Quark2 al iniciar el sistema</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1035,16 +1035,16 @@ Dirección: %4
         <translation>&amp;Gastar cambio no confirmado</translation>
     </message>
     <message>
-        <source>Automatically open the Quark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente Quark en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
+        <source>Automatically open the Quark2 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente Quark2 en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapear el puerto mediante &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Quark network through a SOCKS5 proxy.</source>
-        <translation>Conectarse a la red Quark a través de un proxy SOCKS5.</translation>
+        <source>Connect to the Quark2 network through a SOCKS5 proxy.</source>
+        <translation>Conectarse a la red Quark2 a través de un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1091,8 +1091,8 @@ Dirección: %4
         <translation>I&amp;dioma de la interfaz de usuario</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Quark.</source>
-        <translation>El idioma de la interfaz de usuario puede establecerse aquí. Este ajuste se aplicará cuando se reinicie Quark.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Quark2.</source>
+        <translation>El idioma de la interfaz de usuario puede establecerse aquí. Este ajuste se aplicará cuando se reinicie Quark2.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1150,8 +1150,8 @@ Dirección: %4
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Quark después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark2 network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Quark2 después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1257,16 +1257,16 @@ Dirección: %4
         <translation>Error en solicitud de pago</translation>
     </message>
     <message>
-        <source>Cannot start quark: click-to-pay handler</source>
-        <translation>No se puede iniciar el gestor de identificadores "quark:" de clic-para-pagar</translation>
+        <source>Cannot start quark2: click-to-pay handler</source>
+        <translation>No se puede iniciar el gestor de identificadores "quark2:" de clic-para-pagar</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>La URL de obtención de la solicitud de pago es inválida: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Quark address or malformed URI parameters.</source>
-        <translation>¡No se puede leer el identificador URI! Esto puede deberse a una dirección Quark inválida o a parámetros de la URI mal formados</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Quark2 address or malformed URI parameters.</source>
+        <translation>¡No se puede leer el identificador URI! Esto puede deberse a una dirección Quark2 inválida o a parámetros de la URI mal formados</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1335,8 +1335,8 @@ Dirección: %4
         <translation>Cantidad</translation>
     </message>
     <message>
-        <source>Enter a Quark address (e.g. %1)</source>
-        <translation>Introducir una dirección Quark (p. ej. %1)</translation>
+        <source>Enter a Quark2 address (e.g. %1)</source>
+        <translation>Introducir una dirección Quark2 (p. ej. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1561,7 +1561,7 @@ Dirección: %4
         <translation>Archivo de registro de depuración</translation>
     </message>
     <message>
-        <source>Open the Quark debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Quark2 debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Abrir el archivo de registro de depuración en el directorio actual de datos. Esto puede llevar varios segundos para archivos de registro grandes.</translation>
     </message>
     <message>
@@ -1569,8 +1569,8 @@ Dirección: %4
         <translation>Borrar consola</translation>
     </message>
     <message>
-        <source>Welcome to the Quark RPC console.</source>
-        <translation>Bienvenido a la consola RPC de Quark</translation>
+        <source>Welcome to the Quark2 RPC console.</source>
+        <translation>Bienvenido a la consola RPC de Quark2</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1644,8 +1644,8 @@ Dirección: %4
         <translation>R&amp;eutilizar una dirección existente para recibir (no recomendado)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Quark network.</source>
-        <translation>Un mensaje opcional para adjuntar a la solicitud de pago, que se muestra cuando se abre la solicitud. Nota: El mensaje no se enviará con el pago por la red Quark.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Quark2 network.</source>
+        <translation>Un mensaje opcional para adjuntar a la solicitud de pago, que se muestra cuando se abre la solicitud. Nota: El mensaje no se enviará con el pago por la red Quark2.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2029,8 +2029,8 @@ Dirección: %4
         <translation>Estimado para comenzar confirmación dentro de %1 bloque(s)</translation>
     </message>
     <message>
-        <source>Warning: Invalid Quark address</source>
-        <translation>Alerta: Dirección de Quark inválida</translation>
+        <source>Warning: Invalid Quark2 address</source>
+        <translation>Alerta: Dirección de Quark2 inválida</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2038,7 +2038,7 @@ Dirección: %4
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>Alerta: Dirección de Quark inválida</translation>
+        <translation>Alerta: Dirección de Quark2 inválida</translation>
     </message>
     <message>
         <source>Copy dust</source>
@@ -2080,8 +2080,8 @@ Dirección: %4
         <translation>Esto es un pago ordinario.</translation>
     </message>
     <message>
-        <source>The Quark address to send the payment to</source>
-        <translation>Dirección Quark a la que enviar el pago</translation>
+        <source>The Quark2 address to send the payment to</source>
+        <translation>Dirección Quark2 a la que enviar el pago</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2112,8 +2112,8 @@ Dirección: %4
         <translation>Introduce una etiqueta para esta dirección para añadirla a la lista de direcciones utilizadas</translation>
     </message>
     <message>
-        <source>A message that was attached to the quark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Quark network.</source>
-        <translation>Un mensaje que se adjuntó a la quark: URL que será almacenada con la transacción para su referencia. Nota: Este mensaje no se envía a través de la red Quark.</translation>
+        <source>A message that was attached to the quark2: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Quark2 network.</source>
+        <translation>Un mensaje que se adjuntó a la quark2: URL que será almacenada con la transacción para su referencia. Nota: Este mensaje no se envía a través de la red Quark2.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2131,8 +2131,8 @@ Dirección: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Quark Core is shutting down...</source>
-        <translation>Quark Core se está cerrando...</translation>
+        <source>Quark 2.0 Core is shutting down...</source>
+        <translation>Quark 2.0 Core se está cerrando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2154,8 +2154,8 @@ Dirección: %4
         <translation>Puede firmar mensajes con sus direcciones para demostrar que las posee. Tenga cuidado de no firmar cualquier cosa vaga, ya que los ataques de phishing pueden tratar de engañarle para suplantar su identidad. Firme solo declaraciones totalmente detalladas con las que usted esté de acuerdo.</translation>
     </message>
     <message>
-        <source>The Quark address to sign the message with</source>
-        <translation>Dirección Quark con la que firmar el mensaje</translation>
+        <source>The Quark2 address to sign the message with</source>
+        <translation>Dirección Quark2 con la que firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2186,8 +2186,8 @@ Dirección: %4
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Quark address</source>
-        <translation>Firmar el mensaje para demostrar que se posee esta dirección Quark</translation>
+        <source>Sign the message to prove you own this Quark2 address</source>
+        <translation>Firmar el mensaje para demostrar que se posee esta dirección Quark2</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2210,12 +2210,12 @@ Dirección: %4
         <translation>Introduzca la dirección para la firma, el mensaje (asegurándose de copiar tal cual los saltos de línea, espacios, tabulaciones, etc.) y la firma a continuación para verificar el mensaje. Tenga cuidado de no asumir más información de lo que dice el propio mensaje firmado para evitar fraudes basados en ataques de tipo man-in-the-middle.</translation>
     </message>
     <message>
-        <source>The Quark address the message was signed with</source>
-        <translation>La dirección Quark con la que se firmó el mensaje</translation>
+        <source>The Quark2 address the message was signed with</source>
+        <translation>La dirección Quark2 con la que se firmó el mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Quark address</source>
-        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Quark indicada</translation>
+        <source>Verify the message to ensure it was signed with the specified Quark2 address</source>
+        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Quark2 indicada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2281,12 +2281,12 @@ Dirección: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
-        <source>The Quark Core developers</source>
-        <translation>Los desarrolladores de Quark Core</translation>
+        <source>The Quark 2.0 Core developers</source>
+        <translation>Los desarrolladores de Quark 2.0 Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2839,8 +2839,8 @@ Dirección: %4
         <translation>Esta es una versión de pre-prueba - utilícela bajo su propio riesgo. No la utilice para usos comerciales o de minería.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Quark Core is probably already running.</source>
-        <translation>No se ha podido acceder a %s en esta máquina. Probablemente ya se está ejecutando Quark Core.</translation>
+        <source>Unable to bind to %s on this computer. Quark 2.0 Core is probably already running.</source>
+        <translation>No se ha podido acceder a %s en esta máquina. Probablemente ya se está ejecutando Quark 2.0 Core.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3023,8 +3023,8 @@ Dirección: %4
         <translation>Ligar a las direcciones especificadas para escuchar por conexiones JSON-RPC. Usar la notación para IPv6 [host]:puerto. Esta opción se puede especificar múltiples veces (por defecto: ligar a todas las interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Quark Core is probably already running.</source>
-        <translation>No se ha podido bloquear el directorio de datos %s. Probablemente ya se está ejecutando Quark Core.</translation>
+        <source>Cannot obtain a lock on data directory %s. Quark 2.0 Core is probably already running.</source>
+        <translation>No se ha podido bloquear el directorio de datos %s. Probablemente ya se está ejecutando Quark 2.0 Core.</translation>
     </message>
     <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
@@ -3083,27 +3083,27 @@ Dirección: %4
         <translation>Este producto incluye software desarrollado por el OpenSSL Project para su uso en OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, software de cifrado escrito por Eric Young y software UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use quarkd, or the -server option to quark-qt, you must set an rpcpassword in the configuration file:
+        <source>To use quark2d, or the -server option to quark2-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=quarkrpc
+rpcuser=quark2rpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Quark Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Quark2 Alert" admin@foo.com
 </source>
-        <translation>Para utilizar quarkd, o la -opción servidor a quark-qt, debes establecer una rpcpassword en el fichero de configuración:
+        <translation>Para utilizar quark2d, o la -opción servidor a quark2-qt, debes establecer una rpcpassword en el fichero de configuración:
 %s
 Se recomienda utilizar la siguiente contraseña aleatoria:
-rpcuser=quarkrpc
+rpcuser=quark2rpc
 rpcpassword=%s
 (no es necesario que recuerdes esta contraseña)
 El nombre de usuario y contraseña NO DEBEN ser la misma.
 Si no existe el archivo, crearlo con los permisos de archivos de propietarios de -sólo lectura-.
 También se recomienda establecer una notificación de alerta para ser notificado de problemas;
-por ejemplo: alertnotify=echo %% s | correo -s "Alerta Quark" admin@foo.com
+por ejemplo: alertnotify=echo %% s | correo -s "Alerta Quark2" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3111,8 +3111,8 @@ por ejemplo: alertnotify=echo %% s | correo -s "Alerta Quark" admin@foo.com
         <translation>Advertencia: ¡-maxtxfee se establece muy alta! Esta gran tarifa podría ser pagada en una sola transacción .</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Quark Core will not work properly.</source>
-        <translation>Aviso: ¡Comprueba la fecha y hora de tu ordenador y verifica si es correcta! Si no es correcta Quark Core no funcionará adecuadamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Quark 2.0 Core will not work properly.</source>
+        <translation>Aviso: ¡Comprueba la fecha y hora de tu ordenador y verifica si es correcta! Si no es correcta Quark 2.0 Core no funcionará adecuadamente.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3131,16 +3131,16 @@ por ejemplo: alertnotify=echo %% s | correo -s "Alerta Quark" admin@foo.com
         <translation>Conectar usando SOCKS5 proxy</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Quark Core and Quark Core Developers</source>
-        <translation>Copyright (C) 2009-%i The Quark Core and Quark Core Developers</translation>
+        <source>Copyright (C) 2009-%i The Bitcoin and Quark 2.0 Core Developers</source>
+        <translation>Copyright (C) 2009-%i The Bitcoin and Quark 2.0 Core Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
         <translation>No se pudo analizar -rpcbind valor%s como dirección de red</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Quark Core</source>
-        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de Quark Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Quark 2.0 Core</source>
+        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3163,8 +3163,8 @@ por ejemplo: alertnotify=echo %% s | correo -s "Alerta Quark" admin@foo.com
         <translation>Información</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Quark Core is shutting down.</source>
-        <translation>La inicialización de la verificación de validez falló. Se está apagando Quark Core.</translation>
+        <source>Initialization sanity check failed. Quark 2.0 Core is shutting down.</source>
+        <translation>La inicialización de la verificación de validez falló. Se está apagando Quark 2.0 Core.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3199,8 +3199,8 @@ por ejemplo: alertnotify=echo %% s | correo -s "Alerta Quark" admin@foo.com
         <translation>Opciones de nodos de retransmisión:</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the Quark Wiki for SSL setup instructions)</source>
-        <translation>Opciones SSL de RPC: (véase la wiki de Quark para las instrucciones de instalación de SSL)</translation>
+        <source>RPC SSL options: (see the Quark2 Wiki for SSL setup instructions)</source>
+        <translation>Opciones SSL de RPC: (véase la wiki de Quark2 para las instrucciones de instalación de SSL)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3276,8 +3276,8 @@ por ejemplo: alertnotify=echo %% s | correo -s "Alerta Quark" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Quark Core to complete</source>
-        <translation>Monedero es necesario volver a escribir: reiniciar Quark Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart Quark 2.0 Core to complete</source>
+        <translation>Monedero es necesario volver a escribir: reiniciar Quark 2.0 Core para completar</translation>
     </message>
     <message>
         <source>Warning</source>

@@ -46,12 +46,12 @@
         <translation>Duke marr adresen</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Këto janë Quark adresat e juaja për të dërguar pagesa. Gjithmon kontrolloni shumën dhe adresën pranuese para se të dërgoni monedha.</translation>
+        <source>These are your Quark2 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Këto janë Quark2 adresat e juaja për të dërguar pagesa. Gjithmon kontrolloni shumën dhe adresën pranuese para se të dërgoni monedha.</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Këto janë Quark adresat e juaja për të pranuar pagesa. Rekomandohet që gjithmon të përdorni një adresë të re për çdo transaksion.</translation>
+        <source>These are your Quark2 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Këto janë Quark2 adresat e juaja për të pranuar pagesa. Rekomandohet që gjithmon të përdorni një adresë të re për çdo transaksion.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -207,8 +207,8 @@
         <translation>Ndrysho frazkalimin e përdorur per enkriptimin e portofolit</translation>
     </message>
     <message>
-        <source>Quark</source>
-        <translation>Quark</translation>
+        <source>Quark2</source>
+        <translation>Quark2</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -243,12 +243,12 @@
         <translation>Shiriti i mjeteve</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Berthama Quark</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Berthama Quark 2.0</translation>
     </message>
     <message>
-        <source>&amp;About Quark Core</source>
-        <translation>Rreth Berthames Bitkoin</translation>
+        <source>&amp;About Quark 2.0 Core</source>
+        <translation>Rreth Berthames Quark 2.0</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -398,16 +398,16 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Berthama Quark</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Berthama Quark 2.0</translation>
     </message>
     <message>
         <source>version</source>
         <translation>versioni</translation>
     </message>
     <message>
-        <source>About Quark Core</source>
-        <translation>Rreth Berthames Bitkoin</translation>
+        <source>About Quark 2.0 Core</source>
+        <translation>Rreth Berthames Quark 2.0</translation>
     </message>
     </context>
 <context>
@@ -417,12 +417,12 @@
         <translation>Miresevini</translation>
     </message>
     <message>
-        <source>Welcome to Quark Core.</source>
+        <source>Welcome to Quark 2.0 Core.</source>
         <translation>Miresevini ne Berthamen Quark</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Berthama Quark</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Berthama Quark 2.0</translation>
     </message>
     <message>
         <source>Error</source>
@@ -609,8 +609,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Berthama Quark</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Berthama Quark 2.0</translation>
     </message>
     <message>
         <source>[testnet]</source>

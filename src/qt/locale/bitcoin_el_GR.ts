@@ -66,12 +66,12 @@
         <translation>Διευθύνσεις λήψης</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Αυτές είναι οι Quark διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
+        <source>These are your Quark2 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Αυτές είναι οι Quark2 διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Αυτές είναι οι Quark διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
+        <source>These are your Quark2 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Αυτές είναι οι Quark2 διευθύνσεις σας για να λαμβάνετε πληρωμές. Δίνοντας μία ξεχωριστή διεύθυνση σε κάθε αποστολέα, θα μπορείτε να ελέγχετε ποιος σας πληρώνει.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -189,8 +189,8 @@
         <translation>Εισάγετε τον νέο κωδικό πρόσβασης στον πορτοφόλι &lt;br/&gt; Παρακαλώ χρησιμοποιείστε ένα κωδικό με &lt;b&gt; 10 ή περισσότερους τυχαίους χαρακτήρες&lt;/b&gt; ή &lt;b&gt; οχτώ ή παραπάνω λέξεις&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Quark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
-        <translation>Το Quark θα κλεισει τώρα για να τελειώσει την διαδικασία κρυπτογραφησης. Θυμησου ότι κρυπτογραφώντας το πορτοφολι σου δεν μπορείς να προστατέψεις πλήρως τα quarkcoins σου από κλοπή στην περίπτωση όπου μολυνθεί ο υπολογιστής σου με κακόβουλο λογισμικό.</translation>
+        <source>Quark2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
+        <translation>Το Quark2 θα κλεισει τώρα για να τελειώσει την διαδικασία κρυπτογραφησης. Θυμησου ότι κρυπτογραφώντας το πορτοφολι σου δεν μπορείς να προστατέψεις πλήρως τα quarkcoins σου από κλοπή στην περίπτωση όπου μολυνθεί ο υπολογιστής σου με κακόβουλο λογισμικό.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -296,8 +296,8 @@
         <translation>'Ανοιγμα &amp;URI</translation>
     </message>
     <message>
-        <source>Quark Core client</source>
-        <translation>Εφαρμογή Quark Core</translation>
+        <source>Quark 2.0 Core client</source>
+        <translation>Εφαρμογή Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -308,12 +308,12 @@
         <translation>Φόρτωση ευρετηρίου μπλοκ στον σκληρο δισκο...</translation>
     </message>
     <message>
-        <source>Send coins to a Quark address</source>
-        <translation>Στείλε νομίσματα σε μια διεύθυνση quark</translation>
+        <source>Send coins to a Quark2 address</source>
+        <translation>Στείλε νομίσματα σε μια διεύθυνση quark2</translation>
     </message>
     <message>
-        <source>Modify configuration options for Quark</source>
-        <translation>Επεργασία  ρυθμισεων επιλογών για το Quark</translation>
+        <source>Modify configuration options for Quark2</source>
+        <translation>Επεργασία  ρυθμισεων επιλογών για το Quark2</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -336,8 +336,8 @@
         <translation>&amp;Επιβεβαίωση μηνύματος</translation>
     </message>
     <message>
-        <source>Quark</source>
-        <translation>Quark</translation>
+        <source>Quark2</source>
+        <translation>Quark2</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -352,8 +352,8 @@
         <translation>&amp;Παραλαβή </translation>
     </message>
     <message>
-        <source>Show information about Quark Core</source>
-        <translation>Σχετικά με το Quark Core</translation>
+        <source>Show information about Quark 2.0 Core</source>
+        <translation>Σχετικά με το Quark 2.0 Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -368,12 +368,12 @@
         <translation>Κρυπτογραφήστε τα ιδιωτικά κλειδιά που ανήκουν στο πορτοφόλι σας </translation>
     </message>
     <message>
-        <source>Sign messages with your Quark addresses to prove you own them</source>
+        <source>Sign messages with your Quark2 addresses to prove you own them</source>
         <translation>Υπογράψτε ένα μήνυμα για να βεβαιώσετε πως είστε ο κάτοχος αυτής της διεύθυνσης</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Quark addresses</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση Quark</translation>
+        <source>Verify messages to ensure they were signed with specified Quark2 addresses</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως ανήκει μια συγκεκριμένη διεύθυνση Quark2</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -392,16 +392,16 @@
         <translation>Εργαλειοθήκη καρτελών</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
-        <translation>Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις quark: )</translation>
+        <source>Request payments (generates QR codes and quark2: URIs)</source>
+        <translation>Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις quark2: )</translation>
     </message>
     <message>
-        <source>&amp;About Quark Core</source>
-        <translation>&amp;Σχετικά με το Quark Core</translation>
+        <source>&amp;About Quark 2.0 Core</source>
+        <translation>&amp;Σχετικά με το Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -412,20 +412,20 @@
         <translation>Προβολή της λίστας των χρησιμοποιημένων διευθύνσεων και ετικετών λήψεως</translation>
     </message>
     <message>
-        <source>Open a quark: URI or payment request</source>
-        <translation>Άνοιγμα quark: URI αίτησης πληρωμής</translation>
+        <source>Open a quark2: URI or payment request</source>
+        <translation>Άνοιγμα quark2: URI αίτησης πληρωμής</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Επιλογές γραμμής εντολών</translation>
     </message>
     <message>
-        <source>Show the Quark Core help message to get a list with possible Quark command-line options</source>
-        <translation>Εμφανιση του Quark-Qt μήνυματος βοήθειας για να πάρετε μια λίστα με τις πιθανές επιλογές Quark γραμμής εντολών.</translation>
+        <source>Show the Quark 2.0 Core help message to get a list with possible Quark2 command-line options</source>
+        <translation>Εμφανιση του Quark-Qt μήνυματος βοήθειας για να πάρετε μια λίστα με τις πιθανές επιλογές Quark2 γραμμής εντολών.</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Quark network</source>
-        <translation><numerusform>%n ενεργή σύνδεση στο δίκτυο Quark</numerusform><numerusform>%n ενεργές συνδέσεις στο δίκτυο Βitcoin</numerusform></translation>
+        <source>%n active connection(s) to Quark2 network</source>
+        <translation><numerusform>%n ενεργή σύνδεση στο δίκτυο Quark2</numerusform><numerusform>%n ενεργές συνδέσεις στο δίκτυο Βitcoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -778,8 +778,8 @@ Address: %4
         <translation>Η διεύθυνση "%1" βρίσκεται ήδη στο βιβλίο διευθύνσεων.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Quark address.</source>
-        <translation>Η διεύθυνση "%1" δεν είναι έγκυρη Quark διεύθυνση.</translation>
+        <source>The entered address "%1" is not a valid Quark2 address.</source>
+        <translation>Η διεύθυνση "%1" δεν είναι έγκυρη Quark2 διεύθυνση.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -816,8 +816,8 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -828,8 +828,8 @@ Address: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Quark Core</source>
-        <translation>Σχετικά με το Quark Core</translation>
+        <source>About Quark 2.0 Core</source>
+        <translation>Σχετικά με το Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -875,16 +875,16 @@ Address: %4
         <translation>Καλώς ήρθατε</translation>
     </message>
     <message>
-        <source>Welcome to Quark Core.</source>
-        <translation>Καλώς ήρθατε στο Quark Core.</translation>
+        <source>Welcome to Quark 2.0 Core.</source>
+        <translation>Καλώς ήρθατε στο Quark 2.0 Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Quark Core will store its data.</source>
-        <translation>Καθώς αυτή είναι η πρώτη φορά που εκκινείται το πρόγραμμα, μπορείτε να διαλέξετε πού θα αποθηκεύει το Quark Core τα δεδομένα του.</translation>
+        <source>As this is the first time the program is launched, you can choose where Quark 2.0 Core will store its data.</source>
+        <translation>Καθώς αυτή είναι η πρώτη φορά που εκκινείται το πρόγραμμα, μπορείτε να διαλέξετε πού θα αποθηκεύει το Quark 2.0 Core τα δεδομένα του.</translation>
     </message>
     <message>
-        <source>Quark Core will download and store a copy of the Quark block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>O πυρήνας Quark θα κατεβάσει και να αποθηκεύσει ένα αντίγραφο της αλυσίδας μπλοκ Quark. Τουλάχιστον %1GB δεδομένων θα αποθηκευτούν σε αυτόν τον κατάλογο, και θα αυξηθεί με την πάροδο του χρόνου. Το πορτοφόλι θα αποθηκευτεί σε αυτόν τον κατάλογο.</translation>
+        <source>Quark 2.0 Core will download and store a copy of the Quark2 block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>O πυρήνας Quark θα κατεβάσει και να αποθηκεύσει ένα αντίγραφο της αλυσίδας μπλοκ Quark2. Τουλάχιστον %1GB δεδομένων θα αποθηκευτούν σε αυτόν τον κατάλογο, και θα αυξηθεί με την πάροδο του χρόνου. Το πορτοφόλι θα αποθηκευτεί σε αυτόν τον κατάλογο.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -895,8 +895,8 @@ Address: %4
         <translation>Προσαρμογή του φακέλου δεδομένων: </translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -941,12 +941,12 @@ Address: %4
         <translation>&amp;Κύριο</translation>
     </message>
     <message>
-        <source>Automatically start Quark after logging in to the system.</source>
-        <translation>Αυτόματη εκκίνηση του Quark μετά την εισαγωγή στο σύστημα</translation>
+        <source>Automatically start Quark2 after logging in to the system.</source>
+        <translation>Αυτόματη εκκίνηση του Quark2 μετά την εισαγωγή στο σύστημα</translation>
     </message>
     <message>
-        <source>&amp;Start Quark on system login</source>
-        <translation>&amp;Έναρξη του Βιtcoin κατά την εκκίνηση του συστήματος</translation>
+        <source>&amp;Start Quark2 on system login</source>
+        <translation>&amp;Έναρξη του Quark2 κατά την εκκίνηση του συστήματος</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1021,16 +1021,16 @@ Address: %4
         <translation>&amp;Ξόδεμα μη επικυρωμένων ρέστων</translation>
     </message>
     <message>
-        <source>Automatically open the Quark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Αυτόματο άνοιγμα των θυρών Quark στον δρομολογητή. Λειτουργεί μόνο αν ο δρομολογητής σας υποστηρίζει τη λειτουργία UPnP.</translation>
+        <source>Automatically open the Quark2 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Αυτόματο άνοιγμα των θυρών Quark2 στον δρομολογητή. Λειτουργεί μόνο αν ο δρομολογητής σας υποστηρίζει τη λειτουργία UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Απόδοση θυρών με χρήστη &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Quark network through a SOCKS5 proxy.</source>
-        <translation>Σύνδεση στο Quark δίκτυο μέσω διαμεσολαβητή SOCKS5 (π.χ. για σύνδεση μέσω Tor)</translation>
+        <source>Connect to the Quark2 network through a SOCKS5 proxy.</source>
+        <translation>Σύνδεση στο Quark2 δίκτυο μέσω διαμεσολαβητή SOCKS5 (π.χ. για σύνδεση μέσω Tor)</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1077,8 +1077,8 @@ Address: %4
         <translation>Γλώσσα περιβάλλοντος εργασίας: </translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Quark.</source>
-        <translation>Εδώ μπορεί να ρυθμιστεί η γλώσσα διεπαφής χρήστη. Αυτή η ρύθμιση θα ισχύσει μετά την επανεκκίνηση του Quark.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Quark2.</source>
+        <translation>Εδώ μπορεί να ρυθμιστεί η γλώσσα διεπαφής χρήστη. Αυτή η ρύθμιση θα ισχύσει μετά την επανεκκίνηση του Quark2.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1136,8 +1136,8 @@ Address: %4
         <translation>Φόρμα</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark network after a connection is established, but this process has not completed yet.</source>
-        <translation>Οι πληροφορίες που εμφανίζονται μπορεί να είναι ξεπερασμένες. Το πορτοφόλι σας συγχρονίζεται αυτόματα με το δίκτυο Quark μετά από μια σύνδεση, αλλά αυτή η διαδικασία δεν έχει ακόμη ολοκληρωθεί. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark2 network after a connection is established, but this process has not completed yet.</source>
+        <translation>Οι πληροφορίες που εμφανίζονται μπορεί να είναι ξεπερασμένες. Το πορτοφόλι σας συγχρονίζεται αυτόματα με το δίκτυο Quark2 μετά από μια σύνδεση, αλλά αυτή η διαδικασία δεν έχει ακόμη ολοκληρωθεί. </translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1239,8 +1239,8 @@ Address: %4
         <translation>Σφάλμα αιτήματος πληρωμής</translation>
     </message>
     <message>
-        <source>Cannot start quark: click-to-pay handler</source>
-        <translation>Δεν είναι δυνατή η εκκίνηση του Quark: click-to-pay handler</translation>
+        <source>Cannot start quark2: click-to-pay handler</source>
+        <translation>Δεν είναι δυνατή η εκκίνηση του Quark2: click-to-pay handler</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1293,8 +1293,8 @@ Address: %4
         <translation>Ποσό</translation>
     </message>
     <message>
-        <source>Enter a Quark address (e.g. %1)</source>
-        <translation>Εισάγετε μια διεύθυνση Quark (π.χ. %1)</translation>
+        <source>Enter a Quark2 address (e.g. %1)</source>
+        <translation>Εισάγετε μια διεύθυνση Quark2 (π.χ. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1511,7 +1511,7 @@ Address: %4
         <translation>Αρχείο καταγραφής εντοπισμού σφαλμάτων </translation>
     </message>
     <message>
-        <source>Open the Quark debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Quark2 debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Ανοίξτε το αρχείο καταγραφής εντοπισμού σφαλμάτων από τον τρέχοντα κατάλογο δεδομένων. Αυτό μπορεί να πάρει μερικά δευτερόλεπτα για τα μεγάλα αρχεία καταγραφής. </translation>
     </message>
     <message>
@@ -1519,8 +1519,8 @@ Address: %4
         <translation>Καθαρισμός κονσόλας</translation>
     </message>
     <message>
-        <source>Welcome to the Quark RPC console.</source>
-        <translation>Καλώς ήρθατε στην Quark RPC κονσόλα.</translation>
+        <source>Welcome to the Quark2 RPC console.</source>
+        <translation>Καλώς ήρθατε στην Quark2 RPC κονσόλα.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1911,8 +1911,8 @@ Address: %4
         <translation>Η δημιουργία της συναλλαγής απέτυχε!</translation>
     </message>
     <message>
-        <source>Warning: Invalid Quark address</source>
-        <translation>Προειδοποίηση: Μη έγκυρη διεύθυνση Quark</translation>
+        <source>Warning: Invalid Quark2 address</source>
+        <translation>Προειδοποίηση: Μη έγκυρη διεύθυνση Quark2</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1958,8 +1958,8 @@ Address: %4
         <translation>Αυτή είναι μια απλή πληρωμή.</translation>
     </message>
     <message>
-        <source>The Quark address to send the payment to</source>
-        <translation>Η διεύθυνση Quark που θα σταλεί η πληρωμή</translation>
+        <source>The Quark2 address to send the payment to</source>
+        <translation>Η διεύθυνση Quark2 που θα σταλεί η πληρωμή</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2001,8 +2001,8 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Quark Core is shutting down...</source>
-        <translation>Το Quark Core τερματίζεται...</translation>
+        <source>Quark 2.0 Core is shutting down...</source>
+        <translation>Το Quark 2.0 Core τερματίζεται...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2024,8 +2024,8 @@ Address: %4
         <translation>Μπορείτε να υπογράφετε μηνύματα με τις διευθύνσεις σας, ώστε ν' αποδεικνύετε πως αυτές σας ανήκουν. Αποφεύγετε να υπογράφετε κάτι αόριστο καθώς ενδέχεται να εξαπατηθείτε. Υπογράφετε μόνο πλήρης δηλώσεις με τις οποίες συμφωνείτε.</translation>
     </message>
     <message>
-        <source>The Quark address to sign the message with</source>
-        <translation>Διεύθυνση Quark που θα σταλεί το μήνυμα</translation>
+        <source>The Quark2 address to sign the message with</source>
+        <translation>Διεύθυνση Quark2 που θα σταλεί το μήνυμα</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2056,8 +2056,8 @@ Address: %4
         <translation>Αντέγραφη της επιλεγμενης διεύθυνσης στο πρόχειρο του συστηματος</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Quark address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση Quark</translation>
+        <source>Sign the message to prove you own this Quark2 address</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως σας ανήκει μια συγκεκριμένη διεύθυνση Quark2</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2080,12 +2080,12 @@ Address: %4
         <translation>Πληκτρολογήστε την υπογραφή διεύθυνσης, μήνυμα (βεβαιωθείτε ότι έχετε αντιγράψει τις αλλαγές γραμμής, κενά, tabs, κ.λπ. ακριβώς) και την υπογραφή παρακάτω, για να ελέγξει το μήνυμα. Να είστε προσεκτικοί για να μην διαβάσετε περισσότερα στην υπογραφή ό, τι είναι στην υπογραφή ίδιο το μήνυμα , για να μην εξαπατηθούν από έναν άνθρωπο -in - the-middle επίθεση.</translation>
     </message>
     <message>
-        <source>The Quark address the message was signed with</source>
-        <translation>Διεύθυνση Quark η οποία το μήνυμα έχει υπογραφεί</translation>
+        <source>The Quark2 address the message was signed with</source>
+        <translation>Διεύθυνση Quark2 η οποία το μήνυμα έχει υπογραφεί</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Quark address</source>
-        <translation>Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως υπογραφθηκε απο μια συγκεκριμένη διεύθυνση Quark</translation>
+        <source>Verify the message to ensure it was signed with the specified Quark2 address</source>
+        <translation>Υπογράψτε ένα μήνυμα για ν' αποδείξετε πως υπογραφθηκε απο μια συγκεκριμένη διεύθυνση Quark2</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2151,12 +2151,12 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 Core</translation>
     </message>
     <message>
-        <source>The Quark Core developers</source>
-        <translation>Οι προγραμματιστές του Quark Core</translation>
+        <source>The Quark 2.0 Core developers</source>
+        <translation>Οι προγραμματιστές του Quark 2.0 Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2793,12 +2793,12 @@ Address: %4
         <translation>Εισαγωγή μπλοκ από εξωτερικό αρχείο blk000?.dat</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Quark Core is probably already running.</source>
-        <translation>Αδυναμία κλειδώματος του φακέλου δεδομένων %s. Πιθανώς το Quark να είναι ήδη ενεργό.</translation>
+        <source>Cannot obtain a lock on data directory %s. Quark 2.0 Core is probably already running.</source>
+        <translation>Αδυναμία κλειδώματος του φακέλου δεδομένων %s. Πιθανώς το Quark 2.0 να είναι ήδη ενεργό.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Quark Core will not work properly.</source>
-        <translation>Προειδοποίηση: Παρακαλώ ελέγξτε ότι η ημερομηνία και ώρα του υπολογιστή σας είναι σωστά ρυθμισμένες! Εάν το ρολόι σας είναι λάθος το Quark Core δεν θα λειτουργήσει σωστά. </translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Quark 2.0 Core will not work properly.</source>
+        <translation>Προειδοποίηση: Παρακαλώ ελέγξτε ότι η ημερομηνία και ώρα του υπολογιστή σας είναι σωστά ρυθμισμένες! Εάν το ρολόι σας είναι λάθος το Quark 2.0 Core δεν θα λειτουργήσει σωστά. </translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -2809,8 +2809,8 @@ Address: %4
         <translation>Δεν μπόρεσε να αναλυθεί η παράμετρος -rpcbind value %s ως διεύθυνση δικτύου</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Quark Core</source>
-        <translation>Σφάλμα φόρτωσης wallet.dat: Το Πορτοφόλι απαιτεί μια νεότερη έκδοση του Quark</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Quark 2.0 Core</source>
+        <translation>Σφάλμα φόρτωσης wallet.dat: Το Πορτοφόλι απαιτεί μια νεότερη έκδοση του Quark 2.0</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -2825,8 +2825,8 @@ Address: %4
         <translation>Πληροφορία</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Quark Core is shutting down.</source>
-        <translation>Η εκκίνηση ελέγχου ορθότητας απέτυχε.  Γίνεται τερματισμός του Quark Core.</translation>
+        <source>Initialization sanity check failed. Quark 2.0 Core is shutting down.</source>
+        <translation>Η εκκίνηση ελέγχου ορθότητας απέτυχε.  Γίνεται τερματισμός του Quark 2.0 Core.</translation>
     </message>
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
@@ -2841,8 +2841,8 @@ Address: %4
         <translation>Επιλογές αναμετάδοσης κόμβου: </translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the Quark Wiki for SSL setup instructions)</source>
-        <translation>Ρυθμίσεις SSL: (ανατρέξτε στο Quark Wiki για οδηγίες ρυθμίσεων SSL)</translation>
+        <source>RPC SSL options: (see the Quark2 Wiki for SSL setup instructions)</source>
+        <translation>Ρυθμίσεις SSL: (ανατρέξτε στο Quark2 Wiki για οδηγίες ρυθμίσεων SSL)</translation>
     </message>
     <message>
         <source>RPC server options:</source>

@@ -160,8 +160,8 @@
         <translation>تایید رمزگذاری</translation>
     </message>
     <message>
-        <source>Quark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
-        <translation>Quark برای اتمام فرایند رمزگذاری بسته خواهد شد. به خاطر داشته باشید که رمزگذاری WALLET شما،  کامپیوتر شما را از آلودگی به بدافزارها مصون نمی دارد.</translation>
+        <source>Quark2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
+        <translation>Quark2 برای اتمام فرایند رمزگذاری بسته خواهد شد. به خاطر داشته باشید که رمزگذاری WALLET شما،  کامپیوتر شما را از آلودگی به بدافزارها مصون نمی دارد.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -251,8 +251,8 @@
         <translation>تغییر رمز/پَس فرِیز</translation>
     </message>
     <message>
-        <source>Modify configuration options for Quark</source>
-        <translation>اصلاح انتخابها برای پیکربندی Quark</translation>
+        <source>Modify configuration options for Quark2</source>
+        <translation>اصلاح انتخابها برای پیکربندی Quark2</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -263,8 +263,8 @@
         <translation>رمز مربوط به رمزگذاریِ wallet را تغییر دهید</translation>
     </message>
     <message>
-        <source>Quark</source>
-        <translation>quark</translation>
+        <source>Quark2</source>
+        <translation>quark2</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -406,8 +406,8 @@ Address: %4
         <translation>ویرایش حساب ارسال کننده</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Quark address.</source>
-        <translation>آدرس وارد شده "%1" یک آدرس صحیح برای quark نسشت</translation>
+        <source>The entered address "%1" is not a valid Quark2 address.</source>
+        <translation>آدرس وارد شده "%1" یک آدرس صحیح برای quark2 نسشت</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -468,8 +468,8 @@ Address: %4
         <translation>فرم</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه quark به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark2 network after a connection is established, but this process has not completed yet.</source>
+        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه quark2 به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
     </message>
     <message>
         <source>out of sync</source>
@@ -519,8 +519,8 @@ Address: %4
         <translation>تعداد زنجیره های حاضر</translation>
     </message>
     <message>
-        <source>Welcome to the Quark RPC console.</source>
-        <translation>به کنسول آر.پی.سی. QUARK خوش آمدید</translation>
+        <source>Welcome to the Quark2 RPC console.</source>
+        <translation>به کنسول آر.پی.سی. QUARK2 خوش آمدید</translation>
     </message>
     </context>
 <context>
@@ -681,7 +681,7 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Quark Core is shutting down...</source>
+        <source>Quark 2.0 Core is shutting down...</source>
         <translation>هسته بیت کوین در حال خاموش شدن است...</translation>
     </message>
     <message>

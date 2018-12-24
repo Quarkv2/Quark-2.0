@@ -66,12 +66,12 @@
         <translation>Адреси за получаване</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Quark2 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Това са адресите на получателите на плащания. Винаги проверявайте размера на сумата и адреса на получателя, преди да изпратите монети.</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са Вашите Биткойн адреси,благодарение на които ще получавате плащания.Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
+        <source>These are your Quark2 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са Вашите Quark2 адреси,благодарение на които ще получавате плащания.Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -184,8 +184,8 @@
         <translation>Портфейлът е криптиран</translation>
     </message>
     <message>
-        <source>Quark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
-        <translation>Биткоин ще се затоври сега за да завърши процеса на криптиране. Запомнете, че криптирането на вашия портефейл не може напълно да предпази вашите Бит-монети от кражба чрез зловреден софтуер, инфектирал вашия компютър</translation>
+        <source>Quark2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
+        <translation>Quark2 ще се затоври сега за да завърши процеса на криптиране. Запомнете, че криптирането на вашия портефейл не може напълно да предпази вашите quark2-монети от кражба чрез зловреден софтуер, инфектирал вашия компютър</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -291,16 +291,16 @@
         <translation>Отвори &amp;URI...</translation>
     </message>
     <message>
-        <source>Quark Core client</source>
-        <translation>Quark Core клиент</translation>
+        <source>Quark 2.0 Core client</source>
+        <translation>Quark 2.0 Core клиент</translation>
     </message>
     <message>
-        <source>Send coins to a Quark address</source>
-        <translation>Изпращане към Биткоин адрес</translation>
+        <source>Send coins to a Quark2 address</source>
+        <translation>Изпращане към Quark2 адрес</translation>
     </message>
     <message>
-        <source>Modify configuration options for Quark</source>
-        <translation>Променете настройките на Биткойн</translation>
+        <source>Modify configuration options for Quark2</source>
+        <translation>Променете настройките на Quark2</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -323,8 +323,8 @@
         <translation>&amp;Проверка на съобщение...</translation>
     </message>
     <message>
-        <source>Quark</source>
-        <translation>Биткоин</translation>
+        <source>Quark2</source>
+        <translation>Quark2</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -339,8 +339,8 @@
         <translation>&amp;Получаване</translation>
     </message>
     <message>
-        <source>Show information about Quark Core</source>
-        <translation>Покажете информация за Биткойн ядрото</translation>
+        <source>Show information about Quark 2.0 Core</source>
+        <translation>Покажете информация за Quark 2.0 ядрото</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,12 +355,12 @@
         <translation>Шифроване на личните ключове,които принадлежат на портфейла Ви.</translation>
     </message>
     <message>
-        <source>Sign messages with your Quark addresses to prove you own them</source>
-        <translation>Пишете съобщения със своя Биткойн адрес за да докажете,че е ваш.</translation>
+        <source>Sign messages with your Quark2 addresses to prove you own them</source>
+        <translation>Пишете съобщения със своя Quark2 адрес за да докажете,че е ваш.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Quark addresses</source>
-        <translation>Потвърждаване на съобщения  за да се знае,че са написани с дадените Биткойн адреси.</translation>
+        <source>Verify messages to ensure they were signed with specified Quark2 addresses</source>
+        <translation>Потвърждаване на съобщения  за да се знае,че са написани с дадените Quark2 адреси.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -379,16 +379,16 @@
         <translation>Раздели</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Биткойн ядро</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 ядро</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
-        <translation>Изискване на плащания(генерира QR кодове и биткойн: URIs)</translation>
+        <source>Request payments (generates QR codes and quark2: URIs)</source>
+        <translation>Изискване на плащания(генерира QR кодове и quark2: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About Quark Core</source>
-        <translation>&amp;Относно Quark Core</translation>
+        <source>&amp;About Quark 2.0 Core</source>
+        <translation>&amp;Относно Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -399,7 +399,7 @@
         <translation>Покажи списък с използваните адреси и имена.</translation>
     </message>
     <message>
-        <source>Open a quark: URI or payment request</source>
+        <source>Open a quark2: URI or payment request</source>
         <translation>Отворете биткойн: URI  или заявка за плащане</translation>
     </message>
     <message>
@@ -407,12 +407,12 @@
         <translation>&amp;Налични команди</translation>
     </message>
     <message>
-        <source>Show the Quark Core help message to get a list with possible Quark command-line options</source>
-        <translation>Покажи помощните съобщения на Биткойн за да видиш наличните и валидни команди</translation>
+        <source>Show the Quark 2.0 Core help message to get a list with possible Quark2 command-line options</source>
+        <translation>Покажи помощните съобщения на Quark2 за да видиш наличните и валидни команди</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Quark network</source>
-        <translation><numerusform>%n връзка към Биткоин мрежата</numerusform><numerusform>%n връзки към Биткоин мрежата</numerusform></translation>
+        <source>%n active connection(s) to Quark2 network</source>
+        <translation><numerusform>%n връзка към Quark2 мрежата</numerusform><numerusform>%n връзки към Quark2 мрежата</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -748,8 +748,8 @@ Address: %4
         <translation>Вече има адрес "%1" в списъка с адреси.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Quark address.</source>
-        <translation>"%1" не е валиден Биткоин адрес.</translation>
+        <source>The entered address "%1" is not a valid Quark2 address.</source>
+        <translation>"%1" не е валиден Quark2 адрес.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -786,8 +786,8 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Биткойн ядро</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 ядро</translation>
     </message>
     <message>
         <source>version</source>
@@ -798,8 +798,8 @@ Address: %4
         <translation>(%1-битов)</translation>
     </message>
     <message>
-        <source>About Quark Core</source>
-        <translation>За Quark Core</translation>
+        <source>About Quark 2.0 Core</source>
+        <translation>За Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -837,12 +837,12 @@ Address: %4
         <translation>Добре дошли</translation>
     </message>
     <message>
-        <source>Welcome to Quark Core.</source>
-        <translation>Добре дошли в Биткойн ядрото.</translation>
+        <source>Welcome to Quark 2.0 Core.</source>
+        <translation>Добре дошли в Quark 2.0 ядрото.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Quark Core will store its data.</source>
-        <translation>Тъй като това е първото стартиране на програмата можете да изберете къде Биткон ядрото да запази данните си.</translation>
+        <source>As this is the first time the program is launched, you can choose where Quark 2.0 Core will store its data.</source>
+        <translation>Тъй като това е първото стартиране на програмата можете да изберете къде Quark 2.0 ядрото да запази данните си.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -853,8 +853,8 @@ Address: %4
         <translation>Използване на директория ръчно</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Биткойн ядро</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 ядро</translation>
     </message>
     <message>
         <source>Error</source>
@@ -879,12 +879,12 @@ Address: %4
         <translation>&amp;Основни</translation>
     </message>
     <message>
-        <source>Automatically start Quark after logging in to the system.</source>
-        <translation>Автоматично включване на Биткойн след влизане в системата.</translation>
+        <source>Automatically start Quark2 after logging in to the system.</source>
+        <translation>Автоматично включване на Quark2 след влизане в системата.</translation>
     </message>
     <message>
-        <source>&amp;Start Quark on system login</source>
-        <translation>&amp;Пускане на Биткоин при вход в системата</translation>
+        <source>&amp;Start Quark2 on system login</source>
+        <translation>&amp;Пускане на Quark2 при вход в системата</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -935,16 +935,16 @@ Address: %4
         <translation>&amp;Похарчете непотвърденото ресто</translation>
     </message>
     <message>
-        <source>Automatically open the Quark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отваряне на входящия Quark порт. Работи само с рутери поддържащи UPnP.</translation>
+        <source>Automatically open the Quark2 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отваряне на входящия Quark2 порт. Работи само с рутери поддържащи UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Отваряне на входящия порт чрез &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Quark network through a SOCKS5 proxy.</source>
-        <translation>Свързване с Биткойн мрежата чрез SOCKS5  прокси.</translation>
+        <source>Connect to the Quark2 network through a SOCKS5 proxy.</source>
+        <translation>Свързване с Quark2 мрежата чрез SOCKS5  прокси.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -991,8 +991,8 @@ Address: %4
         <translation>Език:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Quark.</source>
-        <translation>Промяната на езика ще влезе в сила след рестартиране на Биткоин.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Quark2.</source>
+        <translation>Промяната на езика ще влезе в сила след рестартиране на Quark2.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1050,8 +1050,8 @@ Address: %4
         <translation>Форма</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark network after a connection is established, but this process has not completed yet.</source>
-        <translation>Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на Биткоин, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark2 network after a connection is established, but this process has not completed yet.</source>
+        <translation>Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на Quark2, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1133,8 +1133,8 @@ Address: %4
         <translation>Възникна грешка по време назаявката за плащане</translation>
     </message>
     <message>
-        <source>Cannot start quark: click-to-pay handler</source>
-        <translation>Биткойн не можe да се стартира: click-to-pay handler</translation>
+        <source>Cannot start quark2: click-to-pay handler</source>
+        <translation>Quark2 не можe да се стартира: click-to-pay handler</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1187,8 +1187,8 @@ Address: %4
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a Quark address (e.g. %1)</source>
-        <translation>Въведете Биткойн адрес (например: %1)</translation>
+        <source>Enter a Quark2 address (e.g. %1)</source>
+        <translation>Въведете Quark2 адрес (например: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1401,16 +1401,16 @@ Address: %4
         <translation>Лог файл,съдържащ грешките</translation>
     </message>
     <message>
-        <source>Open the Quark debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Отворете Биткой дебъг лог файла от настоящата Data папка. Може да отнеме няколко секунди при по - големи лог файлове.</translation>
+        <source>Open the Quark2 debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Отворете Quark2 дебъг лог файла от настоящата Data папка. Може да отнеме няколко секунди при по - големи лог файлове.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Изчисти конзолата</translation>
     </message>
     <message>
-        <source>Welcome to the Quark RPC console.</source>
-        <translation>Добре дошли в Биткойн RPC конзолата.</translation>
+        <source>Welcome to the Quark2 RPC console.</source>
+        <translation>Добре дошли в Quark2 RPC конзолата.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1785,8 +1785,8 @@ Address: %4
         <translation>Платете минималната такса от %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Quark address</source>
-        <translation>Внимание: Невалиден Биткойн адрес</translation>
+        <source>Warning: Invalid Quark2 address</source>
+        <translation>Внимание: Невалиден Quark2 адрес</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1875,8 +1875,8 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Quark Core is shutting down...</source>
-        <translation>Биткойн ядрото се изключва...</translation>
+        <source>Quark 2.0 Core is shutting down...</source>
+        <translation>Quark 2.0 ядрото се изключва...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1926,7 +1926,7 @@ Address: %4
         <translation>Копиране на текущия подпис</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Quark address</source>
+        <source>Sign the message to prove you own this Quark2 address</source>
         <translation>Подпишете съобщение като доказателство, че притежавате определен адрес</translation>
     </message>
     <message>
@@ -1942,8 +1942,8 @@ Address: %4
         <translation>&amp;Провери</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Quark address</source>
-        <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Биткоин адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified Quark2 address</source>
+        <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Quark2 адрес</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2005,12 +2005,12 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Биткойн ядро</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>Quark 2.0 ядро</translation>
     </message>
     <message>
-        <source>The Quark Core developers</source>
-        <translation>Разработчици на Quark Core</translation>
+        <source>The Quark 2.0 Core developers</source>
+        <translation>Разработчици на Quark 2.0 Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2539,8 +2539,8 @@ Address: %4
         <translation>Свързване чрез SOCKS5  прокси</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Quark Core and Quark Core Developers</source>
-        <translation>Всички права запазени (C) 2009-%i Доставчиците на Биткойн</translation>
+        <source>Copyright (C) 2009-%i The Bitcoin Core and Quark 2.0 Core Developers</source>
+        <translation>Всички права запазени (C) 2009-%i Доставчиците на Биткойн и Quark 2.0 Core</translation>
     </message>
     <message>
         <source>Information</source>

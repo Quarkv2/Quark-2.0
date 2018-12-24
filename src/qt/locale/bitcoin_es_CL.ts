@@ -140,8 +140,8 @@
         <translation>Billetera codificada</translation>
     </message>
     <message>
-        <source>Quark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
-        <translation>Quark se cerrará para finalizar el proceso de encriptación. Recuerde que encriptar su billetera no protegera completatamente sus quarkcoins de ser robados por malware que infecte su computador</translation>
+        <source>Quark2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
+        <translation>Quark2 se cerrará para finalizar el proceso de encriptación. Recuerde que encriptar su billetera no protegera completatamente sus quarkcoins de ser robados por malware que infecte su computador</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -235,20 +235,20 @@
         <translation>Abrir y url...</translation>
     </message>
     <message>
-        <source>Quark Core client</source>
-        <translation>cliente quark core</translation>
+        <source>Quark 2.0 Core client</source>
+        <translation>cliente quark 2.0 core</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
         <translation>Cargando el index de bloques...</translation>
     </message>
     <message>
-        <source>Send coins to a Quark address</source>
-        <translation>Enviar monedas a una dirección quark</translation>
+        <source>Send coins to a Quark2 address</source>
+        <translation>Enviar monedas a una dirección quark2</translation>
     </message>
     <message>
-        <source>Modify configuration options for Quark</source>
-        <translation>Modifica las opciones de configuración de quark</translation>
+        <source>Modify configuration options for Quark2</source>
+        <translation>Modifica las opciones de configuración de quark2</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -267,8 +267,8 @@
         <translation>Abre consola de depuración y diagnóstico</translation>
     </message>
     <message>
-        <source>Quark</source>
-        <translation>Quark</translation>
+        <source>Quark2</source>
+        <translation>Quark2</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -287,7 +287,7 @@
         <translation>&amp;Mostrar/Ocultar</translation>
     </message>
     <message>
-        <source>Sign messages with your Quark addresses to prove you own them</source>
+        <source>Sign messages with your Quark2 addresses to prove you own them</source>
         <translation>Firmar un mensaje para provar que usted es dueño de esta dirección</translation>
     </message>
     <message>
@@ -307,12 +307,12 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>quark core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>quark 2.0 core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Quark network</source>
-        <translation><numerusform>%n conexión activa hacia la red Quark</numerusform><numerusform>%n conexiones activas hacia la red Quark</numerusform></translation>
+        <source>%n active connection(s) to Quark2 network</source>
+        <translation><numerusform>%n conexión activa hacia la red Quark2</numerusform><numerusform>%n conexiones activas hacia la red Quark2</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -467,8 +467,8 @@ Dirección: %4</translation>
         <translation>La dirección introducida "%1" ya esta guardada en la libreta de direcciones.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Quark address.</source>
-        <translation>La dirección introducida "%1" no es una dirección Quark valida.</translation>
+        <source>The entered address "%1" is not a valid Quark2 address.</source>
+        <translation>La dirección introducida "%1" no es una dirección Quark2 valida.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -489,8 +489,8 @@ Dirección: %4</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Quark Core</source>
-        <translation>quark core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>quark 2.0 core</translation>
     </message>
     <message>
         <source>version</source>
@@ -517,8 +517,8 @@ Dirección: %4</translation>
         <translation>bienvenido</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>quark core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>quark 2.0 core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -543,12 +543,12 @@ Dirección: %4</translation>
         <translation>&amp;Principal</translation>
     </message>
     <message>
-        <source>Automatically start Quark after logging in to the system.</source>
-        <translation>Inicia Quark automáticamente despues de encender el computador</translation>
+        <source>Automatically start Quark2 after logging in to the system.</source>
+        <translation>Inicia Quark2 automáticamente despues de encender el computador</translation>
     </message>
     <message>
-        <source>&amp;Start Quark on system login</source>
-        <translation>&amp;Inicia Quark al iniciar el sistema</translation>
+        <source>&amp;Start Quark2 on system login</source>
+        <translation>&amp;Inicia Quark2 al iniciar el sistema</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -563,8 +563,8 @@ Dirección: %4</translation>
         <translation>experto</translation>
     </message>
     <message>
-        <source>Automatically open the Quark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abre automáticamente el puerto del cliente Quark en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
+        <source>Automatically open the Quark2 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abre automáticamente el puerto del cliente Quark2 en el router. Esto funciona solo cuando tu router es compatible con UPnP y está habilitado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -952,7 +952,7 @@ Dirección: %4</translation>
         <translation>Firma</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Quark address</source>
+        <source>Sign the message to prove you own this Quark2 address</source>
         <translation>Firmar un mensjage para probar que usted es dueño de esta dirección</translation>
     </message>
     <message>
@@ -977,7 +977,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Por favor, revise la dirección Quark e inténtelo denuevo</translation>
+        <translation>Por favor, revise la dirección Quark2 e inténtelo denuevo</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
@@ -999,8 +999,8 @@ Dirección: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Quark Core</source>
-        <translation>quark core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation>quark 2.0 core</translation>
     </message>
     <message>
         <source>[testnet]</source>

@@ -85,12 +85,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Quark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Quark addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your Quark2 addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your Quark2 addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Quark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Quark2 addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -238,8 +238,8 @@
     </message>
     <message>
         <location line="+80"/>
-        <source>Quark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
-        <translation>Quark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</translation>
+        <source>Quark2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</source>
+        <translation>Quark2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarkcoins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -378,7 +378,7 @@
     </message>
     <message>
         <location line="+173"/>
-        <source>Quark Core client</source>
+        <source>Quark 2.0 Core client</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -393,13 +393,13 @@
     </message>
     <message>
         <location line="-406"/>
-        <source>Send coins to a Quark address</source>
-        <translation>Send coins to a Quark address</translation>
+        <source>Send coins to a Quark2 address</source>
+        <translation>Send coins to a Quark2 address</translation>
     </message>
     <message>
         <location line="+48"/>
-        <source>Modify configuration options for Quark</source>
-        <translation>Modify configuration options for Quark</translation>
+        <source>Modify configuration options for Quark2</source>
+        <translation>Modify configuration options for Quark2</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -428,8 +428,8 @@
     </message>
     <message>
         <location line="+438"/>
-        <source>Quark</source>
-        <translation>Quark</translation>
+        <source>Quark2</source>
+        <translation>Quark2</translation>
     </message>
     <message>
         <location line="-639"/>
@@ -448,7 +448,7 @@
     </message>
     <message>
         <location line="+32"/>
-        <source>Show information about Quark Core</source>
+        <source>Show information about Quark 2.0 Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -468,13 +468,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Quark addresses to prove you own them</source>
-        <translation>Sign messages with your Quark addresses to prove you own them</translation>
+        <source>Sign messages with your Quark2 addresses to prove you own them</source>
+        <translation>Sign messages with your Quark2 addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Quark addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Quark addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Quark2 addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Quark2 addresses</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -498,17 +498,17 @@
     </message>
     <message>
         <location line="-298"/>
-        <source>Quark Core</source>
-        <translation type="unfinished">Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation type="unfinished">Quark 2.0 Core</translation>
     </message>
     <message>
         <location line="+155"/>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
+        <source>Request payments (generates QR codes and quark2: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+30"/>
-        <source>&amp;About Quark Core</source>
+        <source>&amp;About Quark 2.0 Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -523,7 +523,7 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>Open a quark: URI or payment request</source>
+        <source>Open a quark2: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -533,15 +533,15 @@
     </message>
     <message>
         <location line="+2"/>
-        <source>Show the Quark Core help message to get a list with possible Quark command-line options</source>
+        <source>Show the Quark 2.0 Core help message to get a list with possible Quark2 command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+307"/>
-        <source>%n active connection(s) to Quark network</source>
+        <source>%n active connection(s) to Quark2 network</source>
         <translation>
-            <numerusform>%n active connection to Quark network</numerusform>
-            <numerusform>%n active connections to Quark network</numerusform>
+            <numerusform>%n active connection to Quark2 network</numerusform>
+            <numerusform>%n active connections to Quark2 network</numerusform>
         </translation>
     </message>
     <message>
@@ -1012,8 +1012,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Quark address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Quark address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Quark2 address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Quark2 address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1058,8 +1058,8 @@ Address: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+31"/>
-        <source>Quark Core</source>
-        <translation type="unfinished">Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation type="unfinished">Quark 2.0 Core</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1074,7 +1074,7 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-        <source>About Quark Core</source>
+        <source>About Quark 2.0 Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1132,17 +1132,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Quark Core.</source>
+        <source>Welcome to Quark 2.0 Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Quark Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Quark 2.0 Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Quark Core will download and store a copy of the Quark block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Quark 2.0 Core will download and store a copy of the Quark2 block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1157,8 +1157,8 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+82"/>
-        <source>Quark Core</source>
-        <translation type="unfinished">Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation type="unfinished">Quark 2.0 Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1229,13 +1229,13 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically start Quark after logging in to the system.</source>
-        <translation>Automatically start Quark after logging in to the system.</translation>
+        <source>Automatically start Quark2 after logging in to the system.</source>
+        <translation>Automatically start Quark2 after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Quark on system login</source>
-        <translation>&amp;Start Quark on system login</translation>
+        <source>&amp;Start Quark2 on system login</source>
+        <translation>&amp;Start Quark2 on system login</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1330,8 +1330,8 @@ Address: %4
     </message>
     <message>
         <location line="+30"/>
-        <source>Automatically open the Quark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Quark client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Quark2 client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Quark2 client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1340,7 +1340,7 @@ Address: %4
     </message>
     <message>
         <location line="+17"/>
-        <source>Connect to the Quark network through a SOCKS5 proxy.</source>
+        <source>Connect to the Quark2 network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1400,8 +1400,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Quark.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Quark.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Quark2.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Quark2.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1475,8 +1475,8 @@ Address: %4
     <message>
         <location line="+53"/>
         <location line="+372"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark2 network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark2 network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-133"/>
@@ -1618,7 +1618,7 @@ Address: %4
     </message>
     <message>
         <location line="-400"/>
-        <source>Cannot start quark: click-to-pay handler</source>
+        <source>Cannot start quark2: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1628,7 +1628,7 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Quark address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Quark2 address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1714,7 +1714,7 @@ Address: %4
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+109"/>
-        <source>Enter a Quark address (e.g. %1)</source>
+        <source>Enter a Quark2 address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2019,8 +2019,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Quark debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Quark debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Quark2 debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Quark2 debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -2029,8 +2029,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-35"/>
-        <source>Welcome to the Quark RPC console.</source>
-        <translation>Welcome to the Quark RPC console.</translation>
+        <source>Welcome to the Quark2 RPC console.</source>
+        <translation>Welcome to the Quark2 RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2125,7 +2125,7 @@ Address: %4
     <message>
         <location line="+14"/>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Quark network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Quark2 network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2621,7 +2621,7 @@ Address: %4
     </message>
     <message>
         <location line="+107"/>
-        <source>Warning: Invalid Quark address</source>
+        <source>Warning: Invalid Quark2 address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2686,7 +2686,7 @@ Address: %4
     </message>
     <message>
         <location line="+33"/>
-        <source>The Quark address to send the payment to</source>
+        <source>The Quark2 address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2728,7 +2728,7 @@ Address: %4
     </message>
     <message>
         <location line="+33"/>
-        <source>A message that was attached to the quark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Quark network.</source>
+        <source>A message that was attached to the quark2: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Quark2 network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2753,7 +2753,7 @@ Address: %4
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+47"/>
-        <source>Quark Core is shutting down...</source>
+        <source>Quark 2.0 Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2781,7 +2781,7 @@ Address: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The Quark address to sign the message with</source>
+        <source>The Quark2 address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2823,8 +2823,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Quark address</source>
-        <translation>Sign the message to prove you own this Quark address</translation>
+        <source>Sign the message to prove you own this Quark2 address</source>
+        <translation>Sign the message to prove you own this Quark2 address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2854,13 +2854,13 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The Quark address the message was signed with</source>
+        <source>The Quark2 address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Quark address</source>
-        <translation>Verify the message to ensure it was signed with the specified Quark address</translation>
+        <source>Verify the message to ensure it was signed with the specified Quark2 address</source>
+        <translation>Verify the message to ensure it was signed with the specified Quark2 address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2948,12 +2948,12 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+35"/>
-        <source>Quark Core</source>
-        <translation type="unfinished">Quark Core</translation>
+        <source>Quark 2.0 Core</source>
+        <translation type="unfinished">Quark 2.0 Core</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>The Quark Core developers</source>
+        <source>The Quark 2.0 Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3660,7 +3660,7 @@ Address: %4
     </message>
     <message>
         <location line="+20"/>
-        <source>Unable to bind to %s on this computer. Quark Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Quark 2.0 Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3890,7 +3890,7 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>Cannot obtain a lock on data directory %s. Quark Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Quark 2.0 Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3975,16 +3975,16 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>To use quarkd, or the -server option to quark-qt, you must set an rpcpassword in the configuration file:
+        <source>To use quark2d, or the -server option to quark2-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=quarkrpc
+rpcuser=quark2rpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Quark2 Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
@@ -3995,7 +3995,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+6"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Quark Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Quark 2.0 Core will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4020,7 +4020,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+3"/>
-        <source>Copyright (C) 2009-%i The Quark Core and Quark Core Developers</source>
+        <source>Copyright (C) 2009-%i The Bitcoin and Quark 2.0 Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4030,7 +4030,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+12"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Quark Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Quark 2.0 Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4060,7 +4060,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Quark Core is shutting down.</source>
+        <source>Initialization sanity check failed. Quark 2.0 Core is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4105,7 +4105,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+7"/>
-        <source>RPC SSL options: (see the Quark Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the Quark2 Wiki for SSL setup instructions)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4200,7 +4200,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+4"/>
-        <source>Wallet needed to be rewritten: restart Quark Core to complete</source>
+        <source>Wallet needed to be rewritten: restart Quark 2.0 Core to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
