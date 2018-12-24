@@ -116,3 +116,13 @@ src/config/bitcoin-config.h.in~
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
+
+#libtool object files
+*.lo
+*.la
+!/depends/patches/boost/darwin_boost_atomic-1.patch
+!/depends/patches/boost/darwin_boost_atomic-2.patch
+!/depends/patches/native_cdrkit/cdrkit-deterministic.patch
+!/depends/patches/qt/fix-xcb-include-order.patch
+!/depends/patches/qt/qt5-tablet-osx.patch
+!/depends/patches/qt46/stlfix.patch
