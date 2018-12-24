@@ -270,7 +270,6 @@ crypto_libquark2_crypto_a_SOURCES = \
   crypto/luffa.c \
   crypto/cubehash.c \
   crypto/aes_helper.c \
-  crypto/md_helper.c \
   crypto/shavite.c \
   crypto/simd.c \
   crypto/echo.c \
