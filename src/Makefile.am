@@ -131,6 +131,8 @@ BITCOIN_CORE_H = \
   netbase.h \
   net.h \
   noui.h \
+  obfuscation.h \
+  obfuscation-relay.h \
   pow.h \
   protocol.h \
   primitives/block.h \
