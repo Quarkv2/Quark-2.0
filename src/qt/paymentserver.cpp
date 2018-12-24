@@ -50,7 +50,7 @@ using namespace boost;
 using namespace std;
 
 const int BITCOIN_IPC_CONNECT_TIMEOUT = 1000; // milliseconds
-const QString BITCOIN_IPC_PREFIX("quark:");
+const QString BITCOIN_IPC_PREFIX("quark2:");
 // BIP70 payment protocol messages
 const char* BIP70_MESSAGE_PAYMENTACK = "PaymentACK";
 const char* BIP70_MESSAGE_PAYMENTREQUEST = "PaymentRequest";
@@ -198,11 +198,11 @@ void PaymentServer::ipcParseCommandLine(int argc, char* argv[])
         if (arg.startsWith("-"))
             continue;
 
-        // If the quark: URI contains a payment request, we are not able to detect the
+        // If the quark2: URI contains a payment request, we are not able to detect the
         // network as that would require fetching and parsing the payment request.
         // That means clicking such an URI which contains a testnet payment request
         // will start a mainnet instance and throw a "wrong network" error.
-        if (arg.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // quark: URI
+        if (arg.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // quark2: URI
         {
             savedPaymentRequests.append(arg);
 
@@ -298,7 +298,7 @@ PaymentServer::PaymentServer(QObject* parent, bool startLocalServer) :
     GOOGLE_PROTOBUF_VERIFY_VERSION;
 
     // Install global event filter to catch QFileOpenEvents
-    // on Mac: sent when you click quark: links
+    // on Mac: sent when you click quark2: links
     // other OSes: helpful when dealing with payment request files (in the future)
     if (parent)
         parent->installEventFilter(this);
@@ -315,7 +315,7 @@ PaymentServer::PaymentServer(QObject* parent, bool startLocalServer) :
         if (!uriServer->listen(name)) {
             // constructor is called early in init, so don't use "emit message()" here
             QMessageBox::critical(0, tr("Payment request error"),
-                tr("Cannot start quark: click-to-pay handler"));
+                tr("Cannot start quark2: click-to-pay handler"));
         }
         else {
             connect(uriServer, SIGNAL(newConnection()), this, SLOT(handleURIConnection()));
@@ -330,12 +330,12 @@ PaymentServer::~PaymentServer()
 }
 
 //
-// OSX-specific way of handling quark: URIs and
+// OSX-specific way of handling quark2: URIs and
 // PaymentRequest mime types
 //
 bool PaymentServer::eventFilter(QObject *object, QEvent *event)
 {
-    // clicking on quark: URIs creates FileOpen events on the Mac
+    // clicking on quark2: URIs creates FileOpen events on the Mac
     if (event->type() == QEvent::FileOpen)
     {
         QFileOpenEvent *fileEvent = static_cast<QFileOpenEvent*>(event);
@@ -357,7 +357,7 @@ void PaymentServer::initNetManager()
     if (netManager != NULL)
         delete netManager;
 
-    // netManager is used to fetch paymentrequests given in quark: URIs
+    // netManager is used to fetch paymentrequests given in quark2: URIs
     netManager = new QNetworkAccessManager(this);
 
     QNetworkProxy proxy;
@@ -397,7 +397,7 @@ void PaymentServer::handleURIOrFile(const QString& s)
         return;
     }
 
-    if (s.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // quark: URI
+    if (s.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // quark2: URI
     {
 #if QT_VERSION < 0x050000
         QUrl uri(s);
@@ -441,7 +441,7 @@ void PaymentServer::handleURIOrFile(const QString& s)
             }
             else
                 emit message(tr("URI handling"),
-                    tr("URI cannot be parsed! This can be caused by an invalid Quark address or malformed URI parameters."),
+                    tr("URI cannot be parsed! This can be caused by an invalid Quark2 address or malformed URI parameters."),
                     CClientUIInterface::ICON_WARNING);
 
             return;
