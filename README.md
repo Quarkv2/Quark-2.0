@@ -1,21 +1,21 @@
-Quark Core integration/staging tree
+Quark 2.0 Core integration/staging tree
 ===================================
 
 [![Build Status](https://travis-ci.org/quark/quark.svg?branch=master)](https://travis-ci.org/quark/quark)
 
-https://www.xxxx.xx
+https://www.thequark.org
 
 What is Quark 2.0?
 --------------
 
-Quark 2.0 is an experimental new digital currency that picks up where the orgianl 
-left off and seeks to distrubute the coin in  more reasonable manner with no instamine or premining. It enables instant payments to anyone, anywhere in the world. Quark uses peer-to-peer technology to operate
+Quark 2.0 is a fork from Quark coin and is an experimental new digital currency that enables instant payments to
+anyone, anywhere in the world. Quark 2.0 uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
 out collectively by the network. Quark Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Quark Core software, see https://www.qrknet.info/.
+the Quark Core software, see https://www.thequark.org
 
 License
 -------
