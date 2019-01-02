@@ -126,3 +126,6 @@ share/qt/Info.plist
 !/depends/patches/qt/fix-xcb-include-order.patch
 !/depends/patches/qt/qt5-tablet-osx.patch
 !/depends/patches/qt46/stlfix.patch
+/src/.libs/libquark2consensus.so.0
+/src/.libs/libquark2consensus.lai
+/src/.libs/libquark2consensus.so.0.0.0
