@@ -45,12 +45,12 @@ static void convertSeed6(std::vector<CAddress> &vSeedsOut, const SeedSpec6 *data
     }
 }
 
-static const unsigned int timeMainGenesisBlock = 1374408079;
-uint256 hashMainGenesisBlock("0x000006a2e5798e1a2e00af4584f7158017b10e38290c12326f1eb609cbd50faf");
+static const unsigned int timeMainGenesisBlock = 1546434660;
+uint256 hashMainGenesisBlock("0x00000e38933e788bcb272fc3f3c6c2a27f49c2ed6b43b02db0241b7659f6fb8c");
 static uint256 nMainProofOfWorkLimit(~uint256(0) >> 20);
 
-static const int64_t nGenesisBlockRewardCoin = 1 * COIN;
-static const int64_t nBlockRewardStartCoin = 2048 * COIN;
+static const int64_t nGenesisBlockRewardCoin = 32 * COIN;
+static const int64_t nBlockRewardStartCoin = 32 * COIN;
 static const int64_t nBlockRewardMinimumCoin = 1 * COIN;
 
 /**
@@ -62,14 +62,14 @@ static const int64_t nBlockRewardMinimumCoin = 1 * COIN;
  */
 static Checkpoints::MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        (      0, uint256("0x000006a2e5798e1a2e00af4584f7158017b10e38290c12326f1eb609cbd50faf"))
+        (      0, uint256("0x00000e38933e788bcb272fc3f3c6c2a27f49c2ed6b43b02db0241b7659f6fb8c"))
         ;
 static const Checkpoints::CCheckpointData data = {
         &mapCheckpoints,
         1493621657, // * UNIX timestamp of last checkpoint block
         5076713,    // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
-        2880.0      // * estimated number of transactions per day after checkpoint
+        1500      // * estimated number of transactions per day after checkpoint
     };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -80,7 +80,7 @@ static const Checkpoints::CCheckpointData dataTestnet = {
         &mapCheckpointsTestnet,
         1373481000,
         0,
-        2880
+        1500
     };
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
@@ -133,7 +133,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0x5F1DF16B2B704C8A578D0B)
          *   vMerkleTree: 4a5e1e
          */
-        const char* pszTimestamp = "21 July 2013, The Guardian, Tesco boss says cheap food era is over";
+        const char* pszTimestamp = "Coindesk 02/Jan/2019 Secret for a $1 Trillion Crypto Market? Keep Building";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -146,9 +146,9 @@ public:
         genesis.nVersion = 112;
         genesis.nTime    = timeMainGenesisBlock;
         genesis.nBits    = 0x1e0ffff0;
-        genesis.nNonce   = 1075193;
+        genesis.nNonce   = 185816;
 
-        assert(genesis.hashMerkleRoot == uint256("0xbb3193bb82478557f89d99095a94f504c6a31ec29e761e4b5e7f20ae5e4d704c"));
+        assert(genesis.hashMerkleRoot == uint256("0x5b2f98257e0d823fba5e0b4a6dd8f071c4eaf5dd2271bb2f4344caba3f6281f1"));
 
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == hashMainGenesisBlock);
@@ -214,10 +214,10 @@ public:
         nFirstMasternodePaymentBlock = 999999999;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1373481000;
-        genesis.nNonce = 895235;
+        genesis.nTime = 1546432200;
+        genesis.nNonce = 767021;
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000bcefa5de983c850b8abf92fc282a51ad815757dbead7ba071f36260a134"));
+        assert(hashGenesisBlock == uint256("0x00000e4fae076f580974510a75c7a219bdafeed36500ed6327853698ab499645"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
