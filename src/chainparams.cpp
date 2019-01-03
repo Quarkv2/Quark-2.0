@@ -119,8 +119,8 @@ public:
         nTargetTimespan = 20 * 60; // twenty minutes
         nTargetSpacing = 60; // 60 seconds
         nMaxTipAge = 24 * 60 * 60;
-        nModifierUpdateBlock = 615800;
-        nFirstPOSBlock = 4937000; // est 25 Nov 2017
+        nModifierUpdateBlock = 262800;
+        nFirstPOSBlock = 262800; // est 25 Nov 2017
         nFirstMasternodePaymentBlock = 999999999;
 
         /**
@@ -209,7 +209,7 @@ public:
         nTargetTimespan = 20 * 60; // twenty minutes
         nTargetSpacing = 60; // 60 seconds
         nMaxTipAge = 0x7fffffff;
-        nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
+        nModifierUpdateBlock = 110; //approx Mon, 17 Apr 2017 04:00:00 GMT
         nFirstPOSBlock = 110;
         nFirstMasternodePaymentBlock = 999999999;
 
